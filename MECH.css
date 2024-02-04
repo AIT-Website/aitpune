@@ -995,9 +995,19 @@ line-height: normal;
     
 }
 .faculty-image{
-    width: 130px;
-    height: 91px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
     margin: 1px auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+.faculty-image img{
+    width:100px;
+    position: absolute;
+    transform: scale(1.5);
+    top: 20px;
 }
 .faculty-image i{
     background-color: white;
