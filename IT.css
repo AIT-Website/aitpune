@@ -44,7 +44,7 @@ body{
     justify-content: space-between;
     /* top: 40px; */
     min-height: 80px;
-    width: 1520px;
+    /* width: 1520px; */
     transition: 0.86s;
     align-items: center;
     align-items: space-between;
@@ -475,7 +475,10 @@ a.fetchLink.active {
 .hod_pic{
     margin-top: 30px;
     padding: 1.5px;
-    border-radius: 50%;
+    border-radius: 50%; 
+}
+.hod_pic img{
+    height: 9rem;
 }
 .hod_contain{
     margin-top: 28px;
@@ -999,8 +1002,7 @@ line-height: normal;
 
 
 
-/* change this to 100 px 100px */
-/* .faculty-image{
+.faculty-image{
     overflow: hidden;
     width: 100px;
     height: 100px;
@@ -1012,13 +1014,8 @@ line-height: normal;
 .faculty-image img{
     width:100px;
     position: absolute;
-} */
-
-
-.faculty-image{
-    width: 130px;
-    height: 91px;
-    margin: 1px auto;
+    transform: scale(1.5);
+    top: 22px;
 }
 .faculty-image i{
     background-color: white;
