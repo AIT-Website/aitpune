@@ -447,7 +447,7 @@ nav bar and first section complete
   background-color: #0C2695;
   border-radius: 0px 0px 25px 25px;
 }
-
+/* --------------------------------------- */
 
 /* about */
 .about{
@@ -462,10 +462,11 @@ nav bar and first section complete
 }
 
 .about .player{
-  padding-top: 20px;
-  margin-top: 80px;
+  margin-top: 100px;
   justify-content: center;
   background-color: #000;
+  width:540px;
+  height:350px;
 }
 
 .about .content{
@@ -512,6 +513,17 @@ nav bar and first section complete
   }
 }
 
+@media only screen and (max-width: 600px) {
+  .about .player{
+    width: max(270px,95vw);
+    height: calc(max(300px,100vw)/2);
+    margin-top: 0;
+    padding: 0;
+  }
+}
+
+
+/* -------------- */
 .Departments .top{
   display: flex; 
   flex-wrap: nowrap; 
