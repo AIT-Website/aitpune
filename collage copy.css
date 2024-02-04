@@ -198,12 +198,12 @@ body {
   }
   .header nav{
     flex-direction: column;
-    margin-top: 70px;
   }
-  .navele{
+  #navele{
     visibility: hidden;
   }
 }
+
 
 /* ////////////////////////////////////////////////// */
 .credit{
@@ -385,6 +385,7 @@ button {
   #prevBtn,#nextBtn{
     display: none;
   }
+
   /*  */
   .header nav{
     margin-top: 70px;

@@ -26,22 +26,6 @@ let currentIndex = 0;
   function prevSlide() {
     showSlide(currentIndex - 1);
   }
-
-  function menuView(){
-    const head = document.getElementById('header');
-    const ham = document.getElementById('hamburger');
-    if(navel.style.visibility == 'hidden'){
-      navel.style.visibility = 'visible';
-      head.style.height = '350px';
-      ham.style.transform = 'translateY(0px)';
-    }
-    else{
-      navel.style.visibility = 'hidden';
-      head.style.height = '80px';
-      ham.style.transform = 'translateY(-42px)';
-    }
-  }
-
   setInterval(() => {
     nextSlide();
   }, 5000);
@@ -82,3 +66,48 @@ function customPrevSlide() {
 setInterval(() => {
   customNextSlide();
 }, 5000);
+
+// -- -----------mainmenu---------------- --
+
+function menuView(){
+  const head = document.querySelector('#header');
+  const ham = document.querySelector('#hamburger');
+  if(navel.style.visibility == 'hidden'){
+    navel.style.visibility = 'visible';
+    head.style.height = '350px';
+    ham.style.transform = 'translateY(0px)';
+  }
+  else{
+    navel.style.visibility = 'hidden';
+    head.style.height = '80px';
+    ham.style.transform = 'translateY(-38px)';
+  }
+}
+
+    //  Query to handle double tap
+var maxWidthQuery = window.matchMedia("(max-width: 800px)");
+
+function handleMaxWidthChange(e) {
+  if (e.matches) {
+    menuView();
+  }
+}
+
+handleMaxWidthChange(maxWidthQuery);
+
+maxWidthQuery.addEventListener("change", handleMaxWidthChange);
+
+function resetHeaderWidth() {
+  // const header = document.querySelector('.header');
+  const head = document.querySelector('#header');
+  const ham = document.querySelector('#hamburger');
+
+  if (window.innerWidth < 800) {
+    // header.style.height = '80px';
+    navel.style.visibility = 'visible';
+    head.style.height = '80px';
+    ham.style.transform = 'translateY(-38px)';
+  }
+}
+
+window.addEventListener('resize', resetHeaderWidth);
