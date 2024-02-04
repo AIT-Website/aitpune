@@ -467,10 +467,12 @@ a.fetchLink.active {
 
 #hod_content{
     margin-top: 106px;
+    
     /* margin-left: 0.5rem; */
 }
 .hod_content2{
     margin-left: 30px;
+    display: flex;
 }
 /* .hod_pic{
     background: url("image\ 1.png"), lightgray 50% / cover no-repeat;
@@ -481,6 +483,10 @@ a.fetchLink.active {
     margin-top: 26px;
     margin-left: 30px;
 } */
+.hod_contain{
+    margin-top: 30px;
+    margin-left: 1rem;
+}
 .hod_pic{
     margin-top: 30px;
     padding: 1.5px;
@@ -493,7 +499,7 @@ a.fetchLink.active {
 height: 9rem;
 }
 .hod_contain{
-    margin-top: 8px;
+    margin-top: 2.3rem;
 }
 .head_ok{
     color: #0C2695;
@@ -550,6 +556,7 @@ text-decoration-line: underline;
     width: 842px;
     height: 796px;
     margin-top: 30px;
+    margin-left: 30px;
     font-size: 1rem;
     text-align: justify;
 }
@@ -998,9 +1005,21 @@ line-height: normal;
     
 }
 .faculty-image{
-    width: 130px;
-    height: 91px;
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
     margin: 1px auto;
+    border-radius: 50%;
+    position: relative;
+
+    margin-right: 6.3rem;
+}
+
+.faculty-image img{
+    width:100px;
+    position: absolute;
+    transform: scale(1.5);
+    top: 20px;
 }
 .faculty-image i{
     background-color: white;
