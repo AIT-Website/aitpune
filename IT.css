@@ -2725,19 +2725,28 @@ padding: 10px;
 }
 .achievement_box_contain{
     width: 22rem;
-    height: 7rem;
+    
+    height: 18rem;
     padding: 1rem;
-    background-color:rgba(0,0,0,0.4) ;
-    transform: translateY(-6rem);
+    /* background-color:rgba(0,0,0,0.4) ; */
+    /* transform: translateY(-6rem); */
     border-radius: 8px;
     /* visibility: hidden; */
     /* opacity: 0; */
+    position: relative;
+
+    
+
+    
+    
 }
-.achievement_box_contain :hover{
+.achievement_box_contain:hover.achievement_box_contain p {
     cursor: pointer;
-    /* visibility: visible; */
+    top: 160px;
+    opacity: 1;
+    transition: 0.5s;
     height: 7rem;
-    transition: 2s;
+    
 
     
 }
@@ -2745,6 +2754,17 @@ padding: 10px;
     color: #FFF;
     font-size: 0.8rem;
     font-weight: 600;
+    position: relative;
+    top: 194px;
+    opacity: 0;
+    background-color: rgb(0, 0, 0,0.4);
+    width: 22rem;
+    padding: 10px;
+    height: 7rem;
+    border-radius: 8px;
+    
+    left: -16px;
+    
 }
 .achievement_mainbox{
     display: flex;
@@ -2752,15 +2772,19 @@ padding: 10px;
     margin-bottom: 4rem;
 }
 .achievement_box{
+    /* position: absolute; */
     height: 18rem;
     width: 26rem;
     border-radius: 8px;
 
 }
 .achievement_box img{
-    position: relative;
+    position: absolute;
     height: 18rem;
     width: 22rem;
+    border-radius: 8px;
+   
+    
 }
 /* ------------------------------------------------------------------------------------------------------ */
 
