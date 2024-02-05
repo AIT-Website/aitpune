@@ -1175,7 +1175,6 @@ text-decoration: none;
 
 #myTable {
     font-size: 1rem;
-    font-weight: 600;
     width: initial;
     border-collapse: collapse;
     margin-top: 30px;
@@ -1191,6 +1190,15 @@ text-decoration: none;
     border-right: none;
 }
 
+#myTable thead{
+    background-color: #4C6BF1;
+    color: #fff;
+    /* font-weight: 600; */
+}
+
+#myTable>tbody>tr :nth-child(odd){
+    background-color: #fff;
+  }
 
 #row{
     background-color: #fafafa;
