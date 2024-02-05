@@ -196,7 +196,7 @@ body{
 
 }
 .camp{
-    background-image: url(/aitcampbanner.jpg);
+    background-image: url(./aitcampbanner.jpg);
     background-size:cover;
     width: 100%;
     height: 401px;
@@ -388,7 +388,7 @@ body{
     width: 160px;
     height: 160px;
     
-    background: url(/diro.jpg);
+    background: url(./diro.jpg);
     background-repeat: no-repeat;
     background-position: top;
     /* background-color: #FFF; */
@@ -617,9 +617,9 @@ line-height: 24px; /* 150% */
     display: flex;
 }
 
-.director_content{
+/* .director_content{
     margin-left: 1.88rem;
-}
+} */
 .director_content2{
     display: flex;
 }
@@ -628,7 +628,7 @@ line-height: 24px; /* 150% */
     margin-left: 30px;
     width: 160px;
     height: 160px;
-    background: url(/diro.jpg);
+    background: url(./diro.jpg);
     background-repeat: no-repeat;
     background-position: top;
     /* background-color: #FFF; */
@@ -717,14 +717,13 @@ line-height: 24px; /* 150% */
     font-weight: 600;
     line-height: normal;
     display: inline-block;
-    margin-top: 10px;
+    margin-top: 30px;
     text-decoration: none;
     margin-left: 1.88rem;
 }
 .para_containi>ul{
     list-style:square;
     margin-left: 3rem;
-    color: #4C6BF1;
     line-height: 1.5rem;
 }
 .para_containi>ul>li>ul{
@@ -750,6 +749,21 @@ line-height: 24px; /* 150% */
     line-height: 1.5rem;
 }
 .para_containi>ol>li a{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.2rem;
+    margin-top: 16px;
+    margin-right: 50px;
+    width: 842px;
+    text-decoration: none;
+}
+.para_containi ul ul li {
+    list-style: square;
+}
+.para_containi ul ul li a{
     color: #000;
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 1rem;
@@ -919,7 +933,7 @@ line-height: 24px; /* 150% */
     line-height: normal;
 }
 .lim{
-    background-image: url(/Rectangle\ 69.png);
+    background-image: url(./Rectangle\ 69.png);
     margin-top: 1.5rem;
     width: 540px;
     height: 313px;
