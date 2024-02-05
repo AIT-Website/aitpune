@@ -2380,3 +2380,15 @@ line-height: 1.5rem; /* 160% */
 .softwarelab-1-text ul{
     margin-left: 1.2rem;
 }
+
+/* ------------------------------------------------------------------------------------------------------ */
+
+.result_img img{
+    height: 24rem;
+    width: 48rem;
+    border: 1px solid black;
+    
+}
+.result_img{
+    margin-bottom: 1.25rem;
+}

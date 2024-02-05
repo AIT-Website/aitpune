@@ -13,22 +13,24 @@
 </head>
 <body>
     <div style="position: fixed; width: 100%; z-index: 10;">
-        <div style="height: 40px; background-color: #0C2695;">
-          <div class="header_head">
+        <div class="topper">
+          <div>
             <ul class="header_items">
-            <a href="index.html">Home</a>
+            <a href="ABOUT_US.html">About Us</a>
             <a href="Alumini.html">Alumini</a>
             <a href="PLACEMENT_T&P.html">Placements</a>
             <a href="CLUBS.html">Clubs</a>
             <a href="ADMIN_AIT.html">Admin</a>
             </ul>
+          </div>
         </div>
-        </div>
+        
         <div class="header" id="header">
           <div class="head">
-            <a href="index.html"><img src="AIT LOGO.png" alt="logo ait" style="width: 60.041px;"></a>
+            <a href="index.html"><img src="AIT LOGO.png" alt="logo ait" style="width: 60px;"></a>
             <a href="index.html" style="text-decoration: none ; color: #0C2695;"><p>Army Institute of Technology, Pune</p></a>
           </div>
+    
           <div style="display: flex;" class="side">
             <nav id="navele" class="navele">
             <a href="ABOUT_US.html">About Us</a>
@@ -39,47 +41,29 @@
             <img src="awes.jpg" alt="" id="always" style="height: 50px; margin-bottom: 15px;" >
             </nav>
           </div>
+    
           <div class="hamburger" onclick="menuView()">
           <div id = "hamburger">
           <img src="./img/icons/cancel.svg" alt="cancel">
           <img src="./img/icons/ham.svg" alt="ham">
           </div>
         </div>
+    
         </div>
+    
       </div>
-    <div class="container">
-        <div class="mid">
-            
-            <div class="box">About Us</div>
-            <div class="box">Admissions</div>
-            <div class="box">Reasearch</div>
-            <div class="box">Students</div>
-            <div class="box">Admin</div>
-        </div>
-        
-    </div>
-    <div class="nav_bar">
-        <a href="index.html"><div class="ait_logo"><img src="AIT LOGO.png" width="60.041px"></div></a>
-        <a class="nvc" href="index.html" style="text-decoration: none;">
-            <p>Army Institute</p>
-            <p>of Technology, Pune</p>
-        </a>
-        <div class="nvc1">
-            <div class="nvc2"><a href="ABOUT_US.html" style="text-decoration: none; color: black;">About Us</a></div>
-            <div class="nvc2"><a href="Admission1.html" style="text-decoration: none; color: black;">Admissions</a></div>
-            <div class="nvc2"><a href="ResearchDean.css" style="text-decoration: none; color: black;">Research</a></div>
-            <div class="nvc2"><a href="#" style="text-decoration: none; color: black;">Students</a></div>
-            <div class="nvc2"><a href="ADMIN_JD.html" style="text-decoration: none; color: black;">Admin</a></div>
-        </div>
-        <div class="g20_logo"><img src="g20.jpg" ></div>
-    </div>
+    
+
+    <div class="empty" style="height: 120px;"></div>
+
     <div class="camp">
         <div class="about">Students</div>
         <div class="about1">"Unleash your potential at AIT – a hub of opportunities, innovation, and support for your academic journey."</div>
     </div>
 
+    
     <div class="about_us">
-        <div class="about_content">
+        <div class="main_content">
             <h2 class="ab" style="text-align: left;">Student Affairs</h2>
             <p class="about_vision">Vision</p>
             <p class="about_content">At AIT, our vision is to mold engineering students into ethical, globally-minded innovators. We foster a culture of curiosity, social responsibility, and adaptability. AIT graduates emerge as interdisciplinary problem-solvers, ready to lead in a rapidly evolving world. Join AIT to be part of this transformative vision, shaping a future of excellence and impact.</p>
@@ -88,36 +72,34 @@
                 AIT students aspire to excel academically, embrace innovation, and lead with integrity. Committed to community engagement and global awareness, they seek to apply their engineering skills ethically for societal benefit. AIT students embody resilience, collaboration, and a passion for continuous learning, shaping a future marked by excellence and positive impact.
             </div>
         </div>
+
         <div class="rectangle_blue"></div>
+        
         <div class="about_image">
             <img src="Rectangle 61.png">
         </div>
     </div>
 
     <br><br><br>
+
     <div id="contentContainer" class="content-transition" style="display: flex;">
-        <!-- Content will be loaded here -->
 
         <div class="middle_bar">
             <div class="dir">
             <div class="jd_table">
                 <ul>
                 <p>Scholarship Details</p>
-                <!-- <a href="#" id="link" onclick="loadContent('./student/Scholarship/sd-sop.html', event)" style="text-decoration: none;">Scholarship Details</a> -->
-                <!-- //internal -->
+                
                 <p id="sub-nav" style="border-width: 3px;">SOP</p>
-                <!-- <a href="#" onclick="loadContent('./student/Scholarship/sd-sop.html', event)" style="text-decoration: none;" id="sub-nav">SOP</a> -->
                 <a href="#" onclick="loadContent('./student/Scholarship/sd-ait.html', event)" style="text-decoration: none;" id="sub-nav">Scholarships through AIT</a>
                 <a href="#" onclick="loadContent('./student/Scholarship/sd-detail.html', event)" style="text-decoration: none;" id="sub-nav">Scholarship Details</a>
                 <a href="#" onclick="loadContent('./student/Scholarship/sd-loan.html', event)" style="text-decoration: none;" id="sub-nav">Education Loan</a>
-                <!-- //internal -->
 
                 <a href="#" id="link" onclick="loadContent('./student/stu-chap.html', event)" style="text-decoration: none; border-width: 3px;" >Students Chapters</a>
                 <a href="#" id="link" onclick="loadContent('./student/uni-toppers.html', event)" style="text-decoration: none;">University Toppers</a>
                 <a href="#" id="link" onclick="loadContent('./student/honor.html', event)" style="text-decoration: none;">Honour Code</a>
                 <a href="#" id="link" onclick="loadContent('./student/achievement.html', event)" style="text-decoration: none;">Achievements</a>
                 <a href="#" id="link" onclick="loadContent('./student/rulebook.html', event)" style="text-decoration: none;">Rule Book</a>
-                <!-- <a href="#" id="link" onclick="loadContent('./student/clubs.html', event)" style="text-decoration: none;">Clubs</a> -->
                 <a href="#" id="link" onclick="loadContent('./student/E-magazine.html', event)" style="text-decoration: none;">E-magazine</a>
                 <a href="#" id="link" onclick="loadContent('./student/Bulletin-board.html', event)" style="text-decoration: none;">Bulletin Board</a>
                 </ul>
