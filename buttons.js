@@ -1,9 +1,8 @@
-let len = 800;
-
+let box = document.querySelector('.jd_table');
 function change_view(){
-    let box = document.querySelector('.jd_table');
-    if(box.style.visibility == 'visible' && window.innerHeight<800){
-        hide();
+    box = document.querySelector('.jd_table');
+    if(box.style.visibility == 'visible'){
+        hide(); 
     }
     else{
         show();
@@ -18,7 +17,7 @@ function show(){
     obj.style.borderColor = 'red';
     obj.style.color = 'red';
     obj.innerHTML = 'Close';
-    obj.style.bottom = '22.5rem';
+    obj.style.bottom = '70%';
 }
 
 function hide(){
@@ -30,18 +29,24 @@ function hide(){
     obj.style.color = '#fff';
     obj.innerHTML = 'Menu'; 
     obj.style.bottom = '5rem';   
-    console.log('roman')
 }
 
-if(window.innerWidth < len) hide();
-
-if(window.innerWidth < 800){
-    window.addEventListener('scroll', function() {
+function handleResize() {
+    if (window.innerWidth < 800) {
         hide();
-    });
-    window.addEventListener('resize', function() {
-        hide();
-    });
+    } else {
+        show();
+    }
 }
 
+window.addEventListener('resize', handleResize);
+window.addEventListener('scroll', handleResize);
+handleResize();
 
+document.addEventListener('click', function(event) {
+    var isClickInsideBox = document.querySelector('.jd_table').contains(event.target);
+    var isClickInsidetar = document.querySelector('#box_hide').contains(event.target);
+    if (!isClickInsideBox && !isClickInsidetar) {
+        if(window.innerWidth < 800 ) hide();
+    }
+});
