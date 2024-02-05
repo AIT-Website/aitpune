@@ -2125,3 +2125,46 @@ line-height: 1.4785rem; /* 147.849% */
 #okk2{
     margin-top: 4px;
 }
+.scholar{
+    margin-left: 1.88rem;
+}
+.scholar h2{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: "Plus Jakarta Sans";
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.industrial_visit_links{
+    height: 112px;
+    width: 868px;
+    border-radius: 10px;
+    /* border: solid 0.1px rgba(0, 0, 0, 0.1); */
+    box-shadow: 1px 1px 3px rgba(0, 0,0,0.2);
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    /* padding-left: 1.31rem; */
+}
+
+.industrial_visit_links img{
+    margin-left: 1rem;
+    height: 1.3rem;
+    width: 1.3rem;
+    margin-bottom: 0.35rem;
+}
+.industrial_visit_links a{
+    color: #000;
+    padding: 0.4rem 0.8rem 0.8rem 0rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 0.8rem;
+    
+}
+.prior{
+    text-decoration: none;
+}
