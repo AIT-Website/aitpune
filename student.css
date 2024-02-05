@@ -60,13 +60,19 @@ body{
   
   /* */
   @media only screen and (max-width:1000px){
-    .header, .topper{
+    .header, .topper {
       padding: 0px 5%;
     }
+    .content-transition {
+        padding: 0px 5%;
+    }
   }
-  @media only screen and (max-width:850px){
-    .header, .topper{
+  @media only screen and (max-width:850px) {
+    .header, .topper {
       padding: 0px 2%;
+    }
+    .content-transition{
+        padding: 0px 2%;
     }
   }
   
@@ -460,7 +466,7 @@ body{
     box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
     border-radius: 2px;
     font-family:'Plus Jakarta Sans';
-    margin-left: 165px;
+    /* margin-left: 165px; */
     border-radius:8px;
     padding-top: 12px;
     padding-bottom: 15px;
@@ -513,6 +519,11 @@ body{
     align-items: center;
     padding-left: 20px;
 }
+
+#box_hide{
+    visibility: hidden;
+}
+
 
 
 /* ---------------- --------------------------------*/
@@ -609,6 +620,11 @@ body{
     }
 }
 /* ------------------------------------------------------------  */
+.content-transition{
+    display: flex;
+    padding: 0 11.45%;
+}
+
 #director_top{
     border-top: none;
 }
@@ -619,6 +635,9 @@ body{
 
 .dir{
     display: flex;
+}
+.director_content{
+    margin-left: 1.88rem;
 }
 
 .director_ok{
@@ -631,8 +650,9 @@ body{
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    margin-left: 1.88rem;
     margin-bottom: 30px;
+    max-width: 100vw;
+    text-align: left;
 }
 
 .director_name{
@@ -675,7 +695,7 @@ body{
     margin-top: 2px;
 }
 .para_containi{
-    margin-left: 1.88rem;
+    
     color: #4C6BF1;
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 24px;
@@ -725,6 +745,7 @@ body{
 .middle_bar{
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .h23{
     color: #0C2695;
@@ -987,14 +1008,12 @@ body{
 .external_link{
     display: flex;
     align-items: center;
-    min-width: initial;
-    width: 55vw;
+    max-width: initial;
     height: 3rem;
     flex-shrink: 0;
     background: #FAFAFA;
     /* background: #000; */
     /* padding-top: 1.12rem; */
-    padding-left: 1.12rem;
 }
 
 .external_link .link{
@@ -1018,7 +1037,6 @@ font-size: 1rem;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5rem; /* 150% */
-padding-left: 1.12rem;
 }
 .prior{
     text-decoration: none;
@@ -1027,20 +1045,14 @@ padding-left: 1.12rem;
 
 #Notices{
     font-family: 'Plus Jakarta Sans';
-    /* margin-top: 7.315rem; */
-    margin-left: 1.88rem;
+    
 }
 .notices_info{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 25px 25px;
     margin-top: 40px;
-}
-.notice_lists:nth-of-type(3){
-    grid-column: 3/3;
-}
-.table_and_notice{
-    display: flex
+    justify-content: left;
 }
 .notice_lists{
     height: 113px;
@@ -1071,7 +1083,7 @@ text-decoration: none;
 
 /* ---------------------------------------------------------------- */
 .scholar{
-    margin-left: 1.88rem;
+    
 }
 .scholar h2{
     color: #0C2695;
@@ -1084,13 +1096,14 @@ text-decoration: none;
 }
 .industrial_visit_links{
     height: 112px;
-    width: 600px;
+    width: auto;
     border-radius: 10px;
     box-shadow: 1px 1px 3px rgba(0, 0,0,0.2);
     margin-bottom: 25px;
     display: flex;
     align-items: center;
     padding: 1rem;
+    
 }
 
 .industrial_visit_links img{
@@ -1109,85 +1122,6 @@ text-decoration: none;
 }
 .prior{
     text-decoration: none;
-}
-
-/* ---------------------------------------------------------------ScholarShip details-------------------------------------------- */
-
-.detail_head{
-    display: flex;
-    color: #FFF;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: "Plus Jakarta Sans";
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5rem; /* 171.429% */
-    background-color: #4C6BF1;
-    width: 54.4rem;
-    height: 3.5rem;
-    flex-shrink: 0;
-    border-top-left-radius: 6px;
-    border-top-right-radius: 6px;
-    padding-top: 1rem;
-    padding-left: 1rem;
-    gap: 13rem;
-}
-
-.detail_tail{
-    color: #000;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: "Plus Jakarta Sans";
-font-weight: 500;
-line-height: 1.5rem; /* 171.429% */
-background-color: #FAFAFA;
-width: 54.4rem;
-height: 3.5rem;
- flex-shrink: 0; 
-padding-top: 1rem;
-padding-left: 1rem;
-display: flex;
-gap: 9.8rem;
-}
-.datii{
-    color: #000;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: "Plus Jakarta Sans";
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5rem; /* 171.429% */
-    width: 6rem;
-}
-.datii2{
-    color: #000; 
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: "Plus Jakarta Sans";
-    font-size: 1rem;
-    font-style: normal;
-    font-weight: 500;
-    text-decoration: none;
-    text-align: left;
-    line-height: 1.5rem; /* 171.429% */
-}
-.datii2 img{
-    height: 1.2rem;
-    width: 1.2rem;
-    margin-right: 1rem;
-}
-.detail_tail2{
-    color: #000;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: "Plus Jakarta Sans";
-font-weight: 500;
-line-height: 1.5rem; /* 171.429% */
-background-color: #FFF;
-width: 54.4rem;
-height: 3.5rem;
-/* flex-shrink: 0; */
-padding-top: 1rem;
-padding-left: 1rem;
-display: flex;
-gap: 9.8rem;
 }
 
 
@@ -1233,9 +1167,10 @@ gap: 9.8rem;
 }
 .loan_content2{
     margin-top: 2rem;
+    
 }
 .border_gap{
-    width: 54.4rem;
+    width: auto;
     background-color: #4C6BF1;
     height: 1px;
     margin-top: 1.2rem;
@@ -1243,32 +1178,26 @@ gap: 9.8rem;
 
 #myTable {
     font-size: 1rem;
-    min-width: 55vw;
-    margin-left: 26px;
-    margin-right: 26px;
     font-weight: 600;
     width: initial;
     border-collapse: collapse;
     margin-top: 30px;
     margin-bottom: 20px;
     border-radius: 15px;
-    overflow: hidden;
 } 
 
 #myTable td {
     border: 1px solid #dddddd;
     text-align: left;
-    min-width: 3.4rem;
     padding: 20px 10px;
     border-left: none;
     border-right: none;
 }
 
 
-
 #row{
     background-color: #fafafa;
-    padding-left: 1rem;
+    /* padding-left: 1rem; */
     padding-right: 1rem;
     /* min-width: 5.4rem; */
 }
@@ -1353,3 +1282,139 @@ gap: 9.8rem;
     font-size: 1rem;
     /* margin-left: ; */
 }
+
+@media only screen and (max-width : 800px){
+    #box_hide, .jd_table{
+        position: fixed;
+        /* top: 200px; */
+        bottom: 5rem;
+        right: 0;
+        user-select: none;
+        cursor: pointer;
+        /* margin-left: 11.45%; */
+      }
+      
+      .jd_table{
+        background: #fff;
+        width: fit-content;
+        max-width: min-content;
+        height: min(70%, 70vh);
+        min-width: 225px;
+        box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
+        border-radius: 2px;
+        font-family:'Plus Jakarta Sans';
+        border-radius:8px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-right: 17px;
+        visibility: visible;
+        z-index: 8;
+        overflow-y: scroll;
+        bottom: 1rem;
+      }
+      
+      #box_hide{
+        visibility: visible;
+        background: #0C2695;
+        border: #fff 1px solid;
+        border-radius: .5rem;
+        height: 2.5rem;
+        width: 2.5rem;
+        cursor: pointer;
+        z-index: 9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+        color: #fff;
+        opacity: 0.7;
+      }
+      
+      .jd_table ul p{
+        color: #0C2695;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: 'Plus Jakarta Sans';
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 2rem; 
+        padding-top: 6;
+        border-style: hidden;
+        border-top: 1px solid rgba(234,234,234,1);
+      }
+      
+      .jd_table ul{
+        list-style: none;
+        display:flex;
+        flex-direction:column;
+        gap: 16px;
+      }
+      .jd_table ul a{
+        font-size: 16px;
+        color:#000000;
+        text-align:left;
+        vertical-align: middle;
+        line-height:2rem;
+        border-style:hidden;
+        width: 220px;
+        height: 1.5rem;
+        border-top: 1px solid rgba(234,234,234,1);
+        padding-top: 8px;
+        padding-bottom: 12px;
+      }
+      .jd_table ul > *:first-child{
+        border-top: 0;
+      }
+    .director_content{
+    margin-left: 0rem;
+    font-size: .9rem;
+    justify-content: center;
+    text-align: center;
+    }
+    .director_ok{
+    text-align: center;
+    }
+    .content-transition{
+    justify-content: center;
+    padding: 0 0;
+    }
+    #link_external{
+        width: auto;
+    }
+    .notices_info{
+        justify-content: center;
+    }
+    #myTable{
+        font-size: .9rem;
+    }
+    #myTable td {
+        padding: 10px 5px;
+    }
+    .director_ok{
+        text-align: center;
+    }
+    .reading_more{
+        text-align: right;
+        padding-right: 2rem;
+    }
+    .mag-coll{
+        justify-content: center;
+    }
+    .para_con{
+        text-align: center;
+    }
+    .para_con p{
+        text-align: justify;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .content-transition {
+        padding: 0px 5%;
+    }
+  }
+  @media only screen and (max-width:850px) {
+    .content-transition {
+      padding: 0px 2%;
+    }
+  }

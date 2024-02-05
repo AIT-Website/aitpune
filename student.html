@@ -81,8 +81,8 @@
     </div>
 
     <br><br><br>
-
-    <div id="contentContainer" class="content-transition" style="display: flex;">
+    <div id="box_hide" onclick="change_view()"></div>   <!-- floating - paste this div anywhere in html body -->
+    <div id="contentContainer" class="content-transition">
 
         <div class="middle_bar">
             <div class="dir">
@@ -105,8 +105,8 @@
                 </ul>
             </div>
 
-            <div class="scholar">
-                <h2 class="scholar_sop" style="margin-bottom: 40px;">Standard Operating Procedure</h2>
+            <div class="director_content">
+                <h2 class="director_ok">Standard Operating Procedure</h2>
                 <div class="sop2">
                         <div class="industrial_visit_links">
                            
@@ -126,6 +126,8 @@
 
 
     </div>
+    <script src="script.js"></script>
+    <script src="buttons.js"></script>   <!-- floating - write this in file  -->
     <script>
         function stopReload(event){
             event.preventDefault;
