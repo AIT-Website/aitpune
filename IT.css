@@ -405,7 +405,7 @@ text-align: justify;
 .table{
     margin-top: 106px;
     width: 255px;
-    height: 894px;
+    height: 942px;
     box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
     border-radius: 2px;
     font-family:'Plus Jakarta Sans';
@@ -2714,4 +2714,65 @@ padding: 10px;
     margin-top: 1rem;
     color: #000;
     padding-left: 1rem;
+}
+
+/* ------------------------------------------------Achievement PAGE------------------------------------- */
+
+.achievement_contain h3{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.achievement_box_contain{
+    text-align: justify;
+}
+.achievement_box_contain{
+    width: 22rem;
+    height: 7rem;
+    padding: 1rem;
+    background-color:rgba(0,0,0,0.4) ;
+    transform: translateY(-6rem);
+    border-radius: 8px;
+    /* visibility: hidden; */
+    /* opacity: 0; */
+}
+.achievement_box_contain :hover{
+    cursor: pointer;
+    /* visibility: visible; */
+    height: 7rem;
+    transition: 2s;
+
+    
+}
+.achievement_box_contain p{
+    color: #FFF;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.achievement_mainbox{
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 4rem;
+}
+.achievement_box{
+    height: 18rem;
+    width: 26rem;
+    border-radius: 8px;
+
+}
+.achievement_box img{
+    position: relative;
+    height: 18rem;
+    width: 22rem;
+}
+/* ------------------------------------------------------------------------------------------------------ */
+
+.result_img img{
+    height: 24rem;
+    width: 48rem;
+    border: 1px solid black;
+    
+}
+.result_img{
+    margin-bottom: 1.25rem;
 }

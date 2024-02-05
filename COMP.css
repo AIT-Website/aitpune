@@ -406,7 +406,7 @@ line-height: 24px; /* 150% */
 .table{
     margin-top: 106px;
     width: 255px;
-    height: 848px;
+    height: 884px;
     box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
     border-radius: 2px;
     font-family:'Plus Jakarta Sans';
@@ -1840,19 +1840,20 @@ padding-left: 0.8rem;
 }
 
 
-/----------------------------------------------------- RESEARCH AND DEVELOPMENT -----------------------------------------------------/
+/* /----------------------------------------------------- RESEARCH AND DEVELOPMENT -----------------------------------------------------/ */
 
 #RandD{
     margin-top: 2rem;
     font-family: 'Plus Jakarta Sans';
     margin-top: 106px;
     margin-left: 30px;
+    /* margin-bottom: 1.4rem; */
 }
 #RandD h1{
     color: #4C6BF1;
     font-size: 1.5rem;
     display: inline-block;
-    /* margin-bottom: 1.4rem; */
+
 
 }
 .item{
@@ -2548,4 +2549,71 @@ line-height: 1.5rem; /* 160% */
 }
 .softwarelab-1-text ul{
     margin-left: 1.2rem;
+}
+
+.result_img img{
+    height: 24rem;
+    width: 48rem;
+    border: 1px solid black;
+    
+}
+.result_img{
+    margin-bottom: 1.25rem;
+}
+
+
+/* ------------------------------------------------Achievement PAGE------------------------------------- */
+
+.message_ach{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.achievement_contain h3{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.achievement_box{
+    display: flex;
+    gap: 2rem;
+    width: 54.4rem;
+    margin-bottom: 2rem;
+}
+.achievement_box_contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+}
+.achievement_box_contain p{
+    font-size: 1rem;
+    color: #000;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    width: 27rem;
+    font-weight: 600;
+    border-radius: 15px;
+
+}
+.achievement_box img{
+    width: 24rem;
+    height: 18rem;
+}
+.achievement_container{
+    font-size: 1rem;
+    color: #000;
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    padding-left: 2rem;
+    width: 53rem;
+    font-weight: 600;
+    border-radius: 15px;
+    margin-bottom: 2rem;
 }
