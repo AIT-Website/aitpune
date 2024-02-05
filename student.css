@@ -278,7 +278,7 @@ body{
     line-height: normal;
 }
 
-/* ------------------------------ */
+/* ---------------------------------------------------------------------------- */
 .ab{
     color: #FFF;
     text-align: center;
@@ -371,9 +371,6 @@ body{
     /* margin-top: 16px; */
     display: inline-block;
 }
-/* .jdsc{
-    display: inline-block;
-} */
 
 /* //////////////////////////////////////////////////////// */
 
@@ -451,7 +448,11 @@ body{
     line-height: normal;
     display: inline-block;
 }
+/* ----------------------------------------------------------------------------- */
 
+.dir{
+    overflow: hidden;
+}
 .jd_table{
     width: fit-content;
     max-width: min-content;
@@ -460,14 +461,13 @@ body{
     box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
     border-radius: 2px;
     font-family:'Plus Jakarta Sans';
-    margin-left: 165px;
+    margin-left: 10%;
     border-radius:8px;
     padding-top: 12px;
     padding-bottom: 15px;
     padding-left: 15px;
-    padding-right: 17px;
+    padding-right: 15px;
     cursor: pointer;
-    
 }
 
 .jd_table ul p{
@@ -508,12 +508,55 @@ body{
 
 #sub-nav{
     font-size: 14px;
-    /* background-color: #f5f5f5; */
     display: flex;
     align-items: center;
     padding-left: 20px;
 }
 
+@media only screen and (max-width : 800px){
+    
+#box_hide, .jd_table{
+    position: fixed;
+    bottom: 5rem;
+    right: 0;
+    cursor: pointer;
+  }
+  
+  .jd_table{
+
+    background: #fff;
+    width: fit-content;
+    max-width: min-content;
+    max-height: 20rem;
+    min-width: 225px;
+    box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
+    border-radius: 2px;
+    font-family:'Plus Jakarta Sans';
+    border-radius:8px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 17px;
+    z-index: 8;
+    overflow-y: scroll;
+    bottom: 1rem;
+  }
+  
+  #box_hide{
+    background: #0C2695;
+    border: #fff 1px solid;
+    border-radius: .5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
+    opacity: 0.7;
+  }
+} 
 
 /* ---------------- --------------------------------*/
 .about_us{
@@ -1070,6 +1113,7 @@ text-decoration: none;
 
 
 /* ---------------------------------------------------------------- */
+/*  */
 .scholar{
     margin-left: 1.88rem;
 }
@@ -1353,3 +1397,4 @@ gap: 9.8rem;
     font-size: 1rem;
     /* margin-left: ; */
 }
+
