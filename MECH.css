@@ -54,7 +54,7 @@ body{
     text-align: center;
     overflow: hidden;
     font-size: 0.875rem;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   }
   .header_head{
     width: 100%;
@@ -80,6 +80,11 @@ body{
   .header_items a {
     text-decoration: none;
     color: #FFF;
+    padding: 0px 5px;
+  }
+  .header_items a:hover{
+    border: 1px solid white;
+    border-radius: 5px;
   }
   .header .head{
     margin: 0;
@@ -115,8 +120,13 @@ body{
     color: #000;
       text-decoration: none;
       font-size: 0.8rem;
-      margin: 10px 15px;
+      margin: 10px 10px;
       font-weight: 500;
+      padding: 5px;
+  }
+  .header nav a:hover{
+    border: 1px solid blue;
+    border-radius: 5px;
   }
   
   .hamburger{
@@ -277,6 +287,11 @@ body{
     margin-top: 20px;
 }
 
+.buttonha:hover{
+    background-color: #223a9b;
+    cursor: pointer;
+}
+
 .buttonha a{
     color: #FFF;
     leading-trim: both;
@@ -405,7 +420,7 @@ line-height: 24px; /* 150% */
 .table{
     margin-top: 106px;
     width: 255px;
-    height: 846px;
+    height: 823px;
     box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
     border-radius: 2px;
     font-family:'Plus Jakarta Sans';
@@ -437,22 +452,22 @@ a.fetchLink.active {
     list-style: none;
     display:flex;
     flex-direction:column;
-    gap: 16px;
 }
 
 .table ul a{
     font-size: 16px;
-    color:#000000;
-    text-align:left;
+    color: rgb(0, 0, 0);
+    text-align: left;
     vertical-align: middle;
-    line-height:24px;
-    border-style:hidden;
-    /* font-family:' Plus Jakarta Sans'; */
-    width: 221px;
+    line-height: 24px;
+    border-style: solid hidden hidden;
+    width: 222px;
     height: 24px;
-    border-top: 1px solid rgba(234,234,234,1);
-    padding-top: 16px;
-    padding-bottom: 16px;
+    height: auto;
+    border-top-width: 1px;
+    border-top-color: rgb(234, 234, 234);
+    
+    padding: 11px 4px;
 }
 
 #hod_content{
@@ -976,10 +991,9 @@ text-decoration: none;
 }
 
 .inside-card{
-    width: 270px;
-    height: 193px;
-    margin-left: 1rem;
-    padding-top: 24px;
+    width: 100%;
+    height: 350px;
+    padding: 14px;
 }
 .faculty-heading{
     margin-bottom: 40px;
