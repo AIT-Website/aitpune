@@ -2392,3 +2392,110 @@ line-height: 1.5rem; /* 160% */
 .result_img{
     margin-bottom: 1.25rem;
 }
+
+
+
+
+
+/* ------------------------------------------------------CAR CUT SECTION--------------------------------------------- */
+
+.description_contain h3{
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.description_contain{
+    margin-left: 1.88rem;
+    width: 54.4rem;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 500;
+}
+.description_img{
+    display: flex;
+    gap: 8rem;
+    margin-bottom: 1.5rem;
+}
+.description_img img{
+    height: 18rem;
+    width: 22rem;
+}
+.description_write ul{
+    margin-left: 1.2rem;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+.image_section img{
+    width: 16rem;
+    height: 14rem;
+}
+.car_imagesection{
+    margin-left: 1.88rem;
+    width: 54.4rem;
+}
+.image_section{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.car_heading{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.BMW_section_heading{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+    
+}
+#BMW_Section{
+    margin-left: 10.25rem;
+    margin-top: 106px;
+    width: 70.4rem;
+}
+.bmwcontain{
+    margin-top: 30px;
+}
+.bmwcontain h3{
+
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.bmw_image{
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+.bmw_image img{
+    height: 16rem;
+    width: 20rem;
+}
+.bmw_inside{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+}
+.bmw_inside ul{
+    margin-left: 1.2rem;
+}
