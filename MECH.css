@@ -54,7 +54,7 @@ body{
     text-align: center;
     overflow: hidden;
     font-size: 0.875rem;
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
   }
   .header_head{
     width: 100%;
@@ -80,6 +80,11 @@ body{
   .header_items a {
     text-decoration: none;
     color: #FFF;
+    padding: 0px 5px;
+  }
+  .header_items a:hover{
+    border: 1px solid white;
+    border-radius: 5px;
   }
   .header .head{
     margin: 0;
@@ -115,8 +120,13 @@ body{
     color: #000;
       text-decoration: none;
       font-size: 0.8rem;
-      margin: 10px 15px;
+      margin: 10px 10px;
       font-weight: 500;
+      padding: 5px;
+  }
+  .header nav a:hover{
+    border: 1px solid blue;
+    border-radius: 5px;
   }
   
   .hamburger{
@@ -277,6 +287,11 @@ body{
     margin-top: 20px;
 }
 
+.buttonha:hover{
+    background-color: #223a9b;
+    cursor: pointer;
+}
+
 .buttonha a{
     color: #FFF;
     leading-trim: both;
@@ -405,7 +420,7 @@ line-height: 24px; /* 150% */
 .table{
     margin-top: 106px;
     width: 255px;
-    height: 846px;
+    height: 823px;
     box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
     border-radius: 2px;
     font-family:'Plus Jakarta Sans';
@@ -437,22 +452,22 @@ a.fetchLink.active {
     list-style: none;
     display:flex;
     flex-direction:column;
-    gap: 16px;
 }
 
 .table ul a{
     font-size: 16px;
-    color:#000000;
-    text-align:left;
+    color: rgb(0, 0, 0);
+    text-align: left;
     vertical-align: middle;
-    line-height:24px;
-    border-style:hidden;
-    /* font-family:' Plus Jakarta Sans'; */
-    width: 221px;
+    line-height: 24px;
+    border-style: solid hidden hidden;
+    width: 222px;
     height: 24px;
-    border-top: 1px solid rgba(234,234,234,1);
-    padding-top: 16px;
-    padding-bottom: 16px;
+    height: auto;
+    border-top-width: 1px;
+    border-top-color: rgb(234, 234, 234);
+    
+    padding: 11px 0px;
 }
 
 #hod_content{
@@ -976,10 +991,9 @@ text-decoration: none;
 }
 
 .inside-card{
-    width: 270px;
-    height: 193px;
-    margin-left: 1rem;
-    padding-top: 24px;
+    width: 100%;
+    height: 350px;
+    padding: 14px;
 }
 .faculty-heading{
     margin-bottom: 40px;
@@ -2391,4 +2405,111 @@ line-height: 1.5rem; /* 160% */
 }
 .result_img{
     margin-bottom: 1.25rem;
+}
+
+
+
+
+
+/* ------------------------------------------------------CAR CUT SECTION--------------------------------------------- */
+
+.description_contain h3{
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.description_contain{
+    margin-left: 1.88rem;
+    width: 54.4rem;
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 500;
+}
+.description_img{
+    display: flex;
+    gap: 8rem;
+    margin-bottom: 1.5rem;
+}
+.description_img img{
+    height: 18rem;
+    width: 22rem;
+}
+.description_write ul{
+    margin-left: 1.2rem;
+}
+
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+.image_section img{
+    width: 16rem;
+    height: 14rem;
+}
+.car_imagesection{
+    margin-left: 1.88rem;
+    width: 54.4rem;
+}
+.image_section{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.car_heading{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+
+.BMW_section_heading{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+    
+}
+#BMW_Section{
+    margin-left: 10.25rem;
+    margin-top: 106px;
+    width: 70.4rem;
+}
+.bmwcontain{
+    margin-top: 30px;
+}
+.bmwcontain h3{
+
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.bmw_image{
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+.bmw_image img{
+    height: 16rem;
+    width: 20rem;
+}
+.bmw_inside{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+}
+.bmw_inside ul{
+    margin-left: 1.2rem;
 }
