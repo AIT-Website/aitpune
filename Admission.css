@@ -2003,3 +2003,110 @@ padding: 1.5rem;
     line-height: normal;
 }
 
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+/* -----------------------------------------NAAC=--------------------------------------------- */
+
+
+
+.syllabus_links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2.5rem;
+    gap: 25px;
+}
+.syllabus_1{
+    width: 54.4rem;
+    height: 6rem;
+    flex-shrink: 0;
+    border: 2px solid black;
+    box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px 0px rgba(12, 26, 75, 0.24);
+    border-radius: 10px;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    border-style: hidden;
+    display: flex;
+    
+}
+.syllabus_1 img{
+    height: 1.2rem;
+    width: 1.2rem;
+    margin-top: 0.25rem;
+    margin-right: 0.7rem;
+}
+.syllabus_1 a{
+    text-decoration: none;
+    color: #000;
+}
+.iqac_contain{
+    margin-top: 30px;
+
+}
+
+
+/* --------------------------------------------LIBRARY -----------------------------------------------------------*/
+
+
+
+
+
+
+.lib_contain{
+    margin-top: 4rem ;
+    text-align: justify;
+    width: 54.4rem;
+}
+.details_elib h3{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.details_elib{
+    margin-top: 3rem;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+
+.it_labcontain{
+    margin-left: 6rem;
+    margin-top: 30px;
+    width: 54.4rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+}
+
+.it_labcard{
+    display: flex;
+    gap: 3rem;
+}
+.lab_cardleft{
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    width: 25.5rem;
+    font-weight: 500;
+    border-radius: 15px;
+    margin-top: 1.25rem;
+}
+.lab_cardleft ul{
+    margin-left: 1rem;
+}
+.about_lib p{
+    font-size: 1rem;
+    font-size: 500;
+}
+.about_lib{
+    margin-top: 2rem;
+}
+.about_lib h4{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.about_lib ul{
+    margin-left: 1.2rem;
+}
+.lab_cardleft_heading{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+}

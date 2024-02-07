@@ -92,11 +92,11 @@
         <div class="main">
             <section class="table">
                 <ul>
-                    <a id="it_hod" href="MECH_HOD_DESk.html" class="prior">HOD's Desk</a>
+                    <a id="asge_hod" class="prior" href="MECH_HOD_DESk.html">HOD's Desk</a>
                     <a class="prior" href="MECH_FACULTY&STAFF.html">Faculty & staff</a>
                     <a class="prior" href="MECH_Roll.html">Student roll</a>
                     <a class="prior" href="MECH_TIMETABLE.html">Timetable</a>
-                    <p>Exam schedule</p>
+                    <a class="prior" href="MECH_EXAM.html">Exam schedule</a>
                     <a class="prior" href="MECH_RESULT.html">Result</a>
                     <a class="prior" href="MECH_ACTIVITIES.html">Activities</a>
                     <a class="prior" href="MECH_SYLLABUS.html">Syllabus</a>
@@ -104,19 +104,22 @@
                     <a class="prior" href="MECH_PROJECT.html">Projects</a>
                     <a class="prior" href="MECH_INDUSTRY.html">Industry institute interaction</a>
                     <a href="MECH_LAB.html" class="prior">Laboratories</a>
-                    <a href="MECH_PLACEMENT.html" class="prior">Placement record</a>
+                    <p>Placement record</p>
                 </ul>
             </section>
+            <div id="timetable">
+                <h1>Achievement and Messages</h1>
 
-            <div id="exam_section">
-                <h2 class="exam_heading">Exam Schedule</h2>
-                <div class="exam_links">
-                    <div class="exam_links_one">
-                        <img src="vector 3.png" alt="">
-                        <a href="https://firebasestorage.googleapis.com/v0/b/ait-website-81159.appspot.com/o/AIT-MECH%2FMECH-EXAM%2FSPPU%20PROR%20Sem%20I%20Exam%202023-24%20Timetable%20(TE%20BE).pdf?alt=media&token=c09c76a5-998a-48bc-8879-0a072f63e918" class="prior" id="link_exam" target="_blank">SPPU PROR Sem I Exam 2023-24 Timetable (TE BE)</a>
+                    <div class="achievement_contain">
+                        <p>All BE mechanical students are required to register their project topics at the earliest, in consultation with their respective guides.</p>
                     </div>
-                    
-                </div>
+
+                    <div class="syllabus_links">
+                        <div class="syllabus_1">
+                             <img src="vector 2.png" alt="">
+                             <a class="syllabus_links_sppu" href="https://firebasestorage.googleapis.com/v0/b/ait-website-81159.appspot.com/o/AIT-MECH%2FMECH-ACHIEVEMENT%2FAchivements22.pdf?alt=media&token=27711471-cdaf-432d-8c51-5d6ce7220c51" target="_blank">Achievements</a>
+                        </div>
+                    </div>
             </div>
         </div>
     </div>
