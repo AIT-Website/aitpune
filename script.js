@@ -84,7 +84,6 @@ function menuView(){
   }
 }
 
-  // Query to handle double tap
 var maxWidthQuery = window.matchMedia("(max-width: 800px)");
 
 function handleMaxWidthChange(e) {
@@ -102,12 +101,14 @@ function resetHeaderWidth() {
   const head = document.querySelector('#header');
   const ham = document.querySelector('#hamburger');
 
-  if (window.innerWidth < 800) {
-
-    navel.style.visibility = 'visible';
-    head.style.height = '80px';
-    ham.style.transform = 'translateY(-38px)';
+  if(window.innerWidth < 800){
+    navel.style.visibility = 'hidden';
   }
+  else{
+    navel.style.visibility = 'visible';
+  }
+  head.style.height = '80px';
+  ham.style.transform = 'translateY(-38px)';
 }
 
 window.addEventListener('resize', resetHeaderWidth);
