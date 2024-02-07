@@ -467,7 +467,7 @@ a.fetchLink.active {
     border-top-width: 1px;
     border-top-color: rgb(234, 234, 234);
     
-    padding: 11px 4px;
+    padding: 11px 0px;
 }
 
 #hod_content{
