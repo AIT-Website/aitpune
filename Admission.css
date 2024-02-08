@@ -2110,3 +2110,46 @@ padding: 1.5rem;
     font-size: 1.5rem;
     color: #4C6BF1;
 }
+
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px 10px;
+    border-left: none;
+    border-right: none;
+}
+
+thead td{
+    background-color: #4C6BF1;
+    color: #fff;
+    font-weight: lighter;
+}
+
+tbody tr{
+    background-color: #fafafa;
+}
+table {
+    font-size: 16px;
+    min-width: 55vw;
+    margin-left: 26px;
+    font-weight: 600;
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 26px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    font-weight: 500;
+}
+.lib_stafftable{
+    width: 54.4rem;
+    margin-top: 30px;
+}
+.E-journals a{
+    text-decoration: underline;
+    font-weight: 500;
+}
+.E-journals li{
+    margin-bottom: 0.5rem;
+    padding-right: 1rem;
+}
