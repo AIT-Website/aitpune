@@ -16,22 +16,24 @@
 </head>
 <body>
     <div style="position: fixed; width: 100%; z-index: 10;">
-        <div style="height: 40px; background-color: #0C2695;">
-          <div class="header_head">
+        <div class="topper">
+          <div>
             <ul class="header_items">
-                <a href="index.html">Home</a>
-                <a href="Alumini.html">Alumini</a>
-                <a href="PLACEMENT_T&P.html">Placements</a>
-                <a href="CLUBS.html">Clubs</a>
-                <a href="ADMIN_AIT.html">Admin</a>
+            <a href="ABOUT_US.html">About Us</a>
+            <a href="Alumini.html">Alumini</a>
+            <a href="PLACEMENT_T&P.html">Placements</a>
+            <a href="CLUBS.html">Clubs</a>
+            <a href="ADMIN_AIT.html">Admin</a>
             </ul>
+          </div>
         </div>
-        </div>
+        
         <div class="header" id="header">
           <div class="head">
-            <a href="index.html"><img src="AIT LOGO.png" alt="logo ait" style="width: 60.041px;"></a>
+            <a href="index.html"><img src="AIT LOGO.png" alt="logo ait" style="width: 60px;"></a>
             <a href="index.html" style="text-decoration: none ; color: #0C2695;"><p>Army Institute of Technology, Pune</p></a>
           </div>
+    
           <div style="display: flex;" class="side">
             <nav id="navele" class="navele">
             <a href="ABOUT_US.html">About Us</a>
@@ -42,70 +44,29 @@
             <img src="awes.jpg" alt="" id="always" style="height: 50px; margin-bottom: 15px;" >
             </nav>
           </div>
+    
           <div class="hamburger" onclick="menuView()">
           <div id = "hamburger">
           <img src="./img/icons/cancel.svg" alt="cancel">
           <img src="./img/icons/ham.svg" alt="ham">
           </div>
         </div>
+    
         </div>
+    
       </div>
-    <div class="wrapper">
-        <div class="header_head">
-            <ul class="header_items">
-            <a>About Us</a>
-            <a>Admissions</a>
-            <a>Research</a>
-            <a>Students</a>
-            <a>Admin</a>
-            </ul>
-
-        </div>
-        
-        <div class="header2">
-            <div class="logo_text">
-                <a href="index.html"><div class="logo_ait"><img src="AIT LOGO.png" alt="" width="60.041px">
-                </div></a>
-               <a class="logo_textpara" href="index.html" style="text-decoration: none;">
-                <p>Army Institute</p>
-                <p>of Technology, Pune</p>
-               </a>
-            </div>
-            <div class="text_part2">
-                <div class="textii">
-                    <ul>
-                        <a href="ABOUT_US.html" style="text-decoration: none; color: black;">About Us</a>
-                        <a href="Admission1.html" style="text-decoration: none; color: black;">Admissions</a>
-                        <a href="ResearchDean.html" style="text-decoration: none; color: black;">Research</a>
-                        <a href="#" style="text-decoration: none; color: black;">Students</a>
-                        <a href="ADMIN_JD.html" style="text-decoration: none; color: black;">Admin</a>
-                    </ul>
-                </div>
-                <div class="submit_img"><img src="g20.jpg" alt="" width="40px" height="45px"></div>
-            </div>
-        </div>
-
-        <div class="header3">
-            <div class="campus">
-                <img src="aitcampbanner.jpg">
-            </div>
-            <div class="content_campus">
-               <div class="para2">
-                <p>Information Technology</p>
-               </div>
-                <div class="para3">
-                    <p> 
-                        "Empowering Campus Innovation Through Technology."</p>
-                </div>
-                <div class="buttonha">
-                    <div>Explore</div>
-                </div>
+      <div class="empty" style="height: 120px;width: 100%;"></div>
+    <div class="header3">
+            <div class="show">
+                <p class="a">Information Technology</p>
+                <p class="b"> "Empowering Campus Innovation Through Technology." </p>
+                <p class="c"> <a href="#main">Explore</a> </p>
             </div>
         </div>
        
         <div class="about_us">
-            <div class="about_content">
-                <h2 class="ab">About</h2>
+            <div class="main_content">
+                <h2 class="ab" style="text-align: left;">About</h2>
                 <p class="about_vision">Vision</p>
                 <p class="about_content">We strive to empower the students with knowledge of all basic engineering and applied science subjects and to provide avenues for development of their physical, intellectual, emotional and spiritual quotients.</p>
                 <p class="about_mission">Mission</p>
@@ -118,31 +79,29 @@
                     </ul>
                 </div>
             </div>
-            <div class="rectangle_blue"></div>
             <div class="about_image">
                 <img src="Rectangle 61.png">
             </div>
         </div>
-
-        
-        <div class="main">
-            <section class="table">
+        <div id="box_hide" onclick="change_view()"></div>
+        <div class="main" id="main">
+            <section class="jd_table">
                 <ul>
                     <a href="IT_HOD_DESk.html" class="fetchLink" data-elementid="hod_content" style="border-top: none;">HOD's Desk</a>
-                    <a href="IT_FACULTY&STAFF.html" class="fetchLink" data-elementid="faculty_asge">Faculty & staff</a>
-                    <a href="IT_Roll.html" class="fetchLink" data-elementid="student_roll">Student roll</a>
-                    <a href="IT_TIMETABLE.html" class="fetchLink" data-elementid="timetable">Timetable</a>
-                    <a href="IT_EXAM.html" class="fetchLink" data-elementid="exam_section">Exam schedule</a>
-                    <a href="IT_RESULT.html" class="fetchLink" data-elementid="result_asge">Result</a>
-                    <a href="IT_ACTIVITIES.html" class="fetchLink" data-elementid="activity_content">Activities</a>
-                    <a href="IT_NOTICES.html" class="fetchLink" data-elementid="Notices">Notices</a>
-                    <a href="IT_SYLLABUS.html" class="fetchLink" data-elementid="asge_syllabus">Syllabus</a>
-                    <a href="IT_RESEARCH.html" class="fetchLink" data-elementid="RandD">Research & development</a>
-                    <a href="IT_PROJECT.html" class="fetchLink" data-elementid="project">Projects</a>
-                    <a href="IT_INDUSTRY.html" class="fetchLink" data-elementid="RandD">Industry institute interaction</a>
-                    <a href="IT_LAB.html" class="fetchLink" data-elementid="lab-section">Laboratories</a>
-                    <a href="IT_PLACEMENT.html" class="fetchLink" data-elementid="timetable">Placement record</a>
-                    <a href="IT_MAGZINE.html" class="fetchLink" data-elementid="timetable">E-Magazine</a>
+                    <a href="Departments/IT/IT_FACULTY&STAFF.html" class="fetchLink" data-elementid="faculty_asge">Faculty & staff</a>
+                    <a href="Departments/IT/IT_Roll.html" class="fetchLink" data-elementid="student_roll">Student roll</a>
+                    <a href="Departments/IT/IT_TIMETABLE.html" class="fetchLink" data-elementid="timetable">Timetable</a>
+                    <a href="Departments/IT/IT_EXAM.html" class="fetchLink" data-elementid="exam_section">Exam schedule</a>
+                    <a href="Departments/IT/IT_RESULT.html" class="fetchLink" data-elementid="result_asge">Result</a>
+                    <a href="Departments/IT/IT_ACTIVITIES.html" class="fetchLink" data-elementid="activity_content">Activities</a>
+                    <a href="Departments/IT/IT_NOTICES.html" class="fetchLink" data-elementid="Notices">Notices</a>
+                    <a href="Departments/IT/IT_SYLLABUS.html" class="fetchLink" data-elementid="asge_syllabus">Syllabus</a>
+                    <a href="Departments/IT/IT_RESEARCH.html" class="fetchLink" data-elementid="RandD">Research & development</a>
+                    <a href="Departments/IT/IT_PROJECT.html" class="fetchLink" data-elementid="project">Projects</a>
+                    <a href="Departments/IT/IT_INDUSTRY.html" class="fetchLink" data-elementid="RandD">Industry institute interaction</a>
+                    <a href="Departments/IT/IT_LAB.html" class="fetchLink" data-elementid="lab-section">Laboratories</a>
+                    <a href="Departments/IT/IT_PLACEMENT.html" class="fetchLink" data-elementid="timetable">Placement record</a>
+                    <a href="Departments/IT/IT_MAGZINE.html" class="fetchLink" data-elementid="timetable">E-Magazine</a>
                 </ul>
             </section>
             <div id="mainContent">
@@ -183,13 +142,13 @@
                             <br>
                             We are confident that our students will emerge as assets not only for this Institute but also for the country at large.
                         </p>
-                        
                     </div>
+
                 </div>
             </div>    
         </div>
     </div>
-    
+    <script src="buttons.js"></script>
     <script>
         function fetchAndDisplaySpecificContent(pageUrl, elementId) {
             fetch(pageUrl)
@@ -254,7 +213,7 @@
     });
         const HODLink = document.querySelector('[data-elementid="hod_content"]');
         HODLink.style.fontWeight = 'bold';
-        HODLink.style.color = '#0c2695';
+        HODLink.style.color = '#0c2695';
     
 
         function hideAllExceptCurrent(currentElementId) {
