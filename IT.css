@@ -334,10 +334,10 @@ body{
     align-items: center;
     position: relative;
     padding: 0 11.45%;
+    gap: 5rem;
     background-image: linear-gradient(90deg, #fff 69%,#fff 1%, #3654D2 30%);
 }
 .main_content{
-    width: 30vw;
     text-align: justify;
 }
 .ab{
@@ -409,9 +409,9 @@ line-height: 24px; /* 150% */
 }
 
 @media only screen and (max-width : 1350px){
-    .main_content{
+    /* .main_content{
         width:max(400px,60vw);
-    }
+    } */
     .about_image{
         display: none;
     }
@@ -435,6 +435,7 @@ line-height: 24px; /* 150% */
     display: flex;
     gap: 1.88rem;
     padding: 0 11.45%;
+    margin-top: 7%;
 }
 
 .jd_table{
@@ -639,7 +640,6 @@ margin-top: 20px;
 
 
 
-
 #lab-section{
     font-family: 'Plus Jakarta Sans';
 }
@@ -764,7 +764,7 @@ line-height: 1.5rem;
 .lab_cardleft{
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     padding: 1rem;
-    width: 25.5rem;
+    width: 40%;
     font-weight: 500;
     border-radius: 15px;
     margin-top: 1.25rem;
@@ -844,11 +844,12 @@ line-height: normal;
     display: flex;
     flex-direction: column;
     margin-top: 2.5rem;
+    width: 54.4rem;
     gap: 25px;
 }
 
 .syllabus_1{
-    width: 54.4rem;
+   
     height: 6rem;
     flex-shrink: 0;
     border: 2px solid black;
@@ -1019,13 +1020,14 @@ text-decoration: none;
     display: inline-block;
     border-radius: 16px;
     box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
-    margin-left: 25px;
+    margin-right: 1.2rem;
+    padding: 11px;
 }
 
 .inside-card{
-    width: 270px;
+    width: 100%;
+    width: 248px;
     height: 193px;
-    margin-left: 1rem;
     padding-top: 24px;
 }
 
@@ -1575,7 +1577,7 @@ margin-bottom: 20px;
 }
 .indp{
     margin-bottom: 25px;
-    width: 54.4rem;
+   
     height: 18.875rem;
     border: 1px solid rgba(234,234,234,1);
     flex-shrink: 0;
@@ -1596,7 +1598,7 @@ margin-bottom: 20px;
     font-style: normal;
     font-weight: 500;
     line-height: 1.5rem; /* 150% */
-    width: 48.75rem;
+    /* width: 48.75rem; */
     min-height: fit-content;
     
     flex-shrink: 0;
@@ -1608,7 +1610,7 @@ margin-bottom: 20px;
 }
 .indp-mous {
     margin-bottom: 25px;
-    width: 54.4rem;
+   
     height: 10.5rem;
     border: 1px solid rgba(234,234,234,1);
     flex-shrink: 0;
@@ -1636,6 +1638,14 @@ font-weight: 500;
 line-height: 1.5rem; /* 160% */
 
 }
+
+#act_aicte{
+    font-size: 1.25rem;
+    color: #000;
+    font-weight: 500;
+
+}
+
 .indp_content{
     margin-top: 0.8rem;
     margin-left: 1.5rem;
@@ -1914,6 +1924,11 @@ padding-left: 0.8rem;
     font-size: 1.5rem;
     display: inline-block;
 }
+
+#RandD h2{
+    color: #0C2695; 
+     font-size: 2rem;
+}
 .item{
     display: flex;
     gap: 0.6rem;
@@ -1935,6 +1950,18 @@ padding-left: 0.8rem;
     line-height: normal;
     margin-bottom: 20px;
 }
+#RandD h4 {
+    color: #6D6D6D;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
 
 #RandD .pub{
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
@@ -1953,10 +1980,11 @@ padding-left: 0.8rem;
     text-edge: cap;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Plus Jakarta Sans;
-    font-size: 1.4785rem;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 500;
-    line-height: 1.4785rem; /* 100% */
+    padding-top: 0.5rem;
+    line-height: 1.25rem; /* 100% */
 }
 #research_year{
     color: #000;
@@ -2132,7 +2160,7 @@ line-height: 1.4785rem; /* 147.849% */
 }
 
 .dtab{
-    /* margin: 10rem 10rem 10rem 10rem; */
+
     width: 54.3rem;
 }
 
@@ -2151,8 +2179,8 @@ line-height: 1.4785rem; /* 147.849% */
     font-weight: 400;
     line-height: 1.2rem; /* 100% */
     /* text-transform: capitalize; */
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
+    padding-right: 0.2rem;
+    padding-left: 0.2rem;
     border-right: 1px solid rgba(162, 168, 173, 0.80);
 }
 
@@ -2174,7 +2202,7 @@ line-height: 1.4785rem; /* 147.849% */
     color: var(--Body-text, #3C3737);
     text-align: center;
     font-family: Plus Jakarta Sans;
-    font-size: 1.00588rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -2198,7 +2226,7 @@ line-height: 1.4785rem; /* 147.849% */
 } */
 
 .ResearchAchivement{
-    width: 863px;
+    width: 54.4rem;
     box-shadow: 0px 1px  1px rgb(0, 0, 0,0.3);
     border-radius: 10px;
     margin-bottom: 30px;
@@ -2209,7 +2237,7 @@ line-height: 1.4785rem; /* 147.849% */
     height: 80px;
     flex-shrink: 0;
     display: flex;
-    justify-content: space-evenly;
+    /* justify-content: space-evenly; */
     overflow: hidden;
     box-sizing: border-box;
     
@@ -2217,6 +2245,7 @@ line-height: 1.4785rem; /* 147.849% */
 
 .greylist{
     background-color: #fafafae7;
+    
 }
 .ResearchAchivement .srno{
 font-feature-settings: 'clig' off, 'liga' off;
@@ -2225,31 +2254,31 @@ font-size: 1rem;
 font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 171.429% */
-width: 150px;
-text-align: center;
+width: 15%;
+margin-left: 1rem;
+/* text-align: center; */
 padding-top: 25px;
 }
 .ResearchAchivement .month{
-    width: 166px;
+    width: 30%;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Plus Jakarta Sans;
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 24px; /* 171.429% */
-    text-align: center;
+    /* text-align: center; */
     padding-top: 25px;
 }
 
 .ResearchAchivement .particulars{
-    width: 507px;
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Plus Jakarta Sans;
 font-size: 1rem;
 font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 171.429% */
-text-align: center;
+ text-align: center; 
 padding-top: 25px;
 }
 
@@ -2380,9 +2409,8 @@ padding: 10px;
 /* ----------------------------------------About Department ------------------------------*/
 
 .dep_contain{
-    margin-left: 1.875rem;
     margin-top: 30px;
-    width: 54.4rem;
+   
 }
 .dep_contain_number{
     color: #000;
@@ -2398,7 +2426,6 @@ padding: 10px;
     margin-bottom: 1.25rem;
 }
 .peos{
-    width: 54.4rem;
     text-align: justify;
 }
 .pos h3{
@@ -2414,7 +2441,7 @@ padding: 10px;
     margin-bottom: 0.4rem;
 }
 .pso{
-    width: 54.4rem;
+   
     text-align: justify;
 }
 .pso h3{
@@ -2460,9 +2487,11 @@ padding: 10px;
 
 
 /* -------------------------------------------AAC MINUTES & DEPARTMENT MEATINGS -----------------------*/
-
+.aac_table{
+    width: 100%;
+}
 .aac_head{
-    width: 54.4rem;
+    width: 100%;
     height: 3.5rem;
     flex-shrink: 0;
     display: flex;
@@ -2477,7 +2506,7 @@ padding: 10px;
     padding-left: 1rem;
 }
 .aac_left{
-    width: 26rem;
+    width: 50%;
 }
 .aac_down1{
     width: 54.4rem;
@@ -2492,9 +2521,6 @@ padding: 10px;
     margin-top: 1rem;
     color: #000;
     padding-left: 1rem;
-}
-.aac_left{
-    width: 26rem;
 }
 .aac_right{
     display: flex;
@@ -2513,7 +2539,7 @@ padding: 10px;
     color: #000;
 }
 .aac_down2{
-    width: 54.4rem;
+   width: 54.4rem;
     height: 3.5rem;
     flex-shrink: 0;
     display: flex;
@@ -2723,8 +2749,8 @@ padding: 10px;
         text-align: center;
     }
     .main{
-    justify-content: center;
-    padding: 0 0;
+    /* justify-content: center; */
+    padding: 0 2%;
     }
     #link_external{
         width: initial;
@@ -2758,4 +2784,639 @@ padding: 10px;
     #link_external{
         font-size: .7rem;
     }
+    .ResearchAchivement{
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  screen and(max-width:750px) {
+    .head_ok{
+    text-align: center;
+    font-size: 24px;
+    /* width: 100%; */
+    }
+}
+
+  
+  @media only screen and (max-width: 1350px) {
+    .about{
+      background-image: linear-gradient(#0C2695 40%,#fff 1%, #fff 59%);
+      justify-content: space-around;
+    }
+  }
+
+  @media screen and (max-width:700px){
+    .para2{
+        width: 340px;
+        margin: 0px auto;
+        font-size: 20px;
+        height: 50px;
+    }
+    .para2 p {
+        font-size: 20px;
+    }
+    .para3{
+
+        width: 380px;
+        height: 70px;
+        font-size: 20px;
+        margin: 0px auto;
+    }
+    .buttonha{
+        height: 45px;
+        width: 80px;
+        margin: 50px auto;
+    }
+    .content_campus{
+        text-align: center;
+    }
+    .header3{
+        height: 400px;
+    }
+    .about_us{
+        display: block;
+        margin-top: 50px;
+    }
+    .ab{
+        text-align: center;
+        margin:0px auto;
+        font-size: 24px;
+    }
+    .about_content{
+        margin: 0px auto;
+        padding: 5px;
+        width: auto;
+    }
+    .about_vision{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .about_mission{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .about_list{
+        margin: 0px auto;
+        padding: 5px;
+        width: auto;
+    }
+    #hod_content{
+        text-align: center;
+        margin-top: 40px;
+    }
+    .head_ok{
+        font-size: 24px;
+        margin-left: 0px;
+    }
+    .hod_content2{
+        margin:0px auto;
+        padding: 10px;
+    }
+    .hod_contain{
+        text-align: left;
+    }
+    .hod_pic{
+        /* margin:0px auto; */
+    }
+    .hod_text{
+        width: 100%;
+        text-align: left;
+    }
+    .reading_more{
+        visibility: hidden;
+    }
+    
+    .hod_pic img{
+        margin: auto 1px;
+    }
+
+
+    #student_roll{
+        margin: 40px auto;
+        padding: 10px;
+    }
+    #student_roll h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .project_more{
+        width: 100%;
+    }
+
+
+    #timetable{
+        margin: 40px auto;
+        padding: 10px;
+    }
+    #timetable h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .exam_links_two {
+        width: 100%;
+    }
+    .exam_links_one{
+        width: 100%;
+    }
+
+
+    #exam_section {
+        margin: 40px auto;
+        padding: 10px;
+    }
+    .exam_heading {
+        font-size: 24px;
+        text-align: center;
+    }
+
+
+
+
+
+    #result_asge{
+        margin: 40px auto;
+        padding: 10px;
+    }
+    .result_asge_re {
+        font-size: 24px;
+        text-align: center;
+    }
+    .result_final{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .result_asge_card{
+        width: 11rem;
+        height: 16rem;
+    }
+
+
+
+
+
+    #activity_content{
+        margin: 40px auto;
+        padding: 10px;
+    }
+    #activity_content h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .indp{
+        width: 100%;
+    }
+
+
+
+
+    #Notices{
+        margin: 40px auto;
+        padding: 10px;
+    }
+    #Notices h2{
+        font-size: 24px;
+        text-align: center;
+    }
+    .notices_info{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+
+    #project{
+        margin: 40px auto;
+        padding: 10px;
+    }
+    #project h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    .project_para{
+        margin: 14px 0px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .project_lists{
+        flex-wrap: wrap;
+        width: 100%;
+        height: fit-content;
+
+    }
+    .project_img_topic{
+        margin: 0px auto;
+        min-height: 270px;
+    }
+    .poject_topic_name{
+        margin-top: 0.5rem;
+
+    }
+    #project_faculty_incharge{
+        margin: 0.5rem 0px;
+    }
+
+
+
+
+    #lab-section{
+        margin: 40px auto;
+        padding: 10px;
+    }
+    #lab-heading {
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .rectangle_blue{
+        visibility: hidden;
+    }
+    .about_image{
+        visibility: hidden;
+    }
+
+
+    .softwarelab-1{
+        margin:30px auto;
+        padding: 0px;
+        width: 100%;
+    }
+    #sw1{
+        font-size: 18px;
+        margin: 20px 0px;
+    }
+    #sw-lab1-pic{
+        padding-top: 0px;
+        width: 100%;
+        height: 250px;
+    }
+    .view_more{
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    #industrial_visit{
+        margin: 40px auto;
+        padding: 10px;
+    }
+    #industrial_visit h1{
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    #industrial_visit p{
+        margin: 14px 0px;
+        font-size: 16px;
+    }
+    .industrial_visit_links{
+        width: 100%;
+    }
+
+    #faculty_asge{
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .cards{
+        margin: 40px auto;
+        padding: 10px;
+        
+    }
+    .faculty-heading {
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+
+
+
+    #asge_syllabus{
+        margin: 40px auto;
+        padding: 10px;
+    }
+
+    #fe_Sylabus{
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0px;
+    }
+
+    .syllabus_links{
+        width: 100%;
+    }
+    .syllabus_1{
+        width: 100%;
+    }
+
+
+
+    #RandD{
+        
+        padding: 10px; 
+    }
+    #RandD h1{
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+    }
+    #RandD .pub {
+        width: 100%;
+    }
+    #RandD h6 {
+        margin: 14px 0px;
+    font-size: 16px;
+    }
+    
+    .cards{
+        flex-direction: column;
+    }
+    #emailid{
+        font-size: 0.8rem;
+    }
+    #mainContent{
+        width: 100%;
+    }
+
+    .faculty-image img{
+        right: 0px;
+    }
+    .view_more a{
+       margin-left: auto;
+       margin-right: auto;
+    }
+    .project_more h3{
+        font-size: 1.2rem;
+    }
+    .result_img img{
+        width: 100%;
+        height: auto;
+    }
+    .achievement_mainbox {
+        flex: wrap;
+    }
+    .indp{
+        width: auto;
+    }
+    .aac_down1{
+        width: 100%;
+
+    }
+    .aac_down2{
+        width: 100%;
+    }
+    .greylist{
+        width: 100%;
+    }
+    .it_labcard{
+        flex-direction: column;
+    }
+    .lab_cardleft{
+        width: 100%;
+    }
+
+
+    .dtab{
+        width: 100%;
+    }
+    .it_labcontain{
+        width: 100%;
+    }
+    
+
+    .drow2{
+        font-size: 0.7rem;
+    }
+    .drow1{
+        font-size: 0.6rem;
+    }
+
+    .ResearchAchivement .month{
+        font-size: 0.7rem;
+        margin: auto 6%;
+        padding-top: 0px;
+    }
+    .ResearchAchivement .particulars{
+        font-size: 0.7rem;
+        padding-top: 0px;
+        margin: auto 1%;
+
+    }
+    .ResearchAchivement .srno{
+        font-size: 0.7rem;
+    }
+    .achievement_mainbox{
+        flex: wrap;
+    }
+    .syllabus_links{
+        width: 100%;
+    }
+   
+    .peos h3{
+        font-size: 1.2rem;
+    }
+    .pos h3{
+        font-size: 1.2rem;
+    }
+    
+    .pso h3{
+        font-size: 1.2rem;
+    }
+
+    .dep_contain{
+        font-size: 0.8rem;
+    }
+    .dep_contain ul{
+        font-size: 0.8rem;
+    }
+    .dep_contain_number{
+        font-size: 0.8rem;
+    }
+    .hod_name{
+        font-size: 1.2rem;
+    }
+    .parra1{
+        font-size: 0.8rem;
+    }
+    .project_more {
+        font-size: 0.8rem;
+    }
+    #link_exam{
+        font-size: 0.8rem;
+
+    }
+    #link_exam img{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    #result_asge{
+        font-size: 1.2rem;
+    }
+    .result_of_se{
+        font-size: 1.2rem;
+    }
+    .result_name a{
+        font-size: 0.8rem;
+    }
+    #activity_content  h3{
+        font-size: 1.2rem;
+    }
+    #activity_content {
+        font-size: 0.8rem;
+    }
+   #act_aicte{
+    font-size: 1rem;
+   }
+   #RandD h2{
+    font-size: 1.5rem;
+    text-align: center;
+   }
+   .achievement_mainbox{
+    flex-wrap: wrap;
+   }
+   #syllabus_final a{
+    margin-top: -1rem;
+}
+    #myTable{
+    width: 100%;
+    font-size: 0.8rem;
+    /* padding: 8px 6px; */
+    margin-right: 10px;
+    /* margin: 10px; */
+}
+    #myTable td {
+    /* padding: 8px 10px; */
+    font-size: 0.7rem;
+    }
+    #tabbu{
+        text-align: left;
+    }
+    .special_content h3{
+        font-size: 1.25rem;
+    }
+   
+}
+
+  
+
+
+  .Industry_list{
+    font-weight: 500;
+    font-size: 1rem;
+    margin-left: 1.2rem;
+
+  }
+
+  .visit_contain1 h3{
+    margin-top: 30px;
+    margin-bottom: none;
+  }
+  #achieve_list{
+    margin-top: 0px;
+  }
+
+  .message_ach{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+#mous{
+    color: #000;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+}
+#hod1_asge{
+        margin-top: 30px;
+        padding: 1.5px;
+        display: flex;
+        gap: 1rem;
+}
+#hod1_asge img{
+    border-radius: 50%;
+    width: 9rem;
+height: 9rem;
+}
+#name_ofhod{
+    margin-top: 1.5rem;
+}
+.project_div{
+    font-size: 1.25rem;
+    color: #0C2695;
+}
+
+
+#row{
+    background-color: #fafafa;
+    /* padding-left: 1rem; */
+    padding-right: 1rem;
+    /* min-width: 5.4rem; */
+}
+#myTable td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 20px 10px;
+    border-left: none;
+    border-right: none;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+    /* text-align: center; */
+}
+#myTable thead {
+    background-color: #4C6BF1;
+    color: #fff;
+    /* font-weight: 600; */
+    /* border-radius: 10px 10px 0 0; */
+    /* text-align: center; */
+}
+#myTable {
+    font-size: 1rem;
+    /* width: inherit; */
+    /* width: 57rem; */
+    /* width: 54.4rem; */
+    border-collapse: collapse;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    /* text-align: center; */
+}
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    border-spacing: 2px;
+    border-color: gray;
+    width: 54.4rem;
+    
 }
