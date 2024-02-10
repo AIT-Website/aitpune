@@ -39,7 +39,7 @@ body {
   text-align: center;
   overflow: hidden;
   font-size: 0.875rem;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
   gap : 10%;
 }
 
@@ -223,7 +223,7 @@ body {
   font-weight: 500;
   line-height: normal;
   white-space: nowrap;
-  animation: moveit 18000ms linear infinite ;
+  animation: moveit 50s linear infinite ;
 }
 @keyframes moveit{
   0%{
@@ -264,13 +264,13 @@ body {
 
 }
 .slide1{
-  background: url("./aitbanner.jpg") no-repeat;
+  background: url("/assets/home/aitcampus.jpg") no-repeat;
 }
 .slide2{
-  background: url("./aitbanner2.png") no-repeat;
+  background: url("/assets/home/aitmain.jpg") no-repeat;
 }
 .slide3{
-  background: url("./aitbanner.jpg") no-repeat;
+  background: url("/assets/home/b.png") no-repeat;
 }
 
 /* --------------------- */
@@ -304,6 +304,7 @@ button {
 }
 
 .first .show{
+  z-index: 1;
   position: absolute;
   top : 0;
   place-content: center; /* for making the items center*/
@@ -359,6 +360,14 @@ button {
   font-weight: bold;
   font-size: 15px;
   text-decoration: none;
+}
+
+.first div .c a{
+  text-decoration: none;
+}
+
+.first div .c a:hover{
+  text-decoration: underline;
 }
 /* for .c */
 .first a{
@@ -429,7 +438,7 @@ nav bar and first section complete
   font-weight: 500;
   line-height: 23px;
   margin: 30px 20px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .card-container .cards img{
@@ -459,12 +468,10 @@ nav bar and first section complete
   display: flex;
   background-image: linear-gradient(90deg, #0C2695 40%,#fff 1%, #fff 59%);
   flex-direction: row;
-  /* flex-wrap: wrap; */
   justify-content: center;
   gap:100px;
   justify-items: center;
   text-align: center;
-
   margin: auto;
   max-height:1000px;
 }
@@ -502,30 +509,52 @@ nav bar and first section complete
   font-weight: 400;
   line-height: 24px;
 }
-.about .content .bluebar, .Departments .top .bluebar{
+
+.about .content .bluebar, .Departments .top .bluebar, .bluebarb{
   background-color: #0C2695;
   color: #fff;
   font-size: 16px;
-  height: 25px;
   border-radius: 10px;
-  padding: 20px 20px;
+  padding: 20px 10px;
   display: flex;
   justify-content: space-evenly;
+  justify-content: center;
   cursor: pointer;
+  height: max-content;
+  text-wrap: nowrap;
+}
+
+.bluebarb{
+  display: none;
+}
+
+.card-container .cards .bluebar:hover, .Departments .top .bluebar:hover, .about .content .bluebar:hover{
+  background-color: #dfdfdf;
+  color: #0C2695;
+  font-weight: 600;
+  transition: 0.10s;
 }
 
 @media only screen and (max-width: 1200px) {
   .about{
     background-image: linear-gradient(#0C2695 40%,#fff 1%, #fff 59%);
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
+    padding: 60px 11.45%;
+  }
+  .about .content{
+    width: auto;
+    text-align: left;
+  }
+  .about .player{
+    width:100%;
+    height: 500px;
   }
 }
 
 @media only screen and (max-width: 554px) {
   .about .player{
-    width: 300px;
+    width: 100%;
     height: 200px;
     margin-top: 10%;
   }
@@ -540,13 +569,19 @@ nav bar and first section complete
   }
 }
 
+p{
+  text-align: justify;
+}
 /* ----------------------------------------------------- */
 .Departments .top{
   display: flex; 
-  flex-wrap: nowrap; 
   justify-content: space-around;
   font-size: 16px;
   margin: auto;
+  gap: 1rem;
+}
+.cards p{
+  text-align: center;
 }
 .cards a{
   text-decoration: none;
@@ -567,8 +602,8 @@ nav bar and first section complete
   font-weight: 500;
   padding: 14px 24px;
   margin: 15px;
-
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  text-align: left;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   justify-content: center;
   border-radius: 20px;
   font-size: 16px;
@@ -611,7 +646,7 @@ nav bar and first section complete
   background-size: cover;
   font-weight: 500;
   margin: 15px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
   justify-content: center;
   border-radius: 20px;
   font-size: 16px;
@@ -713,7 +748,6 @@ button {
 
 }
 .links{
-
   display: flex;
   justify-content: space-evenly;
 }
@@ -738,14 +772,11 @@ button {
   display: flex;
   justify-content: center;
 }
-
-
 .importantLinks .linkinfo{
   font-size: 16px;
-  width: 100%;
   cursor: pointer;
   text-align: center;
-  
+  text-decoration: none;
 }
 .logoimg{
   height: 40px;
@@ -858,12 +889,17 @@ hr{
   flex-direction: column;
 }
 .importantLinks .row{
-  width: 60px;
+  width: 100px;
   margin: 10px auto;
 }
 .footer_image{
 
   margin:auto;
 }
-  
+.Departments .top .bluebar, .about .content .bluebar{
+  display: none;
+} 
+.bluebarb{
+  display: flex;
+}
 }
