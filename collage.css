@@ -264,13 +264,13 @@ body {
 
 }
 .slide1{
-  background: url("/assets/home/aitcampus.jpg") no-repeat;
+  background: url("./assets/home/aitcampus.jpg") no-repeat;
 }
 .slide2{
-  background: url("/assets/home/aitmain.jpg") no-repeat;
+  background: url("./assets/home/aitmain.jpg") no-repeat;
 }
 .slide3{
-  background: url("/assets/home/b.png") no-repeat;
+  background: url("./assets/home/b.png") no-repeat;
 }
 
 /* --------------------- */
