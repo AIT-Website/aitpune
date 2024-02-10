@@ -3435,3 +3435,169 @@ table {
     width: 54.4rem;
     
 }
+
+
+
+
+
+/* --------------------------------------------LIBRARY-------------------------------------------- */
+
+
+
+.fetch-link.active {
+    color: #0c2695;
+    font-weight: bold;
+}
+
+
+
+.image_library{
+    display: flex;
+    gap: 1.2rem;
+}
+.image_library img{
+    height: 15rem;
+    width: 17rem;
+}
+#E-lib{
+    margin-top: 3rem;
+}
+
+.generalinfo h2{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Plus Jakarta Sans;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.generalinfo{
+    justify-content: center;
+}
+.details_elib h3{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.details_elib{
+    margin-top: 3rem;
+}
+
+
+.image_library{
+    margin-top: 30px;
+    margin-bottom: 2rem;
+}
+
+.about_lib p{
+    font-size: 1rem;
+    font-size: 500;
+    
+}
+.about_lib{
+    margin-top: 2rem;
+    justify-content: center;
+}
+.about_lib h4{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.about_lib ul{
+    margin-left: 1.2rem;
+}
+.lab_cardleft_heading{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+}
+
+
+#e_lib{
+    color: steelblue;
+    font-weight: 500;
+}
+
+#card_left{
+    font-size: 1.25rem;
+}
+
+#jounarls{
+    text-decoration: underline;
+    font-weight: 500;
+    margin-top: 0px;
+}
+#jounarls ul{
+    margin-top: none;
+    
+}
+#jounarls ul li{
+    margin-bottom: 0.3rem;
+}
+
+.contact1 img{
+    width: 1.125rem;
+height: 1.125rem;
+flex-shrink: 0;
+}
+.contact1{
+    display: flex;
+    gap: 0.5rem;
+}
+.contact1 p{
+    color: #000;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Plus Jakarta Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25rem; /* 125% */
+}
+
+.contact_con2{
+    width: 54rem;
+    height: 9.25rem;
+flex-shrink: 0;
+border-radius: 10px;
+/* border: solid 0.1px rgba(0, 0, 0, 0.1); */
+box-shadow: 1px 1px 3px rgba(0, 0,0,0.2);
+/* padding-left: 1.31rem; */
+padding: 1.5rem;
+}
+
+@media screen and (max-width:700px){
+    .image_library{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .details_elib h3{
+        font-size: 1rem;
+    }
+
+    .it_labcard {
+        gap: 1rem;
+    }
+    .generalinfo h2{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .about_lib h4{
+        font-size: 1.2rem;
+        margin-bottom: 0.7rem;
+    }
+    #card_left{
+        font-size: 1rem;
+    }
+    #useful_link{
+        font-size: 1.2rem;
+    }
+    #E-button{
+        display: flex;
+        justify-content: center;
+    }
+}
