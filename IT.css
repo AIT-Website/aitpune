@@ -3601,3 +3601,66 @@ padding: 1.5rem;
         justify-content: center;
     }
 }
+
+
+
+/* ---------------------------------------------Admistration---------------------------------------------------------- */
+
+
+.items ul{
+    margin-left: 1.2rem;
+}
+#director_pic{
+    margin-top: 3.2rem;
+}
+#items_list li{
+    margin-left: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#greivance{
+    margin-top: 0px;
+}
+
+#Institute_para{
+    margin-top: 30px;
+    font-size: 1.25rem;
+}
+
+
+@media screen and (max-width:700px){
+
+    #hirerchy{
+        width: 100%;
+        height: auto;
+}
+.items{
+    width: 100%;
+    font-size: 0.8rem;
+}
+#greivance{
+    text-align: left;
+}
+#E-button{
+    transform: scale(0.7);
+}
+#Institute_para{
+    font-size: 1rem;
+}
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+#highlight{
+    color: #4C6BF1;
+    font-weight: 600;
+    border: 2px solid #4C6BF1;
+    padding: 0.2rem;
+    border-radius:0.5rem;
+}
+
+
+
+/* ///////////////////////////////////////////////////////////////////////////////////// */
