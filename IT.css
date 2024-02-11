@@ -113,9 +113,8 @@ body{
     color: #FFF;
   }
   .header_items a:hover{
-    border-radius: 5px;
-    background: white;
-    color: #0C2695;
+    font-weight: 600;
+    transform: scale(1.1);
     transition: .25s;
   }
   .header .head{
@@ -153,10 +152,12 @@ body{
       font-weight: 500;
   }
   .header nav a:hover{
-    background: #3654D2;
-    color: white;
-    border-radius: 5px;
+    transform: scale(1.1);
+    font-weight: 600;
     transition: .35s;
+  }
+  .header nav a img:hover{
+    transform: none;
   }
   /* ------------------------ */
   
@@ -402,10 +403,12 @@ line-height: 24px; /* 150% */
     flex-shrink: 0;
     z-index: 2;
     padding: 50px 10px;
+
 } 
 .about_image img{
     width: 540px;
     height: 300px;
+    border-radius: 1rem;
 }
 
 @media only screen and (max-width : 1350px){
@@ -734,14 +737,28 @@ line-height: 1.5rem;
 }
 
 .view_more{
-    padding-top: 1.2rem;
+    margin-bottom: 0px;
     display: flex;
     text-decoration: none;
+    height:2rem;
+    background-color: #4C6BF1;
+    justify-content: center;
+    margin-left: -11px;
+    margin-right: -11px;
+    margin-bottom: -25px;
+   border-bottom-left-radius: 1rem;
+   border-bottom-right-radius: 1rem;
 }
 .view_more a{
-    margin-top: none;
+    margin-top: 0.2rem;
     font-size: 1rem;
     text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    text-decoration: none;
+}
+.view_more a:hover{
+    transform: scale(1.1);
 }
 .view_more img{
     height: 1.2rem;
@@ -1016,7 +1033,7 @@ text-decoration: none;
 
 .card{
     margin-bottom: 25px;
-    height: 340px;
+    height: 333px;
     display: inline-block;
     border-radius: 16px;
     box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
@@ -1032,7 +1049,7 @@ text-decoration: none;
 }
 
 .faculty-heading{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 color: #0C2695;
 leading-trim: both;
 text-edge: cap;
@@ -1115,14 +1132,12 @@ line-height: 1.5rem; /* 171.429% */
     padding-top: 1px;
 }
 .view_more{
-    color: #0C2695;
 font-feature-settings: 'clig' off, 'liga' off;
 font-size: 0.875rem;
 font-style: normal;
 font-weight: 600;
 line-height: 1.5rem; /* 171.429% */
-text-decoration-line: underline;
-margin-top: 0.3rem;
+margin-top: 1rem;
 
 }
 
@@ -1140,6 +1155,7 @@ margin-top: 0.3rem;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    margin-bottom: 30px;
 }
 .result_asge_card{
     width: 16rem;
@@ -1661,7 +1677,6 @@ line-height: 1.5rem; /* 160% */
 /* ------------------------------------------industrial----------------------------------------------------- */
 #industrial_visit{
     font-family: 'Plus Jakarta Sans';
-    margin-top: 7rem;
 }
 #industrial_visit h1{
     color: #0C2695;
@@ -1670,8 +1685,8 @@ line-height: 1.5rem; /* 160% */
 }
 #industrial_visit p{
     color: #6D6D6D;
-    margin-top: 18px;
-    margin-bottom:18px ;
+    margin-top: 30px;
+    
     font-size: 1.2rem;
     margin-bottom: 20px;
 }
@@ -1883,7 +1898,7 @@ line-height: normal;
 .exam_links{
     display: flex;
     flex-direction: column;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .exam_links_one{
     width: 54.3rem;
@@ -1959,7 +1974,7 @@ padding-left: 0.8rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-top: 18px;
+    margin-top: 30px;
     margin-bottom: 20px;
 }
 
@@ -3319,8 +3334,6 @@ padding: 10px;
    
 }
 
-  
-
 
   .Industry_list{
     font-weight: 500;
@@ -3419,4 +3432,378 @@ table {
     border-color: gray;
     width: 54.4rem;
     
+}
+
+
+
+
+
+/* --------------------------------------------LIBRARY-------------------------------------------- */
+
+
+
+.fetch-link.active {
+    color: #0c2695;
+    font-weight: bold;
+}
+
+
+
+.image_library{
+    display: flex;
+    gap: 1.2rem;
+}
+.image_library img{
+    height: 15rem;
+    width: 17rem;
+}
+#E-lib{
+    margin-top: 3rem;
+}
+
+.generalinfo h2{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Plus Jakarta Sans;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.generalinfo{
+    justify-content: center;
+}
+.details_elib h3{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.details_elib{
+    margin-top: 3rem;
+}
+
+
+.image_library{
+    margin-top: 30px;
+    margin-bottom: 2rem;
+}
+
+.about_lib p{
+    font-size: 1rem;
+    font-size: 500;
+    
+}
+.about_lib{
+    margin-top: 2rem;
+    justify-content: center;
+}
+.about_lib h4{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.about_lib ul{
+    margin-left: 1.2rem;
+}
+.lab_cardleft_heading{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+}
+
+
+#e_lib{
+    color: steelblue;
+    font-weight: 500;
+}
+
+#card_left{
+    font-size: 1.25rem;
+}
+
+#jounarls{
+    text-decoration: underline;
+    font-weight: 500;
+    margin-top: 0px;
+}
+#jounarls ul{
+    margin-top: none;
+    
+}
+#jounarls ul li{
+    margin-bottom: 0.3rem;
+}
+
+.contact1 img{
+    width: 1.125rem;
+height: 1.125rem;
+flex-shrink: 0;
+}
+.contact1{
+    display: flex;
+    gap: 0.5rem;
+}
+.contact1 p{
+    color: #000;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Plus Jakarta Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25rem; /* 125% */
+}
+
+.contact_con2{
+    width: 54rem;
+    height: 9.25rem;
+flex-shrink: 0;
+border-radius: 10px;
+/* border: solid 0.1px rgba(0, 0, 0, 0.1); */
+box-shadow: 1px 1px 3px rgba(0, 0,0,0.2);
+/* padding-left: 1.31rem; */
+padding: 1.5rem;
+}
+
+@media screen and (max-width:700px){
+    .image_library{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .details_elib h3{
+        font-size: 1rem;
+    }
+
+    .it_labcard {
+        gap: 1rem;
+    }
+    .generalinfo h2{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .about_lib h4{
+        font-size: 1.2rem;
+        margin-bottom: 0.7rem;
+    }
+    #card_left{
+        font-size: 1rem;
+    }
+    #useful_link{
+        font-size: 1.2rem;
+    }
+    #E-button{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+
+
+/* ---------------------------------------------Admistration---------------------------------------------------------- */
+
+
+.items ul{
+    margin-left: 1.2rem;
+}
+#director_pic{
+    margin-top: 3.2rem;
+}
+#items_list li{
+    margin-left: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#greivance{
+    margin-top: 0px;
+}
+
+#Institute_para{
+    margin-top: 30px;
+    font-size: 1.25rem;
+}
+
+
+@media screen and (max-width:700px){
+
+    #hirerchy{
+        width: 100%;
+        height: auto;
+}
+.items{
+    width: 100%;
+    font-size: 0.8rem;
+}
+#greivance{
+    text-align: left;
+}
+#E-button{
+    transform: scale(0.7);
+}
+#Institute_para{
+    font-size: 1rem;
+}
+}
+
+
+/* ////////////////////////////////////////////////////////////////////////////////////// */
+
+#highlight{
+    color: #4C6BF1;
+    font-weight: 600;
+    border: 2px solid #4C6BF1;
+    padding: 0.2rem;
+    border-radius:0.5rem;
+}
+
+#highlight_items{
+    border: 1px solid #FFF;
+    padding-left: 0.2rem;
+    padding-right: 0.2rem;
+}
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+
+
+
+/*-------------------------------------------------------------- Placements--------------------------------------- */
+/* ----------------------------------PLACEMENT PAGES-------------------------------------- */
+
+
+.placement_content{
+    font-family: 'Plus Jakarta Sans';
+    text-align: justify;
+}
+
+
+
+.placement_content_heading{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 30px;
+}
+.placement_objectives_heading{
+    color: #4C6BF1;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.placement_objectives_content{
+    margin-left: 1.2rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.placement_reprsentative{
+    margin-top: 1.4rem;
+}
+.representative_branch{
+    font-size: 1.25rem;
+    color: black;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+/*--------------------------------------- Domains of T & P Cell------------------------------------- */
+.placement_domain_content{
+    margin-left: 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+/*--------------------------------------- Brochure-------------------------------------------- */
+.brochure_contain{
+    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+    width: 54.4rem;
+    height: 10rem;
+    display: flex;
+    margin-bottom: 1.25rem
+}
+.brochure_contain img{
+    height: 10rem;
+    width: 8rem;
+    padding: 1rem;
+}
+.brochure_contain a{
+    margin-top: 4rem;
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.contact_con3{
+    width: 54rem;
+    height: 11.55rem;
+flex-shrink: 0;
+border-radius: 10px;
+/* border: solid 0.1px rgba(0, 0, 0, 0.1); */
+box-shadow: 1px 1px 3px rgba(0, 0,0,0.2);
+/* padding-left: 1.31rem; */
+padding: 1.5rem;
+}
+
+
+.tpo_name{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.contact1 img{
+    width: 1.125rem;
+height: 1.125rem;
+flex-shrink: 0;
+}
+.contact1{
+    display: flex;
+    gap: 1rem;
+}
+.contact1 p{
+    color: #000;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: Plus Jakarta Sans;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25rem; /* 125% */
+}
+
+@media screen and (max-width:700px){
+
+    .brochure_contain{
+        width: 100%;
+    }
+    .placement_content_heading{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .placement_objectives_heading{
+        font-size: 1.2rem;
+    }
+    .representative_branch{
+        font-size: 1rem;
+    }
+    .placement_content ul li{
+        font-size: 0.8rem;
+    }
+    .tpo_name {
+        font-size: 1.2rem;
+    }
+    .project_more p{
+        font-size: 1.2rem;
+    }
 }

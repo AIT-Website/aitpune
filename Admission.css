@@ -20,6 +20,13 @@ body{
 
     
 }
+#highlight {
+    color: #4C6BF1;
+    font-weight: 600;
+    border: 2px solid #4C6BF1;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+}
 .header {
     /* position:fixed; */
     z-index: 1;
@@ -2048,10 +2055,20 @@ padding: 1.5rem;
 
 
 
-
+.image_library{
+    display: flex;
+    gap: 1.2rem;
+}
+.image_library img{
+    height: 15rem;
+    width: 17rem;
+}
+#E-lib{
+    margin-top: 3rem;
+}
 
 .lib_contain{
-    margin-top: 4rem ;
+    margin-top:30px;
     text-align: justify;
     width: 54.4rem;
 }
@@ -2153,3 +2170,4 @@ table {
     margin-bottom: 0.5rem;
     padding-right: 1rem;
 }
+
