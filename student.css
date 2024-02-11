@@ -63,12 +63,15 @@ body{
     .header, .topper {
       padding: 0px 5%;
     }
+    .main {
+        padding: 0px 5%;
+    }
   }
   @media only screen and (max-width:850px) {
     .header, .topper {
       padding: 0px 2%;
     }
-    .main, .about_us{
+    .main{
         padding: 0px 2%;
     }
   }
@@ -109,6 +112,11 @@ body{
     text-decoration: none;
     color: #FFF;
   }
+  .header_items a:hover{
+    font-weight: 600;
+    transform: scale(1.1);
+    transition: .25s;
+  }
   .header .head{
     margin: 0;
     display: flex;
@@ -142,6 +150,14 @@ body{
       font-size: 0.8rem;
       margin: 10px 15px;
       font-weight: 500;
+  }
+  .header nav a:hover{
+    transform: scale(1.1);
+    font-weight: 600;
+    transition: .35s;
+  }
+  .header nav a img:hover{
+    transform: none;
   }
   /* ------------------------ */
   
@@ -203,25 +219,9 @@ body{
     }
   }
   
-  
-.nvc1{
-    display: flex;
-    color: #000;
-    display: inline-flex;
-    align-items: flex-start;
-    gap: 24px;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 171.429% */
-    
-}
 
-
-/* ----------------------------------------------------------------- */
-.camp{
+  /*-----------------------------------------------------------------------------------------------------------*/
+  .header3{
     background: url("./aitcampbanner.jpg") no-repeat;
     background-size:cover;
     background-position: center;
@@ -232,297 +232,100 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:flex-start;
-    padding-left: 11.45%;
-}
-
-
-.about{
-    display: flex;
-    height: auto;
-    width: fit-content;
-    padding: 20px;
-
-    background-color: #0C2695;
-    opacity: 0.8;
-    justify-content: center;
     align-items: center;
-    color: #FFF;
-
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: max(23px,2.5vw);
-
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    border-radius: 8px;
 }
-
-.about1{
-    width: 90%;
-    max-width: 450px;
+  .header3 .show{
+    position: absolute;
+    top : 170px;
+    place-content: center; /*for making the items center */
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 16px;
-    background-color: #4C6BF1;
-    opacity: 0.8;
-    color: #FFF;
-    text-align: center;
-   
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: max(12px,1.2vw);
-    font-style: normal;
-    font-weight: 600;
-    border-radius: 8px;
-    line-height: normal;
-}
-
-/* ---------------------------------------------------------------------------- */
-.ab{
-    color: #FFF;
-    text-align: center;
-    align-items: center;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-top: 3.5rem;
-}
-.r61{
-    /* margin-left: 260px; */
-    margin-top: 2.5rem;
-    width: 445px;
-    height: 220px;
-    flex-shrink: 0;
-}
-.r62{
-    /* margin-top:-220px;
-    margin-left: 735px; */
-    width: 445px;
-    height: 220px;
-    flex-shrink: 0;
-}
-.c1{
-    width: 445px;
-    color: #C8D2FF;
-    text-align: center;
-    leading-trim: both;
-    text-edge: cap;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-     /* margin-left: 311px; */
-    margin-top: 1.5rem;
-    /* display: inline-block; */ 
-}
-.c2{
-    width: 342px;
-    color: #C8D2FF;
-    text-align: center;
-    leading-trim: both;
-    text-edge: cap;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    /* margin-left: 133px;
-    margin-top: 24px; */
-    /* display: inline-block; */
-}
-.pc1{
-    /* margin-left: 260px; */
-    width: 445px;
-    color: #FFF;
-    text-align: center;
-    leading-trim: both;
-    text-edge: cap;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; 
-    /* 150% */
-    margin-top: 1rem;
-    /* margin-top: 16px; */
-    /* display: inline-block; */
-}
-.pc2{
-    /* margin-left: 30px; */
-    width: 445px;
-    color: #FFF;
-    text-align: center;
-    leading-trim: both;
-    text-edge: cap;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px; /* 150% */
-    /* margin-top: 16px; */
-    display: inline-block;
-}
-
-/* //////////////////////////////////////////////////////// */
-
-.jdbe{
-    display: flex;
-}
-#jdh2{
-    margin-top: 72px;
-    margin-left: 165px;
-    color: #0C2695;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    /* display: inline-block; */
-}
-.jdsi{
-    /* margin-top: 34px; */
-    margin-left: 165px;
-    border-radius: 50%;
-    width: 160px;
-    height: 160px;
-    
-    background: url(diro.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
-    /* background-color: #FFF; */
-    display: inline-block;
-}
-#mkh3{
-    display: inline-block;
-    width: 269px;
-    color: #000;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    margin-left: 16px;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  /* --------------------------- */
+  
+  .header3 div p{
     position: relative;
-    /* margin-bottom: 500px; */
-    padding-top: 61px;
-    padding-left: 16px;
-
-}
-#dis{
-    color: #0C2695;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 171.429% */
-}
-#dis2{
-    color: #6D6D6D;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; /* 171.429% */
-}
-#h22{
-    margin-left: 165px;
-    color: #4C6BF1;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: Plus Jakarta Sans;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-    display: inline-block;
-}
-/* ----------------------------------------------------------------------------- */
-
-.dir{
-    overflow: hidden;
-}
-.jd_table{
+    height: 0;
+    left: 11.45%; /*use media queries for this */
+    padding: 15px;
+    margin: 0;
+    color: #FAFAFA;
+    background-color: #0c2595d0;
+  }
+  
+  .header3 div .a{
+    height: auto;
+  
     width: fit-content;
-    max-width: min-content;
-    height: fit-content;
-    min-width: 225px;
-    box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
-    border-radius: 2px;
-    font-family:'Plus Jakarta Sans';
-    /* margin-left: 165px; */
-    border-radius:8px;
-    padding-top: 12px;
-    padding-bottom: 15px;
-    padding-left: 15px;
-    padding-right: 15px;
-    cursor: pointer;
-}
-
-.jd_table ul p{
-    color: #0C2695;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: 'Plus Jakarta Sans';
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 24px; 
-    padding-top: 12px;
-    border-style: hidden;
-    border-top: 1px solid rgba(234,234,234,1);
-}
-
-.jd_table ul{
-    list-style: none;
-    display:flex;
-    flex-direction:column;
-    gap: 16px;
-}
-.jd_table ul a{
-    font-size: 16px;
-    color:#000000;
-    text-align:left;
-    vertical-align: middle;
-    line-height:24px;
-    border-style:hidden;
-    width: 220px;
-    height: 24px;
-    border-top: 1px solid rgba(234,234,234,1);
-    padding-top: 16px;
-    padding-bottom: 16px;
-}
-.jd_table ul > *:first-child{
-    border-top: 0;
-}
-
-#sub-nav{
-    font-size: 14px;
+    font-size: max(23px,2.5vw);
+    padding: 20px;
+    font-weight: bolder;
+    padding-top: 25px;
+    border-radius: 20px 20px 0px 0px;
+  }
+  
+  .header3 div .b{
+    height: auto;
+    padding-bottom: 25px;
+    background-color: #4c6af1;
+    border-radius: 0px 20px 20px 20px;
+    font-size: max(15px,1.2vw);
+    width: fit-content;
+    max-width: max(310px,35%);
+  }
+  
+  /* to be done */
+  
+  .header3 div .c{
+    margin-top: 60px;
+    background-color: #0C2695;
+    width: fit-content;
+    height: auto;
+    border-radius: 10px;
     display: flex;
-    align-items: center;
-    padding-left: 20px;
-}
+    justify-content: space-evenly;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  /* for .c */
+  .header3 a{
+    color: #FAFAFA;
+    text-decoration: none;
+  }
+  .header3 a:hover{
+    text-decoration: underline;
+  }
+  
+  /* media query for smaller screens - admissions */
+  
+  @media only screen and (max-width: 554px) {
+    .header3 .show{
+      align-items: center;
+    }
+    .header3 div p{
+      left:0;
+    }
+    .header3 div .b{
+      border-radius: 10px;
+      padding: 15px;
+    }
+    .header3 div .c{
+      font-size: 12px;
+    }
+    .header nav{
+      margin-top: 70px;
+    }
+  }
 
-#box_hide{
-    visibility: hidden;
-}
+
+  /* ---------------------------------------------------------------------------------------------------------- */
 
 
 
-/* -----------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------*/
 .about_us{
     width: 100%;
     height: fit-content;
@@ -600,18 +403,25 @@ line-height: 24px; /* 150% */
     flex-shrink: 0;
     z-index: 2;
     padding: 50px 10px;
+
 } 
 .about_image img{
-    max-width: 40vw;
-    height: 50%;
+    width: 540px;
+    height: 300px;
+    border-radius: 1rem;
 }
 
-@media only screen and (max-width : 1250px){
+@media only screen and (max-width : 1350px){
+    /* .main_content{
+        width:max(400px,60vw);
+    } */
     .about_image{
         display: none;
     }
     .about_us{
         justify-content: center;
+        margin: 0;
+        padding: 10px;
         background: #fff;
         height: fit-content;
         flex-direction: column;
@@ -620,6 +430,82 @@ line-height: 24px; /* 150% */
         font-size: 90%;
     }
 }
+#highlight{
+    color: #4C6BF1;
+    font-weight: 600;
+    border: 2px solid #4C6BF1;
+    padding: 0.2rem;
+    border-radius:0.5rem;
+}
+/* ----------------------------------------------------------------------------- */
+
+.dir{
+    overflow: hidden;
+}
+.jd_table{
+    width: fit-content;
+    max-width: min-content;
+    height: fit-content;
+    min-width: 225px;
+    box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
+    border-radius: 2px;
+    font-family:'Plus Jakarta Sans';
+    /* margin-left: 165px; */
+    border-radius:8px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+.jd_table ul p{
+    color: #0C2695;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; 
+    padding-top: 12px;
+    border-style: hidden;
+    border-top: 1px solid rgba(234,234,234,1);
+}
+
+.jd_table ul{
+    list-style: none;
+    display:flex;
+    flex-direction:column;
+    gap: 16px;
+}
+.jd_table ul a{
+    font-size: 16px;
+    color:#000000;
+    text-align:left;
+    vertical-align: middle;
+    line-height:24px;
+    border-style:hidden;
+    width: 220px;
+    height: 24px;
+    border-top: 1px solid rgba(234,234,234,1);
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.jd_table ul > *:first-child{
+    border-top: 0;
+}
+
+#sub-nav{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+#box_hide{
+    visibility: hidden;
+}
+
 
 /* ------------------------------------------------------------  */
 .content-transition{
