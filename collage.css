@@ -1,3 +1,5 @@
+
+
 body {
   margin: 0;
   font-feature-settings: 'clig' off, 'liga' off;
@@ -881,6 +883,77 @@ hr{
   width: 262px;
 }
 
+
+/* Footer */
+.footer1{
+  background-color: #3C5ADA;
+  padding: 60px 10%;
+  display: flex;
+  color: #fff;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footadd1{
+  display: flex;
+  
+}
+.footadd1 img{
+  height:50px;
+   /* width:50px; */
+}
+.imgcont{
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 170px;
+  margin-left: 0.5rem;
+}
+.foothead{
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+
+}
+#foothead1{
+  margin-top: 25px;
+
+}
+.foothead2{
+  font-size: 14px;
+}
+.footcontact{
+  display: flex;
+  /* gap: 3rem; */
+  margin-top: 10px;
+  gap: 0.5rem;
+}
+
+.footlist{
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 1rem;
+  opacity: 0.7;
+}
+.footsocialimg{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.copyright{
+  background-color: #0C2695;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-weight: lighter;
+  padding: 10px;
+}
+
+.fa-brands{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* Footer End */
+
 @media only screen and (max-width: 800px) {
   .footer{
     flex-direction: column;
@@ -907,9 +980,32 @@ hr{
   margin: 10px auto;
 }
 .footer_image{
-
   margin:auto;
 }
+
+.footer1{
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.footcontact{
+  /* flex-direction: column; */
+  justify-content: center;
+
+}
+.foothead{
+  margin-top: 1.4rem;
+}
+.footlist{
+  margin-top: 10px; 
+}
+.foothead2{
+  font-size: 14px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+/* FOOTER ENDS */
 .Departments .top .bluebar, .about .content .bluebar{
   display: none;
 } 
