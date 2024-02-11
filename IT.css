@@ -89,7 +89,7 @@ body{
   .header nav a {
     color: #000;
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 14px;
     width: fit-content;
     margin: 10px 15px;
     font-weight: 500;
@@ -147,7 +147,7 @@ body{
   .header nav a {
     color: #000;
       text-decoration: none;
-      font-size: 0.8rem;
+      font-size: 14px;
       margin: 10px 15px;
       font-weight: 500;
   }
@@ -415,9 +415,9 @@ line-height: 24px; /* 150% */
 }
 
 @media only screen and (max-width : 1350px){
-    /* .main_content{
-        width:max(400px,60vw);
-    } */
+    .main_content{
+        width:max(320px,75vw);
+    }
     .about_image{
         display: none;
     }
@@ -429,11 +429,8 @@ line-height: 24px; /* 150% */
         height: fit-content;
         flex-direction: column;
     }
-    .about_content{
-        font-size: 90%;
-    }
+    
 }
-
 
 /*-------------------------------------------------------------------------------*/
 
@@ -1309,7 +1306,7 @@ line-height: 1.5rem; /* 171.429% */
  }
  
  .profile-name p{
-     font-size: 0.8rem;
+     font-size: 14px;
      text-align: center;
      margin-top: 10px;
      font-weight: 600;
@@ -1666,7 +1663,7 @@ line-height: 1.5rem; /* 160% */
 }
 
 .indp_content{
-    margin-top: 0.8rem;
+    margin-top: 14px;
     margin-left: 1.5rem;
 }
 .tab a{
@@ -1712,10 +1709,10 @@ line-height: 1.5rem; /* 160% */
 }
 .industrial_visit_links a{
     color: #000;
-    padding: 0.4rem 0.8rem 0.8rem 0rem;
+    padding: 0.4rem 14px 14px 0rem;
     font-size: 1rem;
     font-weight: 500;
-    margin-left: 0.8rem;
+    margin-left: 14px;
     
 }
 
@@ -1928,7 +1925,7 @@ font-size: 1rem;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5rem; /* 150% */
-padding-left: 0.8rem;
+padding-left: 14px;
 }
 
 
@@ -2393,6 +2390,7 @@ width: 187px;
 padding: 10px;
 margin-top: 3px;
 }
+
 .ResearchIndustry .education{
     color: #000;
 font-feature-settings: 'clig' off, 'liga' off;
@@ -2457,6 +2455,10 @@ padding: 10px;
 }
 .pos p{
     margin-bottom: 0.5rem;
+}
+.dep_contain div p{
+    margin-bottom: 1rem;
+
 }
 .pso{
    
@@ -2613,7 +2615,7 @@ padding: 10px;
 }
 .achievement_box_contain p{
     color: #FFF;
-    font-size: 0.8rem;
+    font-size: 14px;
     font-weight: 600;
     position: relative;
     top: 194px;
@@ -2841,7 +2843,7 @@ padding: 10px;
     }
   }
 
-  @media screen and (max-width:700px){
+  @media screen and (max-width:800px){
     .para2{
         width: 340px;
         margin: 0px auto;
@@ -2870,7 +2872,6 @@ padding: 10px;
         height: 400px;
     }
     .about_us{
-        display: block;
         margin-top: 50px;
     }
     .ab{
@@ -2880,27 +2881,19 @@ padding: 10px;
     }
     .about_content{
         margin: 0px auto;
-        padding: 5px;
         width: auto;
     }
-    .about_vision{
-        margin-top: 20px;
-        margin-left: 0px;
-        padding: 10px;
+    .about_vision,.about_mission{
+        margin: 20px 0 10px 0;
     }
-    .about_mission{
-        margin-top: 20px;
-        margin-left: 0px;
-        padding: 10px;
-    }
-    .about_list{
-        margin: 0px auto;
-        padding: 5px;
-        width: auto;
+    
+    .about_list li, .about_content{
+        font-size: 14px;
     }
     #hod_content{
         text-align: center;
-        margin-top: 40px;
+        margin: 30px auto;
+        width:max(85vw,320px)
     }
     .head_ok{
         font-size: 24px;
@@ -2923,7 +2916,6 @@ padding: 10px;
     .reading_more{
         visibility: hidden;
     }
-    
     .hod_pic img{
         margin: auto 1px;
     }
@@ -3175,7 +3167,7 @@ padding: 10px;
         flex-direction: column;
     }
     #emailid{
-        font-size: 0.8rem;
+        font-size: 14px;
     }
     #mainContent{
         width: 100%;
@@ -3267,30 +3259,30 @@ padding: 10px;
     }
 
     .dep_contain{
-        font-size: 0.8rem;
+        font-size: 14px;
     }
     .dep_contain ul{
-        font-size: 0.8rem;
+        font-size: 14px;
     }
     .dep_contain_number{
-        font-size: 0.8rem;
+        font-size: 14px;
     }
     .hod_name{
         font-size: 1.2rem;
     }
     .parra1{
-        font-size: 0.8rem;
+        font-size: 14px;
     }
     .project_more {
-        font-size: 0.8rem;
+        font-size: 14px;
     }
     #link_exam{
-        font-size: 0.8rem;
+        font-size: 14px;
 
     }
     #link_exam img{
-        width: 0.8rem;
-        height: 0.8rem;
+        width: 14px;
+        height: 14px;
     }
     #result_asge{
         font-size: 1.2rem;
@@ -3299,13 +3291,13 @@ padding: 10px;
         font-size: 1.2rem;
     }
     .result_name a{
-        font-size: 0.8rem;
+        font-size: 14px;
     }
     #activity_content  h3{
         font-size: 1.2rem;
     }
     #activity_content {
-        font-size: 0.8rem;
+        font-size: 14px;
     }
    #act_aicte{
     font-size: 1rem;
@@ -3322,7 +3314,7 @@ padding: 10px;
 }
     #myTable{
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 14px;
     /* padding: 8px 6px; */
     margin-right: 10px;
     /* margin: 10px; */
@@ -3635,13 +3627,13 @@ padding: 1.5rem;
 
 @media screen and (max-width:700px){
 
-    #hirerchy{
-        width: 100%;
-        height: auto;
+#hirerchy{
+    width: 100%;
+    height: auto;
 }
 .items{
     width: 100%;
-    font-size: 0.8rem;
+    font-size: 14px;
 }
 #greivance{
     text-align: left;
@@ -3804,7 +3796,7 @@ line-height: 1.25rem; /* 125% */
         font-size: 1rem;
     }
     .placement_content ul li{
-        font-size: 0.8rem;
+        font-size: 14px;
     }
     .tpo_name {
         font-size: 1.2rem;
