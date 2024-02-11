@@ -915,14 +915,12 @@ hr{
 }
 #foothead1{
   margin-top: 25px;
-
 }
 .foothead2{
   font-size: 14px;
 }
 .footcontact{
   display: flex;
-  /* gap: 3rem; */
   margin-top: 10px;
   gap: 0.5rem;
 }
@@ -957,6 +955,7 @@ hr{
 @media only screen and (max-width: 800px) {
   .footer{
     flex-direction: column;
+    gap:100px;
   }
   .footer .left{
     width: 100%;
