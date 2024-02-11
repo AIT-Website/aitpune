@@ -217,12 +217,15 @@ body{
     .navele{
       visibility: hidden;
     }
+    #overflow_name{
+        font-size: 1.2rem;
+    }
   }
   
 
   /*-----------------------------------------------------------------------------------------------------------*/
   .header3{
-    background: url("./aitcampbanner.jpg") no-repeat;
+    background: url("https://firebasestorage.googleapis.com/v0/b/ait-website-81159.appspot.com/o/DRONE%20-PICS%2FDJI_0171%20copy.jpg?alt=media&token=497c1d01-8a5c-4120-85ae-733184a571b0") no-repeat;
     background-size:cover;
     background-position: center;
 
@@ -269,7 +272,7 @@ body{
   .header3 div .b{
     height: auto;
     padding-bottom: 25px;
-    background-color: #4c6af1;
+    background-color: #4c6af1b3;
     border-radius: 0px 20px 20px 20px;
     font-size: max(15px,1.2vw);
     width: fit-content;
@@ -2450,8 +2453,12 @@ padding: 10px;
 .pos{
     text-align: justify;
 }
+.pos p{
+    margin-bottom: 0.5rem;
+}
 .dep_contain div p{
     margin-bottom: 1rem;
+
 }
 .pso{
    
@@ -2495,6 +2502,9 @@ padding: 10px;
     margin-left: 0.5rem;
 }
 .special_u{
+    display: flex;
+}
+.special_u3{
     display: flex;
 }
 
@@ -3793,5 +3803,62 @@ line-height: 1.25rem; /* 125% */
     }
     .project_more p{
         font-size: 1.2rem;
+    }
+    #nirf_link li{
+        font-size: 1rem;
+        text-align: left;
+    }
+    #nirf_link{
+        font-size: 1rem;
+        text-align: left;
+        justify-content: center;
+    }
+
+}
+
+
+
+/*---------------------------------------------------- NIRF -----------------------------------*/
+
+.nirf{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+/* ------------------------------------------------ARIIA------------------------------------------------ */
+
+.ariia_contain{
+    display: flex;
+    margin-top: 30px;
+    gap: 2rem;
+}
+.ariia1{
+    width: 70%;
+}
+.ariia1 img{
+    width: 70%;
+}
+.ariia_link{
+    display: flex;
+    flex-direction: column;
+}
+.ariia_link a{
+    color: #000;
+
+    text-align: 1rem;
+    font-weight: 600;
+}
+
+@media screen and (max-width:700px){
+    .ariia_contain{
+        flex-wrap: wrap;
+    }
+    .ariia1{
+        width: 100%;
+    }
+    .ariia1 img{
+        width: 80%;
     }
 }
