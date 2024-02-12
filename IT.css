@@ -222,16 +222,13 @@ body{
     }
   }
   
-
   /*-----------------------------------------------------------------------------------------------------------*/
   .header3{
     background: url("https://firebasestorage.googleapis.com/v0/b/ait-website-81159.appspot.com/o/DRONE%20-PICS%2FDJI_0171%20copy.jpg?alt=media&token=497c1d01-8a5c-4120-85ae-733184a571b0") no-repeat;
     background-size:cover;
     background-position: center;
-
     height: 30vw;
     min-height: 320px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -322,12 +319,7 @@ body{
       margin-top: 70px;
     }
   }
-
-
   /* ---------------------------------------------------------------------------------------------------------- */
-
-
-
 /*---------------------------------------------------------------------------------------------*/
 .about_us{
     width: 100%;
@@ -389,7 +381,6 @@ font-style: normal;
 font-weight: 400;
 line-height: 24px; /* 150% */
 }
-
 .about_mission{
     color: #4C6BF1;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -406,14 +397,12 @@ line-height: 24px; /* 150% */
     flex-shrink: 0;
     z-index: 2;
     padding: 50px 10px;
-
 } 
 .about_image img{
     width: 540px;
     height: 300px;
     border-radius: 1rem;
 }
-
 @media only screen and (max-width : 1350px){
     .main_content{
         width:max(320px,75vw);
@@ -431,16 +420,13 @@ line-height: 24px; /* 150% */
     }
     
 }
-
 /*-------------------------------------------------------------------------------*/
-
 .main{
     display: flex;
     gap: 1.88rem;
     padding: 0 11.45%;
     margin-top: 7%;
 }
-
 .jd_table{
     min-width: 250px;
     height: fit-content;
@@ -454,7 +440,6 @@ line-height: 24px; /* 150% */
     padding-right: 15px;
     cursor: pointer;
 }
-
 .jd_table ul p{
     color: #0C2695;
     font-feature-settings: 'clig' off, 'liga' off;
@@ -468,7 +453,6 @@ line-height: 24px; /* 150% */
     height: auto;
     border-top: 1px solid rgba(234,234,234,1);
 }
-
 .jd_table ul{
     list-style: none;
     display:flex;
@@ -489,18 +473,15 @@ line-height: 24px; /* 150% */
 .jd_table ul > *:first-child{
     border-top: 0;
 }
-
 #sub-nav{
     font-size: 14px;
     display: flex;
     align-items: center;
     padding-left: 20px;
 }
-
 #box_hide{
     visibility: hidden;
 }
-
 .hod_content2{
     display: flex;
     
@@ -613,11 +594,9 @@ margin-top: 20px;
 .prior{
     text-decoration: none;
 } 
-
 .fetchLink{
     text-decoration: none;
 }
-
 .reading_more{
     display: flex;
     
@@ -635,19 +614,10 @@ margin-top: 20px;
     width: 1.2rem;
     margin-top: 0.15rem;
 }
-
-
-
 /*--------------------------------- aman--------------------------------- */
-
-
-
-
 #lab-section{
     font-family: 'Plus Jakarta Sans';
 }
-
-
 #lab-heading{
     
     color: #0C2695;
@@ -660,7 +630,6 @@ font-style: normal;
 font-weight: 700;
 line-height: normal; 
 }
-
 .softwarelab-1{
     padding-top: 30px;
     margin-right: 130px;
@@ -668,7 +637,6 @@ line-height: normal;
     border-bottom: 3px solid #4C6BF1;
     width: 868px;
 }
-
 #sw1{
     color: #000;
 font-feature-settings: 'clig' off, 'liga' off;
@@ -677,7 +645,6 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-
 #sw-lab1-pic{
     padding-top: 30px;
     width: 540px;
@@ -688,14 +655,12 @@ line-height: normal;
     padding-top: 1.5rem;
     color: #000;
 font-feature-settings: 'clig' off, 'liga' off;
-
 font-size: 1rem;
 font-style: normal;
 text-align: justify;
 font-weight: 500;
 line-height: 1.5rem; /* 171.429% */
 }
-
 .area1{
     padding-top: 5px;
 }
@@ -703,39 +668,32 @@ line-height: 1.5rem; /* 171.429% */
     padding-top: 20px;
     color: #4C6BF1;
 font-feature-settings: 'clig' off, 'liga' off;
-
 font-size: 1rem;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5rem;
     /* padding-bottom: 10px; */
 }
-
 .utilization{
     padding-top: 20px;
     color: #4C6BF1;
     /* padding-bottom: 7px; */
 }
-
 /* .util-for1{
     margin-bottom: 40px;
 } */
-
 /* .util-for2{
     margin-bottom: 100px;
 } */
 #asge_hod{
     border-top: none;
 }
-
-
 #it_hod{
     border-top: none;
 }
 .mid-section{
     display: flex;
 }
-
 .view_more{
     margin-bottom: 0px;
     display: flex;
@@ -765,7 +723,6 @@ line-height: 1.5rem;
     width: 1.2rem;
     margin-top: 0.2rem;
 }
-
 .it_labcontain{
     margin-top: 30px;
     width: 54.4rem;
@@ -773,7 +730,6 @@ line-height: 1.5rem;
     font-weight: 500;
     text-align: justify;
 }
-
 .it_labcard{
     display: flex;
     gap: 3rem;
@@ -790,8 +746,6 @@ line-height: 1.5rem;
     margin-left: 1rem;
 }
 /* --------------------------milan--------------------------------------------------------- */
-
-
 #Notices{
     font-family: 'Plus Jakarta Sans';
     
@@ -838,11 +792,7 @@ padding: 0.9rem;
 color: black;
 text-decoration: none;
 }
-
-
-
 /* ------------------------------------------Slaybus------------------------------------------- */
-
 #asge_syllabus{
     font-family: 'Plus Jakarta Sans';
 }
@@ -856,7 +806,6 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-
 .syllabus_links{
     display: flex;
     flex-direction: column;
@@ -864,7 +813,6 @@ line-height: normal;
     width: 54.4rem;
     gap: 25px;
 }
-
 .syllabus_1{
    
     height: 6rem;
@@ -898,9 +846,7 @@ font-weight: 500;
 line-height: 1.5rem; /* 150% */
 text-decoration-line: underline;
 }
-
 /* ---------------------------------------------------Students Roll Number------------------------------------------------- */
-
 #student_roll{
     font-family: 'Plus Jakarta Sans';
     
@@ -953,7 +899,6 @@ padding-left: 0.3rem ;
 padding-right: 0.3rem ;
 text-decoration:none ;
 }
-
 .roll_branch_table{
     width: 54rem;
     height: 52.4375rem;
@@ -1017,20 +962,15 @@ text-decoration: none;
     justify-content: center;
     flex-direction: row;
 }
-
 .pagechange ul li{
     background-color: #6D6D6D;
     width: 20px;
     height: 20px;
 }
-
-
-
 /* ------------------------------------------------faculty & staff------------------------------------ */
 .cards{
     font-family: 'Plus Jakarta Sans';
 }
-
 .card{
     margin-bottom: 25px;
     height: 333px;
@@ -1040,14 +980,12 @@ text-decoration: none;
     margin-right: 1.2rem;
     padding: 11px;
 }
-
 .inside-card{
     width: 100%;
     width: 248px;
     height: 193px;
     padding-top: 24px;
 }
-
 .faculty-heading{
     margin-bottom: 30px;
 color: #0C2695;
@@ -1064,9 +1002,6 @@ line-height: normal;
 #list_of_faculty{
      color: #4C6BF1; 
 }
-
-
-
 .faculty-image{
     overflow: hidden;
     width: 100px;
@@ -1075,7 +1010,6 @@ line-height: normal;
     border-radius: 50%;
     position: relative;
 }
-
 .faculty-image img{
     width:100px;
     position: absolute;
@@ -1088,7 +1022,6 @@ line-height: normal;
     padding: 1.5px;
     border-radius: 50%;
 }
-
 .faculty-name{
     height: 20px;
     font-size: 16px;
@@ -1096,7 +1029,6 @@ line-height: normal;
     font-weight: bold;
     margin-top: 20px;
 }
-
 .faculty-qualification p{
     margin-top: 0.5rem;
     color: #0C2695;
@@ -1106,7 +1038,6 @@ line-height: normal;
     font-weight: 600;
     line-height: 1.5rem; /* 171.429% */
 }
-
 .faculty-dept{
     font-size: 14px;
     margin-top: 4px;
@@ -1124,7 +1055,6 @@ line-height: 1.5rem; /* 171.429% */
     font-style: normal;
     font-weight: 600;
     line-height: 1.5rem; /* 171.429% */
-
     padding-top: 4px;
 }
 #emailid{
@@ -1138,9 +1068,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 1.5rem; /* 171.429% */
 margin-top: 1rem;
-
 }
-
 /* -----------------------------------------ASGE-RESULT---------------------------------------- */
 #result_asge{
     font-family: 'Plus Jakarta Sans';
@@ -1204,7 +1132,6 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.5rem; /* 171.429% */
 }
-
 .exam_links_one img{
     width: 1rem;
     height: 1rem;
@@ -1215,21 +1142,12 @@ line-height: 1.5rem; /* 171.429% */
     height: 1rem;
     flex-shrink: 0;
 }
-
-
-
-
-
 .result_of_se{
     font-size: 1.5rem;
     color: #4C6BF1;
     margin-bottom: 1.25rem;
 }
-
-
-
 /* ---------------------------------------------Faculty Profile------------------------------------------- */
-
 .back_pic{
     background-image: url("aitcampbanner.jpg");
     font-family: 'Plus Jakarta Sans';
@@ -1601,6 +1519,7 @@ margin-bottom: 20px;
     fill: var(--theme-white-default, #FFF);
     /* padding-top: 1.25rem; */
     /* padding-left: 1.5rem; */
+    width: 54.4rem;
     
 }
 .tab { 
@@ -1609,7 +1528,6 @@ margin-bottom: 20px;
     color: #000;
     margin-top: 0.3rem;
     font-feature-settings: 'clig' off, 'liga' off;
-
     font-size: 1rem;
     font-style: normal;
     font-weight: 500;
@@ -1652,16 +1570,12 @@ font-size: 0.9375rem;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5rem; /* 160% */
-
 }
-
 #act_aicte{
     font-size: 1.25rem;
     color: #000;
     font-weight: 500;
-
 }
-
 .indp_content{
     margin-top: 14px;
     margin-left: 1.5rem;
@@ -1681,7 +1595,6 @@ line-height: 1.5rem; /* 160% */
 #industrial_visit h1{
     color: #0C2695;
     font-size: 2rem;
-
 }
 #industrial_visit p{
     color: #6D6D6D;
@@ -1700,7 +1613,6 @@ line-height: 1.5rem; /* 160% */
     align-items: center;
     /* padding-left: 1.31rem; */
 }
-
 .industrial_visit_links img{
     margin-left: 1rem;
     height: 1.3rem;
@@ -1715,8 +1627,6 @@ line-height: 1.5rem; /* 160% */
     margin-left: 14px;
     
 }
-
-
 /* ---------------------------------------------------PROJECTS------------------------------------- */
 #project{
     font-family: 'Plus Jakarta Sans';
@@ -1732,7 +1642,6 @@ font-size: 1.2rem;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
-
 }
 #project h1{
     color: #0C2695;
@@ -1744,13 +1653,10 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 margin-bottom: 1.4rem;
-
 }
 .project_topic_name{
     margin-top: 3rem;
 }
-
-
 .project_lists{
     height: 336px;
     width: 868px;
@@ -1765,7 +1671,6 @@ margin-bottom: 1.4rem;
     font-size: 1rem;
     margin:  0.3rem 0rem;
 }
-
 #project span{
     color: #0C2695;
     font-family:'Plus Jakarta Sans'; 
@@ -1813,7 +1718,6 @@ margin-bottom: 1.4rem;
     background-color: #FFF;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
 }
-
 .project_read_more img{
     width: 1.3125rem;
 height: 1.125rem;
@@ -1826,7 +1730,6 @@ margin-top: 0.22rem;
 .project_read_more{
     display: flex;
 }
-
 .project_more{
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     padding-top: 1rem;
@@ -1864,8 +1767,6 @@ line-height: normal;
     font-size: 1rem;
 }
 /* --------------------------------------------TIMETABLE------------------------------------- */
-
-
 #timetable{
     font-family: 'Plus Jakarta Sans';
     
@@ -1874,17 +1775,12 @@ line-height: normal;
     color: #0C2695;
     font-size: 2rem;
     margin-bottom: 40px;
-
 }
-
-
 /* -------------------------------------------------EXAM SECTION -----------------------------------------*/
-
 #exam_section{
     font-family: 'Plus Jakarta Sans';
     
 }
-
 .exam_heading{
     color: #0C2695;
 leading-trim: both;
@@ -1920,17 +1816,13 @@ line-height: normal;
 #link_exam{
     color: #000;
 font-feature-settings: 'clig' off, 'liga' off;
-
 font-size: 1rem;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5rem; /* 150% */
 padding-left: 14px;
 }
-
-
 /*----------------------------------------------------- RESEARCH AND DEVELOPMENT -----------------------------------------------------*/
-
 #RandD{
     font-family: 'Plus Jakarta Sans';
 }
@@ -1939,7 +1831,6 @@ padding-left: 14px;
     font-size: 1.5rem;
     display: inline-block;
 }
-
 #RandD h2{
     color: #0C2695; 
      font-size: 2rem;
@@ -1977,7 +1868,6 @@ padding-left: 14px;
     margin-top: 30px;
     margin-bottom: 20px;
 }
-
 #RandD .pub{
     box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
     padding-bottom: 30px;
@@ -1987,8 +1877,6 @@ padding-left: 14px;
     font-weight: 600;
     border-radius: 15px;
 }
-
-
 #RandD .pub h3{
     color: #0C2695;
     leading-trim: both;
@@ -2079,7 +1967,6 @@ line-height: 1.4785rem; /* 147.849% */
     background-color: #ffff;
     border: 1.2px solid #4C6BF1;
 }
-
 /* -------------------------------placement------------------------- */
 .tab1{
     border-radius: 0.28738rem;
@@ -2116,7 +2003,6 @@ line-height: 1.4785rem; /* 147.849% */
 }
 .nomr{
     display: flex;
-
     width: 54.3rem;
     height: 2.875rem;
     padding: 0.21556rem 0rem 0.21556rem 0.7185rem;
@@ -2142,14 +2028,11 @@ line-height: 1.4785rem; /* 147.849% */
     
     justify-content: center;
     align-items: center;
-
 }
-
 .row3{
     width: 104.8px;
     margin-left: 1rem;
 }
-
 .row4{
     width: 134px;
     margin-left: 1.6rem;
@@ -2166,19 +2049,15 @@ line-height: 1.4785rem; /* 147.849% */
     margin-left: 1.3rem;
     width: 103.29px;
 }
-
 #okk{
     display: flex;
 }
 #okk2{
     margin-top: 4px;
 }
-
 .dtab{
-
     width: 54.3rem;
 }
-
 .headrow{
     border-radius: 0.28738rem;
     /* background-color: aqua; */
@@ -2198,7 +2077,6 @@ line-height: 1.4785rem; /* 147.849% */
     padding-left: 0.2rem;
     border-right: 1px solid rgba(162, 168, 173, 0.80);
 }
-
 .drow3{
     color: var(--Title, #0E1319);
     text-align: center;
@@ -2222,31 +2100,17 @@ line-height: 1.4785rem; /* 147.849% */
     font-weight: 400;
     line-height: normal;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 /* #hod_content p{
     margin:  20px 30px;
     color: rgb(0,0,0,0.56);
     font-family: ' Plus Jakarta Sans';
 } */
-
 .ResearchAchivement{
     width: 54.4rem;
     box-shadow: 0px 1px  1px rgb(0, 0, 0,0.3);
     border-radius: 10px;
     margin-bottom: 30px;
 }
-
 .ResearchAchivement li{
     font-family: ' Plus Jakarta Sans';
     height: 80px;
@@ -2257,7 +2121,6 @@ line-height: 1.4785rem; /* 147.849% */
     box-sizing: border-box;
     
 }
-
 .greylist{
     background-color: #fafafae7;
     
@@ -2285,7 +2148,6 @@ padding-top: 25px;
     /* text-align: center; */
     padding-top: 25px;
 }
-
 .ResearchAchivement .particulars{
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Plus Jakarta Sans;
@@ -2296,7 +2158,6 @@ line-height: 24px; /* 171.429% */
  text-align: center; 
 padding-top: 25px;
 }
-
 .ResearchIndustry{
 width: 865px;
 height: fit-content;
@@ -2319,14 +2180,12 @@ font-weight: 500;
 line-height: 24px; /* 171.429% */
 width: 200px;
 padding-top: 30px;
-
 }
 .ResearchIndustry .Designation{
     color: #FFF;
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: Plus Jakarta Sans;
 font-size: 1rem;
-
 font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 171.429% */
@@ -2365,7 +2224,6 @@ font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px; /* 171.429% */
-
 }
 .staffrank{
     color: #000;
@@ -2390,7 +2248,6 @@ width: 187px;
 padding: 10px;
 margin-top: 3px;
 }
-
 .ResearchIndustry .education{
     color: #000;
 font-feature-settings: 'clig' off, 'liga' off;
@@ -2401,7 +2258,6 @@ font-weight: 500;
 line-height: 24px; /* 171.429% */
 width: 231px;
 padding: 10px;
-
 }
 #blueheader{
     background-color: #4C6BF1;
@@ -2417,13 +2273,11 @@ padding: 10px;
     display: flex;
     justify-content: flex-start;
     
-
 }
 .hod_pic img{
     border-radius: 50%;
 }
 /* ----------------------------------------About Department ------------------------------*/
-
 .dep_contain{
     margin-top: 30px;
    
@@ -2458,7 +2312,6 @@ padding: 10px;
 }
 .dep_contain div p{
     margin-bottom: 1rem;
-
 }
 .pso{
    
@@ -2481,9 +2334,7 @@ padding: 10px;
 .pso ul li{
     margin-bottom: 0.4rem;
 }
-
 /*------------------------------------------- SPECIAL SERVICES------------------------------------- */
-
 .special_content h3{
     margin-top: 1.25rem;
     font-size: 1.5rem;
@@ -2507,8 +2358,6 @@ padding: 10px;
 .special_u3{
     display: flex;
 }
-
-
 /* -------------------------------------------AAC MINUTES & DEPARTMENT MEATINGS -----------------------*/
 .aac_table{
     width: 100%;
@@ -2575,9 +2424,7 @@ padding: 10px;
     color: #000;
     padding-left: 1rem;
 }
-
 /* ------------------------------------------------Achievement PAGE------------------------------------- */
-
 .achievement_contain h3{
     font-size: 1.5rem;
     color: #4C6BF1;
@@ -2597,9 +2444,7 @@ padding: 10px;
     /* visibility: hidden; */
     /* opacity: 0; */
     position: relative;
-
     
-
     
     
 }
@@ -2610,7 +2455,6 @@ padding: 10px;
     transition: 0.5s;
     height: 7rem;
     
-
     
 }
 .achievement_box_contain p{
@@ -2639,7 +2483,6 @@ padding: 10px;
     height: 18rem;
     width: 26rem;
     border-radius: 8px;
-
 }
 .achievement_box img{
     position: absolute;
@@ -2650,7 +2493,6 @@ padding: 10px;
     
 }
 /* ------------------------------------------------------------------------------------------------------ */
-
 .result_img img{
     height: 24rem;
     width: 48rem;
@@ -2660,8 +2502,6 @@ padding: 10px;
 .result_img{
     margin-bottom: 1.25rem;
 }
-
-
 /*responsive----------------------------------------------------------------*/
 @media only screen and (max-width:1000px){
     .header, .topper {
@@ -2811,22 +2651,6 @@ padding: 10px;
         width: 100%;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media  screen and(max-width:750px) {
     .head_ok{
     text-align: center;
@@ -2834,7 +2658,6 @@ padding: 10px;
     /* width: 100%; */
     }
 }
-
   
   @media only screen and (max-width: 1350px) {
     .about{
@@ -2842,7 +2665,6 @@ padding: 10px;
       justify-content: space-around;
     }
   }
-
   @media screen and (max-width:800px){
     .para2{
         width: 340px;
@@ -2854,7 +2676,6 @@ padding: 10px;
         font-size: 20px;
     }
     .para3{
-
         width: 380px;
         height: 70px;
         font-size: 20px;
@@ -2919,8 +2740,6 @@ padding: 10px;
     .hod_pic img{
         margin: auto 1px;
     }
-
-
     #student_roll{
         margin: 40px auto;
         padding: 10px;
@@ -2932,8 +2751,6 @@ padding: 10px;
     .project_more{
         width: 100%;
     }
-
-
     #timetable{
         margin: 40px auto;
         padding: 10px;
@@ -2948,8 +2765,6 @@ padding: 10px;
     .exam_links_one{
         width: 100%;
     }
-
-
     #exam_section {
         margin: 40px auto;
         padding: 10px;
@@ -2958,11 +2773,6 @@ padding: 10px;
         font-size: 24px;
         text-align: center;
     }
-
-
-
-
-
     #result_asge{
         margin: 40px auto;
         padding: 10px;
@@ -2979,11 +2789,6 @@ padding: 10px;
         width: 11rem;
         height: 16rem;
     }
-
-
-
-
-
     #activity_content{
         margin: 40px auto;
         padding: 10px;
@@ -2995,10 +2800,6 @@ padding: 10px;
     .indp{
         width: 100%;
     }
-
-
-
-
     #Notices{
         margin: 40px auto;
         padding: 10px;
@@ -3011,10 +2812,6 @@ padding: 10px;
         display: flex;
         flex-direction: column;
     }
-
-
-
-
     #project{
         margin: 40px auto;
         padding: 10px;
@@ -3032,7 +2829,6 @@ padding: 10px;
         flex-wrap: wrap;
         width: 100%;
         height: fit-content;
-
     }
     .project_img_topic{
         margin: 0px auto;
@@ -3040,15 +2836,10 @@ padding: 10px;
     }
     .poject_topic_name{
         margin-top: 0.5rem;
-
     }
     #project_faculty_incharge{
         margin: 0.5rem 0px;
     }
-
-
-
-
     #lab-section{
         margin: 40px auto;
         padding: 10px;
@@ -3058,15 +2849,12 @@ padding: 10px;
         text-align: center;
         margin-left: 0px;
     }
-
     .rectangle_blue{
         visibility: hidden;
     }
     .about_image{
         visibility: hidden;
     }
-
-
     .softwarelab-1{
         margin:30px auto;
         padding: 0px;
@@ -3084,11 +2872,6 @@ padding: 10px;
     .view_more{
         margin-bottom: 20px;
     }
-
-
-
-
-
     #industrial_visit{
         margin: 40px auto;
         padding: 10px;
@@ -3105,7 +2888,6 @@ padding: 10px;
     .industrial_visit_links{
         width: 100%;
     }
-
     #faculty_asge{
         font-size: 24px;
         text-align: center;
@@ -3121,30 +2903,21 @@ padding: 10px;
         text-align: center;
         margin-left: 0px;
     }
-
-
-
-
     #asge_syllabus{
         margin: 40px auto;
         padding: 10px;
     }
-
     #fe_Sylabus{
         font-size: 24px;
         text-align: center;
         margin-left: 0px;
     }
-
     .syllabus_links{
         width: 100%;
     }
     .syllabus_1{
         width: 100%;
     }
-
-
-
     #RandD{
         
         padding: 10px; 
@@ -3172,7 +2945,6 @@ padding: 10px;
     #mainContent{
         width: 100%;
     }
-
     .faculty-image img{
         right: 0px;
     }
@@ -3195,7 +2967,6 @@ padding: 10px;
     }
     .aac_down1{
         width: 100%;
-
     }
     .aac_down2{
         width: 100%;
@@ -3209,8 +2980,6 @@ padding: 10px;
     .lab_cardleft{
         width: 100%;
     }
-
-
     .dtab{
         width: 100%;
     }
@@ -3218,14 +2987,12 @@ padding: 10px;
         width: 100%;
     }
     
-
     .drow2{
         font-size: 0.7rem;
     }
     .drow1{
         font-size: 0.6rem;
     }
-
     .ResearchAchivement .month{
         font-size: 0.7rem;
         margin: auto 6%;
@@ -3235,7 +3002,6 @@ padding: 10px;
         font-size: 0.7rem;
         padding-top: 0px;
         margin: auto 1%;
-
     }
     .ResearchAchivement .srno{
         font-size: 0.7rem;
@@ -3257,7 +3023,6 @@ padding: 10px;
     .pso h3{
         font-size: 1.2rem;
     }
-
     .dep_contain{
         font-size: 14px;
     }
@@ -3278,7 +3043,6 @@ padding: 10px;
     }
     #link_exam{
         font-size: 14px;
-
     }
     #link_exam img{
         width: 14px;
@@ -3331,15 +3095,11 @@ padding: 10px;
     }
    
 }
-
-
   .Industry_list{
     font-weight: 500;
     font-size: 1rem;
     margin-left: 1.2rem;
-
   }
-
   .visit_contain1 h3{
     margin-top: 30px;
     margin-bottom: none;
@@ -3347,7 +3107,6 @@ padding: 10px;
   #achieve_list{
     margin-top: 0px;
   }
-
   .message_ach{
     color: #0C2695;
     leading-trim: both;
@@ -3382,8 +3141,6 @@ height: 9rem;
     font-size: 1.25rem;
     color: #0C2695;
 }
-
-
 #row{
     background-color: #fafafa;
     /* padding-left: 1rem; */
@@ -3431,22 +3188,11 @@ table {
     width: 54.4rem;
     
 }
-
-
-
-
-
 /* --------------------------------------------LIBRARY-------------------------------------------- */
-
-
-
 .fetch-link.active {
     color: #0c2695;
     font-weight: bold;
 }
-
-
-
 .image_library{
     display: flex;
     gap: 1.2rem;
@@ -3458,7 +3204,6 @@ table {
 #E-lib{
     margin-top: 3rem;
 }
-
 .generalinfo h2{
     color: #0C2695;
 leading-trim: both;
@@ -3470,7 +3215,6 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 }
-
 .generalinfo{
     justify-content: center;
 }
@@ -3482,13 +3226,10 @@ line-height: normal;
 .details_elib{
     margin-top: 3rem;
 }
-
-
 .image_library{
     margin-top: 30px;
     margin-bottom: 2rem;
 }
-
 .about_lib p{
     font-size: 1rem;
     font-size: 500;
@@ -3510,17 +3251,13 @@ line-height: normal;
     font-size: 1.5rem;
     color: #4C6BF1;
 }
-
-
 #e_lib{
     color: steelblue;
     font-weight: 500;
 }
-
 #card_left{
     font-size: 1.25rem;
 }
-
 #jounarls{
     text-decoration: underline;
     font-weight: 500;
@@ -3533,7 +3270,6 @@ line-height: normal;
 #jounarls ul li{
     margin-bottom: 0.3rem;
 }
-
 .contact1 img{
     width: 1.125rem;
 height: 1.125rem;
@@ -3554,7 +3290,6 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.25rem; /* 125% */
 }
-
 .contact_con2{
     width: 54rem;
     height: 9.25rem;
@@ -3565,7 +3300,6 @@ box-shadow: 1px 1px 3px rgba(0, 0,0,0.2);
 /* padding-left: 1.31rem; */
 padding: 1.5rem;
 }
-
 @media screen and (max-width:700px){
     .image_library{
         flex-wrap: wrap;
@@ -3574,7 +3308,6 @@ padding: 1.5rem;
     .details_elib h3{
         font-size: 1rem;
     }
-
     .it_labcard {
         gap: 1rem;
     }
@@ -3597,36 +3330,41 @@ padding: 1.5rem;
         justify-content: center;
     }
 }
-
-
-
 /* ---------------------------------------------Admistration---------------------------------------------------------- */
-
-
 .items ul{
     margin-left: 1.2rem;
 }
 #director_pic{
-    margin-top: 3.2rem;
+    margin-top: 2.8rem;
 }
 #items_list li{
     margin-left: 1rem;
     font-weight: 500;
     font-size: 1rem;
 }
-
 #greivance{
     margin-top: 0px;
 }
-
 #Institute_para{
     margin-top: 30px;
     font-size: 1.25rem;
 }
-
-
+#jd_pic{
+    margin-top: 37px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+}
+#jd_pic img{
+    
+    width: 100px;
+    top: 32px;
+    transform: scale(1.5);
+    position: absolute;
+}
 @media screen and (max-width:700px){
-
 #hirerchy{
     width: 100%;
     height: auto;
@@ -3644,11 +3382,11 @@ padding: 1.5rem;
 #Institute_para{
     font-size: 1rem;
 }
+#jd_pic img{
+    right: -14px;
 }
-
-
+}
 /* ////////////////////////////////////////////////////////////////////////////////////// */
-
 #highlight{
     color: #4C6BF1;
     font-weight: 600;
@@ -3656,33 +3394,23 @@ padding: 1.5rem;
     padding: 0.2rem;
     border-radius:0.5rem;
 }
-
 #highlight_items{
     border: 1px solid #FFF;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
 }
 /* ///////////////////////////////////////////////////////////////////////////////////// */
-
-
-
 /*-------------------------------------------------------------- Placements--------------------------------------- */
 /* ----------------------------------PLACEMENT PAGES-------------------------------------- */
-
-
 .placement_content{
     font-family: 'Plus Jakarta Sans';
     text-align: justify;
 }
-
-
-
 .placement_content_heading{
     color: #0C2695;
 leading-trim: both;
 text-edge: cap;
 font-feature-settings: 'clig' off, 'liga' off;
-
 font-size: 2rem;
 font-style: normal;
 font-weight: 700;
@@ -3740,7 +3468,6 @@ line-height: normal;
     font-size: 1.25rem;
     font-weight: 700;
 }
-
 .contact_con3{
     width: 54rem;
     height: 11.55rem;
@@ -3751,14 +3478,11 @@ box-shadow: 1px 1px 3px rgba(0, 0,0,0.2);
 /* padding-left: 1.31rem; */
 padding: 1.5rem;
 }
-
-
 .tpo_name{
     font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 1.25rem;
 }
-
 .contact1 img{
     width: 1.125rem;
 height: 1.125rem;
@@ -3779,9 +3503,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 1.25rem; /* 125% */
 }
-
 @media screen and (max-width:700px){
-
     .brochure_contain{
         width: 100%;
     }
@@ -3813,22 +3535,13 @@ line-height: 1.25rem; /* 125% */
         text-align: left;
         justify-content: center;
     }
-
 }
-
-
-
 /*---------------------------------------------------- NIRF -----------------------------------*/
-
 .nirf{
     display: flex;
     justify-content: center;
 }
-
-
-
 /* ------------------------------------------------ARIIA------------------------------------------------ */
-
 .ariia_contain{
     display: flex;
     margin-top: 30px;
@@ -3846,11 +3559,9 @@ line-height: 1.25rem; /* 125% */
 }
 .ariia_link a{
     color: #000;
-
     text-align: 1rem;
     font-weight: 600;
 }
-
 @media screen and (max-width:700px){
     .ariia_contain{
         flex-wrap: wrap;
@@ -3861,4 +3572,423 @@ line-height: 1.25rem; /* 125% */
     .ariia1 img{
         width: 80%;
     }
+}
+/* --------------------------------------------------------ALUMNI--------------------------------------------- */
+.alumini_content_heading{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 30px;
+}
+#login_alumni{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+#login_karo{
+    display: flex;
+    margin-top: 3rem;
+    gap: 1.5rem;
+   
+}
+.alumini_content p{
+    text-align: justify;
+    font-weight: 500;
+}
+@media screen and (max-width:700px){
+    .alumini_content_heading{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #login_karo{
+        justify-content: center;
+        flex-direction: column;
+        gap: none;
+        margin-top: 1.5rem;
+    }
+    #login_alumni{
+        text-align: center;
+    }
+    .alumini_content p{
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+}
+/* ------------------------------------------------------CAR CUT SECTION--------------------------------------------- */
+.description_contain h3{
+    margin-top: 1.25rem;
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.description_contain{
+    font-size: 1rem;
+    text-align: justify;
+    font-weight: 500;
+}
+.description_img{
+    display: flex;
+    gap: 8rem;
+    margin-bottom: 1.5rem;
+}
+.description_img img{
+    height: 18rem;
+    width: 22rem;
+}
+.description_write ul{
+    margin-left: 1.2rem;
+}
+@media screen and (max-width:700px){
+    .description_img{
+        flex-wrap: wrap;
+        gap: 1.5rem;
+    }
+    .image_section{
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+    }
+    .description_img{
+        display: flex;
+        justify-content: center;
+    }
+    .description_contain h3 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .description_contain {
+        font-size: 0.8rem;
+    }
+}
+/* ///////////////////////////////////////////////////////////////////////////////// */
+.image_section img{
+    width: 16rem;
+    height: 14rem;
+}
+.car_imagesection{
+    margin-left: 1.88rem;
+}
+.image_section{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+.car_heading{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+}
+.BMW_section_heading{
+    color: #0C2695;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: 'Plus Jakarta Sans';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+    
+}
+.bmwcontain{
+    margin-top: 30px;
+}
+.bmwcontain h3{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+    margin-bottom: 1.25rem;
+}
+.bmw_image{
+    display: flex;
+    gap: 4rem;
+    margin-bottom: 2rem;
+}
+.bmw_image img{
+    width: 16rem;
+    height: 14rem;
+}
+.bmw_inside{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+}
+.bmw_inside ul{
+    margin-left: 1.2rem;
+}
+@media screen and (max-width:700px){
+    #BMW_Section{
+        width: 100%;
+    }
+    .bmw_image{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bmw_image img{
+        width: 100%;
+        height: auto;
+    }
+    .BMW_section_heading{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .bmwcontain h3 {
+        font-size: 1.2rem;
+    }
+
+}
+
+#nba_info{
+    margin-top: 0px;
+}
+
+.president1{
+    margin-bottom: 1rem;
+}
+
+
+
+.clubcard{
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 22rem;
+    height: 25rem;
+    flex-shrink: 0;
+    align-items: center;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+.imgdiv{
+    margin-top: -2.75rem;
+}
+
+.clubheading{
+    color: #0C2695;
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.clubbotton{
+    display: flex;
+    gap: 1.12rem;
+    margin-top: 1.38rem;
+}
+.butclub{
+    color: #FFF;
+    /* leading-trim: both; */
+    /* text-edge: cap; */
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.375rem; /* 157.143% */
+}
+.butclub1{
+display: flex;
+width: 5.9375rem;
+height: 2.625rem;
+padding: 1.125rem 1.375rem;
+justify-content: center;
+align-items: center;
+gap: 0.25rem;
+flex-shrink: 0;
+border-radius: 0.375rem;
+border: 2px solid #4C6BF1;
+background: #4C6BF1;
+box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: "Plus Jakarta Sans";
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.375rem; /* 157.143% */
+}
+.butclub11{
+border-radius: 0.375rem;
+border: 2px solid #4C6BF1;
+background: #FFF;
+box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+display: flex;
+width: 5.9375rem;
+height: 2.625rem;
+padding: 1.125rem 1.375rem;
+justify-content: center;
+align-items: center;
+gap: 0.25rem;
+flex-shrink: 0;
+color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: "Plus Jakarta Sans";
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.375rem; /* 157.143% */
+}
+
+.clubcontent{
+    width: 20.0625rem;
+    color: #000;
+    
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375rem; /* 137.5% */
+
+    margin-top: 1.38rem;
+    margin-bottom: 1.38rem;
+    text-align: justify;
+}
+
+.club_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
+}
+
+
+.student_council_head{
+    color: #0C2695;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 30px;
+}
+.student_council{
+    margin-left: 10rem;
+    margin-top: 3rem;
+}
+.president{
+    padding: 1.25rem;
+    width: 47.2rem;
+    height: 10rem;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border-radius: 16px;
+    /* box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px 0px rgba(12, 26, 75, 0.24); */
+   border: 2px solid #4C6BF1;
+}
+.president1{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+.gs1{
+    color: #4C6BF1;
+    width: 18rem;
+}
+.club_content_head{
+    display: flex;
+    gap: 1rem;
+    font-size: 1rem;
+}
+.club_head_name{
+    width: 10rem;
+}
+@media screen and (max-width:1000px){
+    .student_counci{
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+    .student_council {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+        padding: 10px;
+        text-align: center;
+    }
+    .president {
+        width: 100%;
+        height: auto;
+    }
+    .project_more{
+        width: 100%;
+    }
+    .club_content {
+        margin: 0;
+    
+    }
+    .clubcard {
+        margin: 20px auto;
+        font-size: 0.9rem;
+        height: auto;
+    }
+    .gs2{
+        width: 14rem;
+        text-align: left;
+    }
+    .gs1{
+        text-align: left;
+    }
+    .president1{
+        margin-bottom: 0.5rem;
+        justify-content: flex-start;
+        font-size: 0.9rem;
+        font-size: 0.9rem;
+    }
+    .project_link a{
+        font-size: 0.9rem;
+    }
+    .clubcontent{
+        font-size: 0.9rem;
+    }
+    #discover{
+        font-size: 1rem;
+    }
+    .laboratory_button{
+        margin-top: 0px;
+    }
+}
+
+
+#nba_info{
+    margin-top: 0px;
+}
+
+#comp_actvity{
+   padding-left: 1rem;
+   font-weight: 500;
+}
+#discover{
+    color: #4C6BF1;
+    font-size: 1.25rem;
+}
+
+
+.laboratory_button{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
 }
