@@ -773,7 +773,7 @@ line-height: 24px; /* 150% */
     border-radius: 6px;
     border: 1px solid #0C2695;
     background: #0C2695;
-    
+    text-decoration: none;
 
 /* Neutral/Shadow 02 */
     box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
@@ -786,9 +786,10 @@ line-height: 24px; /* 150% */
     font-weight: 600;
     line-height: 22px; /* 137.5% */
     padding: 18px 22px 18px 22px;
-}
+}z
 #but:hover{
     cursor: pointer;
+    text-decoration: underline;
 }
 .h25{
     color: #0C2695;
@@ -1275,7 +1276,7 @@ text-decoration: none;
         margin-left: 0rem;
         font-size: .7rem;
         justify-content: center;
-        text-align: center;
+        /* text-align: center; */
         width: calc(100vw - 2.00rem);
         /* overflow: scroll; */
     }
@@ -1323,3 +1324,76 @@ text-decoration: none;
     }
 }
 
+.para_containi>ul>li>strong, .para_containi>ul>li>a{
+    color: #4C6BF1;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.para_containi p{
+    color: #4C6BF1;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    display: inline-block;
+    margin-top: 30px;
+    text-decoration: none;
+}
+.para_containi>ul{
+    list-style:square;
+    margin-left: 1.5rem;
+    line-height: 1.5rem;
+}
+.para_containi>ul>li>ul{
+    list-style:square;
+    margin-left: 3rem;
+    color: #000;
+}
+.para_containi>ul>li>ul a, .para_containi>ul>li>a{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.para_containi ol{
+    margin-left: 3rem;
+    color: #000;
+    line-height: 1.5rem;
+}
+.para_containi>ol>li a{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.2rem;
+    margin-top: 16px;
+    margin-right: 50px;
+    text-decoration: none;
+}
+.para_containi ul ul li {
+    list-style: square;
+}
+.para_containi ul ul li a{
+    color: #000;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.2rem;
+    margin-top: 16px;
+    margin-right: 50px;
+    text-decoration: none;
+}
