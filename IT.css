@@ -89,7 +89,7 @@ body{
   .header nav a {
     color: #000;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 0.8rem;
     width: fit-content;
     margin: 10px 15px;
     font-weight: 500;
@@ -147,7 +147,7 @@ body{
   .header nav a {
     color: #000;
       text-decoration: none;
-      font-size: 14px;
+      font-size: 0.8rem;
       margin: 10px 15px;
       font-weight: 500;
   }
@@ -217,15 +217,12 @@ body{
     .navele{
       visibility: hidden;
     }
-    #overflow_name{
-        font-size: 1.2rem;
-    }
   }
   
 
   /*-----------------------------------------------------------------------------------------------------------*/
   .header3{
-    background: url("https://firebasestorage.googleapis.com/v0/b/ait-website-81159.appspot.com/o/DRONE%20-PICS%2FDJI_0171%20copy.jpg?alt=media&token=497c1d01-8a5c-4120-85ae-733184a571b0") no-repeat;
+    background: url("./aitcampbanner.jpg") no-repeat;
     background-size:cover;
     background-position: center;
 
@@ -272,7 +269,7 @@ body{
   .header3 div .b{
     height: auto;
     padding-bottom: 25px;
-    background-color: #4c6af1b3;
+    background-color: #4c6af1;
     border-radius: 0px 20px 20px 20px;
     font-size: max(15px,1.2vw);
     width: fit-content;
@@ -415,9 +412,9 @@ line-height: 24px; /* 150% */
 }
 
 @media only screen and (max-width : 1350px){
-    .main_content{
-        width:max(320px,75vw);
-    }
+    /* .main_content{
+        width:max(400px,60vw);
+    } */
     .about_image{
         display: none;
     }
@@ -429,8 +426,11 @@ line-height: 24px; /* 150% */
         height: fit-content;
         flex-direction: column;
     }
-    
+    .about_content{
+        font-size: 90%;
+    }
 }
+
 
 /*-------------------------------------------------------------------------------*/
 
@@ -1306,7 +1306,7 @@ line-height: 1.5rem; /* 171.429% */
  }
  
  .profile-name p{
-     font-size: 14px;
+     font-size: 0.8rem;
      text-align: center;
      margin-top: 10px;
      font-weight: 600;
@@ -1663,7 +1663,7 @@ line-height: 1.5rem; /* 160% */
 }
 
 .indp_content{
-    margin-top: 14px;
+    margin-top: 0.8rem;
     margin-left: 1.5rem;
 }
 .tab a{
@@ -1709,10 +1709,10 @@ line-height: 1.5rem; /* 160% */
 }
 .industrial_visit_links a{
     color: #000;
-    padding: 0.4rem 14px 14px 0rem;
+    padding: 0.4rem 0.8rem 0.8rem 0rem;
     font-size: 1rem;
     font-weight: 500;
-    margin-left: 14px;
+    margin-left: 0.8rem;
     
 }
 
@@ -1925,7 +1925,7 @@ font-size: 1rem;
 font-style: normal;
 font-weight: 500;
 line-height: 1.5rem; /* 150% */
-padding-left: 14px;
+padding-left: 0.8rem;
 }
 
 
@@ -2390,7 +2390,6 @@ width: 187px;
 padding: 10px;
 margin-top: 3px;
 }
-
 .ResearchIndustry .education{
     color: #000;
 font-feature-settings: 'clig' off, 'liga' off;
@@ -2454,11 +2453,7 @@ padding: 10px;
     text-align: justify;
 }
 .pos p{
-    margin-bottom: 0.5rem;
-}
-.dep_contain div p{
-    margin-bottom: 1rem;
-
+    margin-bottom: 0.4rem;
 }
 .pso{
    
@@ -2504,9 +2499,6 @@ padding: 10px;
 .special_u{
     display: flex;
 }
-.special_u3{
-    display: flex;
-}
 
 
 /* -------------------------------------------AAC MINUTES & DEPARTMENT MEATINGS -----------------------*/
@@ -2539,6 +2531,9 @@ padding: 10px;
     background-color: #FAFAFA;
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
+}
+.project_more{
+    width: 47rem;
 }
 .aac_down1 p{
     margin-top: 1rem;
@@ -2615,7 +2610,7 @@ padding: 10px;
 }
 .achievement_box_contain p{
     color: #FFF;
-    font-size: 14px;
+    font-size: 0.8rem;
     font-weight: 600;
     position: relative;
     top: 194px;
@@ -2648,6 +2643,12 @@ padding: 10px;
     border-radius: 8px;
    
     
+}
+.about_content{
+    width: 27.81rem;
+}
+.about_content{
+    width: 27.81rem;
 }
 /* ------------------------------------------------------------------------------------------------------ */
 
@@ -2843,7 +2844,7 @@ padding: 10px;
     }
   }
 
-  @media screen and (max-width:800px){
+  @media screen and (max-width:700px){
     .para2{
         width: 340px;
         margin: 0px auto;
@@ -2872,6 +2873,7 @@ padding: 10px;
         height: 400px;
     }
     .about_us{
+        display: block;
         margin-top: 50px;
     }
     .ab{
@@ -2881,19 +2883,27 @@ padding: 10px;
     }
     .about_content{
         margin: 0px auto;
+        padding: 5px;
         width: auto;
     }
-    .about_vision,.about_mission{
-        margin: 20px 0 10px 0;
+    .about_vision{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 10px;
     }
-    
-    .about_list li, .about_content{
-        font-size: 14px;
+    .about_mission{
+        margin-top: 20px;
+        margin-left: 0px;
+        padding: 10px;
+    }
+    .about_list{
+        margin: 0px auto;
+        padding: 5px;
+        width: auto;
     }
     #hod_content{
         text-align: center;
-        margin: 30px auto;
-        width:max(85vw,320px)
+        margin-top: 40px;
     }
     .head_ok{
         font-size: 24px;
@@ -2916,6 +2926,7 @@ padding: 10px;
     .reading_more{
         visibility: hidden;
     }
+    
     .hod_pic img{
         margin: auto 1px;
     }
@@ -3167,7 +3178,7 @@ padding: 10px;
         flex-direction: column;
     }
     #emailid{
-        font-size: 14px;
+        font-size: 0.8rem;
     }
     #mainContent{
         width: 100%;
@@ -3259,30 +3270,30 @@ padding: 10px;
     }
 
     .dep_contain{
-        font-size: 14px;
+        font-size: 0.8rem;
     }
     .dep_contain ul{
-        font-size: 14px;
+        font-size: 0.8rem;
     }
     .dep_contain_number{
-        font-size: 14px;
+        font-size: 0.8rem;
     }
     .hod_name{
         font-size: 1.2rem;
     }
     .parra1{
-        font-size: 14px;
+        font-size: 0.8rem;
     }
     .project_more {
-        font-size: 14px;
+        font-size: 0.8rem;
     }
     #link_exam{
-        font-size: 14px;
+        font-size: 0.8rem;
 
     }
     #link_exam img{
-        width: 14px;
-        height: 14px;
+        width: 0.8rem;
+        height: 0.8rem;
     }
     #result_asge{
         font-size: 1.2rem;
@@ -3291,13 +3302,13 @@ padding: 10px;
         font-size: 1.2rem;
     }
     .result_name a{
-        font-size: 14px;
+        font-size: 0.8rem;
     }
     #activity_content  h3{
         font-size: 1.2rem;
     }
     #activity_content {
-        font-size: 14px;
+        font-size: 0.8rem;
     }
    #act_aicte{
     font-size: 1rem;
@@ -3314,7 +3325,7 @@ padding: 10px;
 }
     #myTable{
     width: 100%;
-    font-size: 14px;
+    font-size: 0.8rem;
     /* padding: 8px 6px; */
     margin-right: 10px;
     /* margin: 10px; */
@@ -3332,6 +3343,8 @@ padding: 10px;
    
 }
 
+  
+a
 
   .Industry_list{
     font-weight: 500;
@@ -3607,7 +3620,7 @@ padding: 1.5rem;
     margin-left: 1.2rem;
 }
 #director_pic{
-    margin-top: 2.8rem;
+    margin-top: 3.2rem;
 }
 #items_list li{
     margin-left: 1rem;
@@ -3623,34 +3636,17 @@ padding: 1.5rem;
     margin-top: 30px;
     font-size: 1.25rem;
 }
-#jd_pic{
-    margin-top: 37px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    position: relative;
-    overflow: hidden;
-
-}
-#jd_pic img{
-    
-    width: 100px;
-    top: 32px;
-    transform: scale(1.5);
-    position: absolute;
-
-}
 
 
 @media screen and (max-width:700px){
 
-#hirerchy{
-    width: 100%;
-    height: auto;
+    #hirerchy{
+        width: 100%;
+        height: auto;
 }
 .items{
     width: 100%;
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 #greivance{
     text-align: left;
@@ -3661,10 +3657,6 @@ padding: 1.5rem;
 #Institute_para{
     font-size: 1rem;
 }
-#jd_pic img{
-    right: -14px;
-}
-
 }
 
 
@@ -3678,216 +3670,133 @@ padding: 1.5rem;
     border-radius:0.5rem;
 }
 
-#highlight_items{
-    border: 1px solid #FFF;
-    padding-left: 0.2rem;
-    padding-right: 0.2rem;
-}
+
+
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 
 
 
-/*-------------------------------------------------------------- Placements--------------------------------------- */
-/* ----------------------------------PLACEMENT PAGES-------------------------------------- */
 
 
-.placement_content{
-    font-family: 'Plus Jakarta Sans';
-    text-align: justify;
+
+
+.president1{
+    margin-bottom: 1rem;
 }
 
 
 
-.placement_content_heading{
-    color: #0C2695;
-leading-trim: both;
-text-edge: cap;
-font-feature-settings: 'clig' off, 'liga' off;
-
-font-size: 2rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-margin-bottom: 30px;
-}
-.placement_objectives_heading{
-    color: #4C6BF1;
-leading-trim: both;
-text-edge: cap;
-font-feature-settings: 'clig' off, 'liga' off;
-font-size: 1.5rem;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-}
-.placement_objectives_content{
-    margin-left: 1.2rem;
-    margin-top: 1rem;
-    font-size: 1rem;
-    font-weight: 500;
-}
-.placement_reprsentative{
-    margin-top: 1.4rem;
-}
-.representative_branch{
-    font-size: 1.25rem;
-    color: black;
-    font-weight: 700;
-    margin-top: 1rem;
-}
-/*--------------------------------------- Domains of T & P Cell------------------------------------- */
-.placement_domain_content{
-    margin-left: 1.2rem;
-    font-size: 1rem;
-    font-weight: 500;
-}
-/*--------------------------------------- Brochure-------------------------------------------- */
-.brochure_contain{
-    box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
-    width: 54.4rem;
-    height: 10rem;
-    display: flex;
-    margin-bottom: 1.25rem
-}
-.brochure_contain img{
-    height: 10rem;
-    width: 8rem;
-    padding: 1rem;
-}
-.brochure_contain a{
-    margin-top: 4rem;
-    text-decoration: none;
-    color: #000000;
-    font-size: 1.25rem;
-    font-weight: 700;
-}
-
-.contact_con3{
-    width: 54rem;
-    height: 11.55rem;
-flex-shrink: 0;
-border-radius: 10px;
-/* border: solid 0.1px rgba(0, 0, 0, 0.1); */
-box-shadow: 1px 1px 3px rgba(0, 0,0,0.2);
-/* padding-left: 1.31rem; */
-padding: 1.5rem;
-}
-
-
-.tpo_name{
-    font-size: 1.5rem;
-    font-weight: 600;
-    margin-bottom: 1.25rem;
-}
-
-.contact1 img{
-    width: 1.125rem;
-height: 1.125rem;
-flex-shrink: 0;
-}
-.contact1{
-    display: flex;
-    gap: 1rem;
-}
-.contact1 p{
-    color: #000;
-leading-trim: both;
-text-edge: cap;
-font-feature-settings: 'clig' off, 'liga' off;
-font-family: Plus Jakarta Sans;
-font-size: 1rem;
-font-style: normal;
-font-weight: 500;
-line-height: 1.25rem; /* 125% */
-}
-
-@media screen and (max-width:700px){
-
-    .brochure_contain{
-        width: 100%;
-    }
-    .placement_content_heading{
-        text-align: center;
-        font-size: 1.5rem;
-    }
-    .placement_objectives_heading{
-        font-size: 1.2rem;
-    }
-    .representative_branch{
-        font-size: 1rem;
-    }
-    .placement_content ul li{
-        font-size: 14px;
-    }
-    .tpo_name {
-        font-size: 1.2rem;
-    }
-    .project_more p{
-        font-size: 1.2rem;
-    }
-    #nirf_link li{
-        font-size: 1rem;
-        text-align: left;
-    }
-    #nirf_link{
-        font-size: 1rem;
-        text-align: left;
-        justify-content: center;
-    }
-
-}
-
-
-
-/*---------------------------------------------------- NIRF -----------------------------------*/
-
-.nirf{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-/* ------------------------------------------------ARIIA------------------------------------------------ */
-
-.ariia_contain{
-    display: flex;
-    margin-top: 30px;
-    gap: 2rem;
-}
-.ariia1{
-    width: 70%;
-}
-.ariia1 img{
-    width: 70%;
-}
-.ariia_link{
+.clubcard{
     display: flex;
     flex-direction: column;
+    /* background-color: aqua; */
+    width: 22rem;
+    height: 25rem;
+    flex-shrink: 0;
+    align-items: center;
+    border: 0.15rem solid #4C6BF1;
 }
-.ariia_link a{
-    color: #000;
 
-    text-align: 1rem;
+.imgdiv{
+    margin-top: -2.75rem;
+}
+
+.clubheading{
+    color: #0C2695;
+
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.clubbotton{
+    display: flex;
+    gap: 1.12rem;
+    margin-top: 1.38rem;
+}
+.butclub{
+    color: #FFF;
+    /* leading-trim: both; */
+    /* text-edge: cap; */
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 0.875rem;
+    font-style: normal;
     font-weight: 600;
+    line-height: 1.375rem; /* 157.143% */
+}
+.butclub1{
+display: flex;
+width: 5.9375rem;
+height: 2.625rem;
+padding: 1.125rem 1.375rem;
+justify-content: center;
+align-items: center;
+gap: 0.25rem;
+flex-shrink: 0;
+border-radius: 0.375rem;
+border: 2px solid #4C6BF1;
+background: #4C6BF1;
+box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+color: #FFF;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: "Plus Jakarta Sans";
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.375rem; /* 157.143% */
+}
+.butclub11{
+border-radius: 0.375rem;
+border: 2px solid #4C6BF1;
+background: #FFF;
+box-shadow: 0px 1px 4px 0px rgba(25, 33, 61, 0.08);
+display: flex;
+width: 5.9375rem;
+height: 2.625rem;
+padding: 1.125rem 1.375rem;
+justify-content: center;
+align-items: center;
+gap: 0.25rem;
+flex-shrink: 0;
+color: #000;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: "Plus Jakarta Sans";
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.375rem; /* 157.143% */
 }
 
-@media screen and (max-width:700px){
-    .ariia_contain{
-        flex-wrap: wrap;
-    }
-    .ariia1{
-        width: 100%;
-    }
-    .ariia1 img{
-        width: 80%;
-    }
+.clubcontent{
+    width: 20.0625rem;
+    color: #000;
+    
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: "Plus Jakarta Sans";
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375rem; /* 137.5% */
+
+    margin-top: 1.38rem;
+    margin-bottom: 1.38rem;
+    text-align: justify;
+}
+
+.club_content{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3.2rem;
+    margin-top: 4rem;
+    margin-left: 10rem;
 }
 
 
-/* --------------------------------------------------------ALUMNI--------------------------------------------- */
-
-.alumini_content_heading{
+.student_council_head{
     color: #0C2695;
 leading-trim: both;
 text-edge: cap;
@@ -3899,178 +3808,95 @@ font-weight: 700;
 line-height: normal;
 margin-bottom: 30px;
 }
-#login_alumni{
-    font-size: 1.2rem;
-    font-weight: 600;
-
-}
-#login_karo{
-    display: flex;
+.student_council{
+    margin-left: 10rem;
     margin-top: 3rem;
-    gap: 1.5rem;
-   
 }
-.alumini_content p{
-    text-align: justify;
+.president{
+    padding: 1.25rem;
+    width: 47.2rem;
+    height: 10rem;
+    flex-shrink: 0;
+    background-color: #FFF;
+    border-radius: 16px;
+    /* box-shadow: 0px 3px 8px -1px rgba(50, 50, 71, 0.05), 0px 0px 1px 0px rgba(12, 26, 75, 0.24); */
+   border: 2px solid #4C6BF1;
+}
+.president1{
+    display: flex;
+    gap: 2rem;
+    font-size: 1.25rem;
     font-weight: 500;
 }
-
-@media screen and (max-width:700px){
-    .alumini_content_heading{
-        font-size: 1.5rem;
-        text-align: center;
-    }
-    #login_karo{
-        justify-content: center;
-        flex-direction: column;
-        gap: none;
-        margin-top: 1.5rem;
-    }
-    #login_alumni{
-        text-align: center;
-    }
-    .alumini_content p{
-        text-align: justify;
-        font-size: 0.8rem;
-    }
-}
-
-
-/* ------------------------------------------------------CAR CUT SECTION--------------------------------------------- */
-
-.description_contain h3{
-    margin-top: 1.25rem;
-    font-size: 1.5rem;
+.gs1{
     color: #4C6BF1;
-    margin-bottom: 1.25rem;
+    width: 18rem;
 }
-.description_contain{
+.club_content_head{
+    display: flex;
+    gap: 1rem;
     font-size: 1rem;
-    text-align: justify;
-    font-weight: 500;
 }
-.description_img{
-    display: flex;
-    gap: 8rem;
-    margin-bottom: 1.5rem;
+.club_head_name{
+    width: 10rem;
 }
-.description_img img{
-    height: 18rem;
-    width: 22rem;
-}
-.description_write ul{
-    margin-left: 1.2rem;
-}
-
-@media screen and (max-width:700px){
-    .description_img{
-        flex-wrap: wrap;
-        gap: 1.5rem;
-    }
-    .image_section{
-        flex-wrap: wrap;
-        display: flex;
-        justify-content: center;
-    }
-    .description_img{
-        display: flex;
-        justify-content: center;
-    }
-    .description_contain h3 {
-        font-size: 1.5rem;
-        text-align: center;
-    }
-    .description_contain {
-        font-size: 0.8rem;
-    }
-
-}
-
-/* ///////////////////////////////////////////////////////////////////////////////// */
-
-.image_section img{
-    width: 16rem;
-    height: 14rem;
-}
-.car_imagesection{
-    margin-left: 1.88rem;
-}
-.image_section{
-    display: flex;
-    gap: 3rem;
-    margin-bottom: 3rem;
-}
-
-.car_heading{
-    color: #0C2695;
-    leading-trim: both;
-    text-edge: cap;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: 'Plus Jakarta Sans';
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 30px;
-}
-
-.BMW_section_heading{
-    color: #0C2695;
-    leading-trim: both;
-    text-edge: cap;
-    font-feature-settings: 'clig' off, 'liga' off;
-    font-family: 'Plus Jakarta Sans';
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin-bottom: 30px;
-    
-}
-.bmwcontain{
-    margin-top: 30px;
-}
-.bmwcontain h3{
-
-    font-size: 1.5rem;
-    color: #4C6BF1;
-    margin-bottom: 1.25rem;
-}
-.bmw_image{
-    display: flex;
-    gap: 4rem;
-    margin-bottom: 2rem;
-}
-.bmw_image img{
-    width: 16rem;
-    height: 14rem;
-}
-.bmw_inside{
-    font-size: 1rem;
-    font-weight: 500;
-    text-align: justify;
-}
-.bmw_inside ul{
-    margin-left: 1.2rem;
-}
-@media screen and (max-width:700px){
-    #BMW_Section{
+@media screen and (max-width:1000px){
+    .student_counci{
         width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+        padding: 10px;
+        font-size: 0.9rem;
     }
-    .bmw_image{
-        flex-direction: column;
-        justify-content: center;
+    .student_council {
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 0px;
+        padding: 10px;
+        text-align: center;
     }
-    .bmw_image img{
+    .president {
         width: 100%;
         height: auto;
     }
-    .BMW_section_heading{
-        text-align: center;
-        font-size: 1.5rem;
+    .project_more{
+        width: 100%;
     }
-    .bmwcontain h3 {
-        font-size: 1.2rem;
+    .club_content {
+        margin: 0;
+    
     }
-
+    .clubcard {
+        margin: 20px auto;
+        font-size: 0.9rem;
+        height: auto;
+    }
+    .gs2{
+        width: 14rem;
+        text-align: left;
+    }
+    .gs1{
+        text-align: left;
+    }
+    .president1{
+        margin-bottom: 0.5rem;
+        justify-content: flex-start;
+        font-size: 0.9rem;
+        font-size: 0.9rem;
+    }
+    .project_link a{
+        font-size: 0.9rem;
+    }
+    .clubcontent{
+        font-size: 0.9rem;
+    }
 }
+
+
+#nba_info{
+    margin-top: 0px;
+}
+
+
+
+
