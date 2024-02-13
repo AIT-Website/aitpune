@@ -3338,13 +3338,16 @@ padding: 1.5rem;
     .contact_con2{
         width: 100%;
     }
+    #director_pic{
+        text-align: center;
+    }
 }
 /* ---------------------------------------------Admistration---------------------------------------------------------- */
 .items ul{
     margin-left: 1.2rem;
 }
 #director_pic{
-    margin-top: 2.8rem;
+    margin-top: 2.4rem;
 }
 #items_list li{
     margin-left: 1rem;
@@ -3367,10 +3370,10 @@ padding: 1.5rem;
     overflow: hidden;
 }
 #jd_pic img{
-    
+    left: 5px;
     width: 100px;
     top: 32px;
-    transform: scale(1.5);
+    transform: scale(4);
     position: absolute;
 }
 @media screen and (max-width:700px){
@@ -3392,7 +3395,11 @@ padding: 1.5rem;
     font-size: 1rem;
 }
 #jd_pic img{
-    right: -14px;
+    right: -2px;
+}
+#jd_pic2{
+    flex-wrap: wrap;
+    justify-content: center;
 }
 }
 /* ////////////////////////////////////////////////////////////////////////////////////// */
