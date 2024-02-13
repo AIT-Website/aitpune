@@ -2489,9 +2489,8 @@ padding: 10px;
     height: 18rem;
     width: 22rem;
     border-radius: 8px;
-   
-    
-}
+}  
+
 /* ------------------------------------------------------------------------------------------------------ */
 .result_img img{
     height: 24rem;
@@ -2719,6 +2718,7 @@ padding: 10px;
     .head_ok{
         font-size: 24px;
         margin-left: 0px;
+        text-align: center;
     }
     .hod_content2{
         margin:0px auto;
@@ -3291,8 +3291,7 @@ font-weight: 500;
 line-height: 1.25rem; /* 125% */
 }
 .contact_con2{
-    width: 54rem;
-    height: 9.25rem;
+    width: 54.4rem;
 flex-shrink: 0;
 border-radius: 10px;
 /* border: solid 0.1px rgba(0, 0, 0, 0.1); */
@@ -3328,6 +3327,9 @@ padding: 1.5rem;
     #E-button{
         display: flex;
         justify-content: center;
+    }
+    .contact_con2{
+        width: 100%;
     }
 }
 /* ---------------------------------------------Admistration---------------------------------------------------------- */
@@ -3398,6 +3400,7 @@ padding: 1.5rem;
     border: 1px solid #FFF;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
+    border-radius:0.3rem;
 }
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 /*-------------------------------------------------------------- Placements--------------------------------------- */
@@ -3534,6 +3537,9 @@ line-height: 1.25rem; /* 125% */
         font-size: 1rem;
         text-align: left;
         justify-content: center;
+    }
+    .generalinfo2{
+        font-size: 1.2rem;
     }
 }
 /*---------------------------------------------------- NIRF -----------------------------------*/
@@ -3970,6 +3976,20 @@ margin-bottom: 30px;
     .laboratory_button{
         margin-top: 0px;
     }
+    .dvv_contain{
+        width: 100%;
+    }
+    .dvv_contain2 {
+        width: 100%;
+    }
+    .dvv_contain2 #myTable{
+        width: 100%;
+    }
+    .table_naac{
+        width: 100%;
+      overflow-x: auto;
+    }
+    
 }
 
 
@@ -3991,4 +4011,218 @@ margin-bottom: 30px;
     margin-top: 4rem;
     display: flex;
     justify-content: center;
+}
+
+.club_content{
+    margin-top: 7rem;
+}
+.dvv_contain2{
+    padding: 0 11.45%;
+    margin-top: 7%;
+}
+
+
+
+
+
+
+/* ---------------------------------------------ADMISSION -----------------------------------*/
+
+.generalinfo2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #6D6D6D;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#ad_mig{
+    margin-top: 0px;
+}
+
+#ad_mig ul{
+    margin-left: 1rem;
+    font-weight: 500;
+}
+#link-industry{
+    margin-left: 2rem;
+    font-weight: 500;
+}
+.generalinfo1{
+    text-align: justify;
+    font-weight: 500;
+}
+
+.contain_placement h4{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+}
+.contain_placement{
+    margin-top: 30px;
+}
+.contain_placement p{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+    
+}
+#ME-admission{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+}
+
+.entrance_exam_contain{
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+}
+#light_exam{
+    font-weight: 700;
+}
+.entrance_card{
+    font-weight: 500;
+}
+#Note_project{
+    color: #4C6BF1;
+    font-size: 1.2rem;
+}
+#notiii{
+    margin-left: 1rem;
+    font-weight: 500;
+}
+#notii2{
+    margin-top: 0px;
+}
+
+
+
+/* -----------------------------------------------FAQ --------------------------------------------------*/
+
+.accordian {
+    background-color: white;
+    padding: 4px 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    width: 54rem;
+    box-shadow: 1px 1px 5px #8DC1FF;
+    cursor: pointer;
+    /* font-weight: 100; */
+    color: #000;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Plus Jakarta Sans'        ;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25rem; /* 125% */
+}
+
+.question {
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    margin-right: 16px;
+    transition: transform 0.2s;
+    
+}
+
+.icon.active {
+    transform: rotate(-180deg);
+}
+
+.answer {
+    color: #666;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+
+div.c{
+  position: relative;
+  /* width: 54.4rem; */
+  margin-bottom: 1.25rem;
+  
+}
+input{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity:0;
+  visibility: 0;
+}
+h1{
+  /* background:steelblue; */
+  box-shadow: 1px 1px 5px #8DC1FF;
+  color:black;
+  padding:1em;
+  position: relative;
+  
+}
+label::before{
+  content:"";
+  display: inline-block;
+  border: 0.50rem solid transparent;
+  border-left:0.75rem solid black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+label{
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+div.p{
+  max-height:0px;
+  overflow: hidden;
+  transition:max-height 0.5s;
+  background-color: white;
+  box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+  height: 10rem;
+}
+div.p p {
+  padding:2em;
+}
+input:checked ~ h1 label::before{
+  border-left:0.50rem solid transparent;
+  border-top:0.75rem solid black;
+  margin-top:12px;
+  margin-right:10px;
+}
+input:checked ~ h1 ~ div.p{
+  max-height:250px;
+}
+a{
+  color:steelblue;
+}
+@media screen and (max-width:700px){
+    #entrance_exam_contain{
+        font-size: 0.8rem;
+    }
+    #ME-admission{
+        font-size: 1.2rem;
+    }
+    .g_ad{
+        font-size: 0.8rem;
+    }
+    #contact_karo p{
+        font-size: 1rem;
+    }
+    .contain_placement h4{
+        font-size: 1rem;
+    }
 }
