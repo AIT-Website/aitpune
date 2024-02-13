@@ -5,6 +5,7 @@ body {
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: 'Plus Jakarta Sans';
   padding: 0;
+  
 }
 :root{
   -color--a :#0C2695;
@@ -113,7 +114,7 @@ body {
 .header .head{
   margin: 0;
   display: flex;
-  /* justify-content: left; */
+ 
   text-align: left;
   width:200px;
   font-weight: bold;
@@ -272,7 +273,7 @@ body {
   background: url("./assets/home/aitmain.jpg") no-repeat;
 }
 .slide3{
-  background: url("./assets/home/b.png") no-repeat;
+  background: url("./assets/home/b.jpg") no-repeat;
 }
 
 /* --------------------- */
@@ -399,6 +400,10 @@ button {
   .header nav{
     margin-top: 70px;
   }
+  .slide3{
+    background: url("./assets/home/aitgate.jpg") no-repeat;
+  }
+  
 }
 
 /* --------- ------------------- ----------------- -------------------- ----------------- -⸺---
@@ -563,6 +568,7 @@ nav bar and first section complete
   border: 1px solid #FFF;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
+  border-radius:0.3rem;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -829,8 +835,10 @@ button {
   height: 40px;
   width: 40px;
   margin:  5px;
-  
+  position: relative;
+  overflow: hidden;
 }
+
 .linkinfo a {
   text-decoration: none;
   color: white;
@@ -925,7 +933,8 @@ hr{
   padding: 60px 10%;
   display: flex;
   color: #fff;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 4.5%;
   flex-wrap: wrap;
 }
 .footadd1{
@@ -946,18 +955,16 @@ hr{
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 10px;
-
+  text-decoration-line: underline;
 }
 #foothead1{
   margin-top: 25px;
-
 }
 .foothead2{
   font-size: 14px;
 }
 .footcontact{
   display: flex;
-  /* gap: 3rem; */
   margin-top: 10px;
   gap: 0.5rem;
 }
@@ -992,6 +999,7 @@ hr{
 @media only screen and (max-width: 800px) {
   .footer{
     flex-direction: column;
+    gap:100px;
   }
   .footer .left{
     width: 100%;
@@ -1019,6 +1027,7 @@ hr{
 }
 
 .footer1{
+  display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
@@ -1031,6 +1040,7 @@ hr{
 }
 .foothead{
   margin-top: 1.4rem;
+  text-decoration-line: underline;
 }
 .footlist{
   margin-top: 10px; 
