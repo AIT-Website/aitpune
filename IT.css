@@ -224,7 +224,7 @@ body{
   
   /*-----------------------------------------------------------------------------------------------------------*/
   .header3{
-    background: url("https://firebasestorage.googleapis.com/v0/b/ait-website-81159.appspot.com/o/DRONE%20-PICS%2FDJI_0171%20copy.jpg?alt=media&token=497c1d01-8a5c-4120-85ae-733184a571b0") no-repeat;
+    background: url("./assets/home/aitmain.jpg") no-repeat;
     background-size:cover;
     background-position: center;
     height: 30vw;
