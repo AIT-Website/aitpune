@@ -114,7 +114,7 @@ body {
 .header .head{
   margin: 0;
   display: flex;
-  /* justify-content: left; */
+ 
   text-align: left;
   width:200px;
   font-weight: bold;
@@ -835,8 +835,12 @@ button {
   height: 40px;
   width: 40px;
   margin:  5px;
-  
+  position: relative;
 }
+.logoimg img{
+  width:40px;
+}
+
 .linkinfo a {
   text-decoration: none;
   color: white;

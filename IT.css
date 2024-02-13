@@ -3596,6 +3596,8 @@ line-height: 1.25rem; /* 125% */
     }
 }
 /* --------------------------------------------------------ALUMNI--------------------------------------------- */
+
+
 .alumini_content_heading{
     color: #0C2695;
 leading-trim: both;
@@ -3621,6 +3623,7 @@ margin-bottom: 30px;
     text-align: justify;
     font-weight: 500;
 }
+
 @media screen and (max-width:700px){
     .alumini_content_heading{
         font-size: 1.5rem;
@@ -3638,7 +3641,7 @@ margin-bottom: 30px;
     .alumini_content p{
         text-align: justify;
         font-size: 0.8rem;
-    }
+    }   
 }
 /* ------------------------------------------------------CAR CUT SECTION--------------------------------------------- */
 .description_contain h3{
