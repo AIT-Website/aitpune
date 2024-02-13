@@ -4197,7 +4197,7 @@ div.p{
 div.p p {
   padding:2em;
 }
-input:checked ~ h1 label::before{
+input:checked ~ #faq7 label::before{
   border-left:0.50rem solid transparent;
   border-top:0.75rem solid black;
   margin-top:12px;
@@ -4205,9 +4205,6 @@ input:checked ~ h1 label::before{
 }
 input:checked ~ #faq7 ~ div.p{
   max-height:250px;
-}
-a{
-  color:steelblue;
 }
 @media screen and (max-width:700px){
     #entrance_exam_contain{
