@@ -836,9 +836,7 @@ button {
   width: 40px;
   margin:  5px;
   position: relative;
-}
-.logoimg img{
-  width:40px;
+  overflow: hidden;
 }
 
 .linkinfo a {
