@@ -1397,3 +1397,209 @@ text-decoration: none;
         font-size: .8rem;
     }
 }
+
+
+/* <------------------------footer.html--------------------------> */
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #0C2695;
+  }
+  
+  .footer .left{
+    width: 300px;
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .footerCollegeinfo{
+    margin: 10px;
+    font-size: 16px;
+  }
+  .infolist{
+    margin: 10px;
+  }
+  .infolist span{
+    margin: 10px;
+  }
+  .footer .right{
+    width: 70%;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .footer .right div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .footer .right a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+  }
+  
+  .footer hr{
+    width: 4px;
+    background-image: linear-gradient(#eeeeee00, #fff, #eeeeee00);
+    border: 0;
+  }
+  .g20_image{
+    margin: 20px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 150px;
+    width: 262px;
+    margin-top: 20px;
+    
+  }
+  
+  hr{
+    margin: 2px;
+  }
+  .gps_image{
+    box-sizing: border-box;
+    margin: auto 20px;
+    margin-top: 40px\;;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 150px;
+    width: 262px;
+  }
+  
+  
+  /* Footer */
+  .footer1{
+    background-color: #3C5ADA;
+    padding: 60px 10%;
+    display: flex;
+    color: #fff;
+    /* justify-content: space-between; */
+    gap: 4.5%;
+    flex-wrap: wrap;
+  }
+  .footadd1{
+    display: flex;
+    
+  }
+  .footadd1 img{
+    height:50px;
+     /* width:50px; */
+  }
+  .imgcont{
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 170px;
+    margin-left: 0.5rem;
+  }
+  .foothead{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+  }
+  #foothead1{
+    margin-top: 25px;
+  }
+  .foothead2{
+    font-size: 14px;
+  }
+  .footcontact{
+    display: flex;
+    margin-top: 10px;
+    gap: 0.5rem;
+  }
+  
+  .footlist{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 1rem;
+    opacity: 0.7;
+  }
+  .footlist a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .footsocialimg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footsocialimg a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .copyright{
+    background-color: #0C2695;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+  }
+  
+  .fa-brands{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* Footer End */
+  
+  @media only screen and (max-width: 800px) {
+    .footer{
+      flex-direction: column;
+      gap:100px;
+    }
+    .footer .left{
+      width: 100%;
+    }
+    .footer .right{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+    .footer hr{
+      height: 5px;
+      width: 100%;
+      background-image: linear-gradient(90deg,#eeeeee00, #fff, #eeeeee00);
+    }
+  .links{
+    display: flex;
+    flex-direction: column;
+  }
+  .importantLinks .row{
+    width: 100px;
+    margin: 10px auto;
+  }
+  .footer_image{
+    margin:auto;
+  }
+  
+  .footer1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .footcontact{
+    /* flex-direction: column; */
+    justify-content: center;
+  
+  }
+  .foothead{
+    margin-top: 1.4rem;
+    text-decoration-line: underline;
+  }
+  .footlist{
+    margin-top: 10px; 
+  }
+  .foothead2{
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.7;
+  }
