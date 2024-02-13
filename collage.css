@@ -848,13 +848,13 @@ button {
 
 }
 .importantLinks .row{
-  
   padding: 20px;
   border-bottom: 1px solid;
   border-image: linear-gradient(to right, #0C2695, #fff,#0c2695); /* Replace with your desired colors */
   border-image-slice: 1;
   text-align: center;
 }
+/* --------------------------------------------------------- */
 .footer{
   display: flex;
   justify-content: center;
