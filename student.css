@@ -1390,3 +1390,9 @@ text-decoration: none;
     margin-right: 50px;
     text-decoration: none;
 }
+
+@media only screen and (max-width:900px){
+    .para_containi ul ul li a{
+        font-size: .8rem;
+    }
+}
