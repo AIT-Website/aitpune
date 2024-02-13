@@ -946,7 +946,7 @@ hr{
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 10px;
-
+  text-decoration-line: underline;
 }
 #foothead1{
   margin-top: 25px;
@@ -1019,6 +1019,7 @@ hr{
 }
 
 .footer1{
+  display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
@@ -1031,6 +1032,7 @@ hr{
 }
 .foothead{
   margin-top: 1.4rem;
+  text-decoration-line: underline;
 }
 .footlist{
   margin-top: 10px; 

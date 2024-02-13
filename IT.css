@@ -4163,7 +4163,7 @@ input{
   opacity:0;
   visibility: 0;
 }
-h1{
+#faq7{
   /* background:steelblue; */
   box-shadow: 1px 1px 5px #8DC1FF;
   color:black;
@@ -4203,7 +4203,7 @@ input:checked ~ h1 label::before{
   margin-top:12px;
   margin-right:10px;
 }
-input:checked ~ h1 ~ div.p{
+input:checked ~ #faq7 ~ div.p{
   max-height:250px;
 }
 a{
