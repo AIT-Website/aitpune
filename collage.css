@@ -274,7 +274,6 @@ body {
 }
 .slide3{
   background: url("./assets/home/b.jpg") no-repeat;
-  
 }
 
 /* --------------------- */
@@ -401,6 +400,10 @@ button {
   .header nav{
     margin-top: 70px;
   }
+  .slide3{
+    background: url("./assets/home/aitgate.jpg") no-repeat;
+  }
+  
 }
 
 /* --------- ------------------- ----------------- -------------------- ----------------- -⸺---
