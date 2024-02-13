@@ -114,7 +114,7 @@ body {
 .header .head{
   margin: 0;
   display: flex;
-  /* justify-content: left; */
+ 
   text-align: left;
   width:200px;
   font-weight: bold;
@@ -273,7 +273,7 @@ body {
   background: url("./assets/home/aitmain.jpg") no-repeat;
 }
 .slide3{
-  background: url("./assets/home/b.png") no-repeat;
+  background: url("./assets/home/b.jpg") no-repeat;
 }
 
 /* --------------------- */
@@ -400,6 +400,10 @@ button {
   .header nav{
     margin-top: 70px;
   }
+  .slide3{
+    background: url("./assets/home/aitgate.jpg") no-repeat;
+  }
+  
 }
 
 /* --------- ------------------- ----------------- -------------------- ----------------- -⸺---
@@ -564,6 +568,7 @@ nav bar and first section complete
   border: 1px solid #FFF;
   padding-left: 0.2rem;
   padding-right: 0.2rem;
+  border-radius:0.3rem;
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -830,8 +835,10 @@ button {
   height: 40px;
   width: 40px;
   margin:  5px;
-  
+  position: relative;
+  overflow: hidden;
 }
+
 .linkinfo a {
   text-decoration: none;
   color: white;
@@ -841,13 +848,13 @@ button {
 
 }
 .importantLinks .row{
-  
   padding: 20px;
   border-bottom: 1px solid;
   border-image: linear-gradient(to right, #0C2695, #fff,#0c2695); /* Replace with your desired colors */
   border-image-slice: 1;
   text-align: center;
 }
+/* --------------------------------------------------------- */
 .footer{
   display: flex;
   justify-content: center;
@@ -968,11 +975,19 @@ hr{
   margin-top: 1rem;
   opacity: 0.7;
 }
+.footlist a{
+  text-decoration: none;
+  color: #fff;
+}
 .footsocialimg{
   display: flex;
   justify-content: space-between;
   margin-top: 1rem;
   margin-bottom: 1rem;
+}
+.footsocialimg a{
+  text-decoration: none;
+  color: #fff;
 }
 .copyright{
   background-color: #0C2695;
