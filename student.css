@@ -36,7 +36,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 80px;
+    height: 80px;
     /* width: 77.10%;  */  /* not required*/
     transition: 0.80s;
     align-items: center;
@@ -412,7 +412,7 @@ font-weight: 400;
 }
 @media only screen and (max-width : 1300px){
     .about_content{
-        font-size: .7rem;
+        font-size: .8rem;
     }
 }
 
@@ -441,25 +441,21 @@ font-weight: 400;
 }
 /* ----------------------------------------------------------------------------- */
 
-.dir{
-    overflow: hidden;
-}
+
 .jd_table{
-    width: fit-content;
-    max-width: min-content;
+    min-width: 250px;
     height: fit-content;
-    min-width: 225px;
     box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
     border-radius: 2px;
     font-family:'Plus Jakarta Sans';
-    /* margin-left: 165px; */
-    border-radius:8px;
+    border-radius:8px;  
     padding-top: 12px;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
     cursor: pointer;
 }
+
 
 .jd_table ul p{
     color: #0C2695;
@@ -527,8 +523,9 @@ font-weight: 400;
     margin-left: 30px;
     width: 160px;
     height: 160px;
-    background: url(diro.jpg);
+    background: url(https://firebasestorage.googleapis.com/v0/b/ait-website-81159.appspot.com/o/AIT-JD%20pic%2F1R9A2292.jpg?alt=media&token=2d0fca51-7680-4c42-b6cd-97d0dc151489);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: top;
     /* background-color: #FFF; */
     display: inline-block;
@@ -598,9 +595,7 @@ font-weight: 400;
 .para_containi{
     color: #4C6BF1;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 24px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
     display: inline-block;
     margin-top: 0px;
@@ -611,7 +606,6 @@ font-weight: 400;
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 1rem;
     font-style: normal;
-    font-weight: 500;
     line-height: 24px;
     margin-bottom: 30px;
     margin-right: 50px;
@@ -846,7 +840,6 @@ font-weight: 400;
     font-family: Plus Jakarta Sans;
     font-size: 1rem;
     font-style: normal;
-    font-weight: 500;
     line-height: 24px; /* 171.429% */
     margin-top: 1rem;
     text-align: justify;
@@ -1192,7 +1185,7 @@ text-decoration: none;
         font-size: .8rem;
         width: calc(100vw - 17.50rem);
     }
-    .para_con, #link_external{
+    .para_con, #link_external, .history_con{
         font-size: .8rem;
     }
     .header3 div p{
@@ -1221,11 +1214,12 @@ text-decoration: none;
         box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
         border-radius: 2px;
         font-family:'Plus Jakarta Sans';
-        border-radius:8px;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-right: 17px;
-        visibility: visible;
+        border-radius:8px;  
+        padding-top: 12px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        cursor: pointer;
         z-index: 8;
         overflow-y: scroll;
         bottom: 1rem;
@@ -1285,7 +1279,7 @@ text-decoration: none;
       }
     .director_content, .laa ,.agb{
         margin-left: 0rem;
-        font-size: .7rem;
+        font-size: .8rem;
         justify-content: center;
         /* text-align: center; */
         width: calc(100vw - 2.00rem);
@@ -1321,14 +1315,14 @@ text-decoration: none;
         justify-content: center;
     }
     .para_con{
-        font-size: .7rem;
+        font-size: .8rem;
         text-align: center;
     }
     .para_con p{
         text-align: justify;
     }
     #link_external{
-        font-size: .7rem;
+        font-size: .8rem;
     }
     .lim{
         height: 50vw;
@@ -1396,4 +1390,10 @@ text-decoration: none;
     margin-top: 16px;
     margin-right: 50px;
     text-decoration: none;
+}
+
+@media only screen and (max-width:900px){
+    .para_containi ul ul li a{
+        font-size: .8rem;
+    }
 }
