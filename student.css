@@ -348,6 +348,7 @@ body{
 }
 .main_content{
     text-align: justify;
+    width:90%;
 }
 .ab{
     color: #0C2695;
