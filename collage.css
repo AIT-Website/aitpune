@@ -5,6 +5,7 @@ body {
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: 'Plus Jakarta Sans';
   padding: 0;
+  
 }
 :root{
   -color--a :#0C2695;
@@ -925,7 +926,8 @@ hr{
   padding: 60px 10%;
   display: flex;
   color: #fff;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 4.5%;
   flex-wrap: wrap;
 }
 .footadd1{
@@ -946,18 +948,16 @@ hr{
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 10px;
-
+  text-decoration-line: underline;
 }
 #foothead1{
   margin-top: 25px;
-
 }
 .foothead2{
   font-size: 14px;
 }
 .footcontact{
   display: flex;
-  /* gap: 3rem; */
   margin-top: 10px;
   gap: 0.5rem;
 }
@@ -992,6 +992,7 @@ hr{
 @media only screen and (max-width: 800px) {
   .footer{
     flex-direction: column;
+    gap:100px;
   }
   .footer .left{
     width: 100%;
@@ -1019,6 +1020,7 @@ hr{
 }
 
 .footer1{
+  display: flex;
   flex-direction: column;
   text-align: center;
   justify-content: center;
@@ -1031,6 +1033,7 @@ hr{
 }
 .foothead{
   margin-top: 1.4rem;
+  text-decoration-line: underline;
 }
 .footlist{
   margin-top: 10px; 
