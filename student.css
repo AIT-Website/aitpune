@@ -36,7 +36,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 80px;
+    height: 80px;
     /* width: 77.10%;  */  /* not required*/
     transition: 0.80s;
     align-items: center;
@@ -230,7 +230,7 @@ body{
 
   /*-----------------------------------------------------------------------------------------------------------*/
   .header3{
-    background: url("./aitcampbanner.jpg") no-repeat;
+    background: url("./assets/home/aitmain.jpg") no-repeat;
     background-size:cover;
     background-position: center;
 
@@ -244,7 +244,7 @@ body{
 }
   .header3 .show{
     position: absolute;
-    top : 170px;
+    /* top : 170px; */
     place-content: center; /*for making the items center */
     display: flex;
     flex-direction: column;
@@ -342,12 +342,13 @@ body{
     justify-content: space-between;
     align-items: center;
     position: relative;
-    padding: 0 11.45%;
+    padding: 2rem 11.45%;
     gap: 5rem;
     background-image: linear-gradient(90deg, #fff 69%,#fff 1%, #3654D2 30%);
 }
 .main_content{
     text-align: justify;
+    width:90%;
 }
 .ab{
     color: #0C2695;
@@ -356,28 +357,23 @@ body{
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;
-    margin-top: 64px;
 } 
 .about_vision{
     color: #4C6BF1;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'Plus Jakarta Sans';
-    font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin-top: 40px;
 }
 .about_content{
     color: #6D6D6D;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'Plus Jakarta Sans';
-    font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
     margin-top: 16px;
+    font-size: 1rem;
 }
 .about_list{
     margin-left: 20px;
@@ -389,20 +385,16 @@ leading-trim: both;
 text-edge: cap;
 font-feature-settings: 'clig' off, 'liga' off;
 font-family: 'Plus Jakarta Sans';
-font-size: 16px;
 font-style: normal;
 font-weight: 400;
-line-height: 24px; /* 150% */
 }
 
 .about_mission{
     color: #4C6BF1;
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: 'Plus Jakarta Sans';
-    font-size: 16px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
     margin-top: 40px;
 }
 .about_image{
@@ -414,12 +406,17 @@ line-height: 24px; /* 150% */
 
 } 
 .about_image img{
-    width: 540px;
-    height: 300px;
+    width: calc(32vw);
+    height: calc(20vw);
     border-radius: 1rem;
 }
+@media only screen and (max-width : 1300px){
+    .about_content{
+        font-size: .8rem;
+    }
+}
 
-@media only screen and (max-width : 1350px){
+@media only screen and (max-width : 900px){
     /* .main_content{
         width:max(400px,60vw);
     } */
@@ -434,9 +431,6 @@ line-height: 24px; /* 150% */
         height: fit-content;
         flex-direction: column;
     }
-    .about_content{
-        font-size: 90%;
-    }
 }
 #highlight{
     color: #4C6BF1;
@@ -447,25 +441,21 @@ line-height: 24px; /* 150% */
 }
 /* ----------------------------------------------------------------------------- */
 
-.dir{
-    overflow: hidden;
-}
+
 .jd_table{
-    width: fit-content;
-    max-width: min-content;
+    min-width: 250px;
     height: fit-content;
-    min-width: 225px;
     box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
     border-radius: 2px;
     font-family:'Plus Jakarta Sans';
-    /* margin-left: 165px; */
-    border-radius:8px;
+    border-radius:8px;  
     padding-top: 12px;
     padding-bottom: 15px;
     padding-left: 15px;
     padding-right: 15px;
     cursor: pointer;
 }
+
 
 .jd_table ul p{
     color: #0C2695;
@@ -533,8 +523,9 @@ line-height: 24px; /* 150% */
     margin-left: 30px;
     width: 160px;
     height: 160px;
-    background: url(diro.jpg);
+    background: url(https://firebasestorage.googleapis.com/v0/b/ait-website-81159.appspot.com/o/AIT-JD%20pic%2F1R9A2292.jpg?alt=media&token=2d0fca51-7680-4c42-b6cd-97d0dc151489);
     background-repeat: no-repeat;
+    background-size: cover;
     background-position: top;
     /* background-color: #FFF; */
     display: inline-block;
@@ -604,9 +595,7 @@ line-height: 24px; /* 150% */
 .para_containi{
     color: #4C6BF1;
     font-feature-settings: 'clig' off, 'liga' off;
-    font-size: 24px;
     font-style: normal;
-    font-weight: 600;
     line-height: normal;
     display: inline-block;
     margin-top: 0px;
@@ -617,7 +606,6 @@ line-height: 24px; /* 150% */
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 1rem;
     font-style: normal;
-    font-weight: 500;
     line-height: 24px;
     margin-bottom: 30px;
     margin-right: 50px;
@@ -772,7 +760,7 @@ line-height: 24px; /* 150% */
     line-height: normal;
 }
 .lim{
-    background-image: url(Rectangle\ 69.png);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/ait-website-81159.appspot.com/o/AIT-IMAGES%2F1R9A2726.JPG?alt=media&token=e1dcc3db-6c7e-46e7-aaca-31f940fce0ac);
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
     height: 30vw;
@@ -852,7 +840,6 @@ line-height: 24px; /* 150% */
     font-family: Plus Jakarta Sans;
     font-size: 1rem;
     font-style: normal;
-    font-weight: 500;
     line-height: 24px; /* 171.429% */
     margin-top: 1rem;
     text-align: justify;
@@ -1186,6 +1173,9 @@ text-decoration: none;
     .para_con, #link_external{
         font-size: .9rem;
     }
+    .header3 div p{
+        left: 5%;
+    }
   }
   @media only screen and (max-width:850px) {
     .content-transition ,.about_us, .main{
@@ -1195,8 +1185,11 @@ text-decoration: none;
         font-size: .8rem;
         width: calc(100vw - 17.50rem);
     }
-    .para_con, #link_external{
+    .para_con, #link_external, .history_con{
         font-size: .8rem;
+    }
+    .header3 div p{
+        left: 2%;
     }
   }
 
@@ -1221,11 +1214,12 @@ text-decoration: none;
         box-shadow: 0.1px 0.1px 3px rgba(0, 0,0,0.2);
         border-radius: 2px;
         font-family:'Plus Jakarta Sans';
-        border-radius:8px;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
-        padding-right: 17px;
-        visibility: visible;
+        border-radius:8px;  
+        padding-top: 12px;
+        padding-bottom: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        cursor: pointer;
         z-index: 8;
         overflow-y: scroll;
         bottom: 1rem;
@@ -1285,7 +1279,7 @@ text-decoration: none;
       }
     .director_content, .laa ,.agb{
         margin-left: 0rem;
-        font-size: .7rem;
+        font-size: .8rem;
         justify-content: center;
         /* text-align: center; */
         width: calc(100vw - 2.00rem);
@@ -1321,14 +1315,14 @@ text-decoration: none;
         justify-content: center;
     }
     .para_con{
-        font-size: .7rem;
+        font-size: .8rem;
         text-align: center;
     }
     .para_con p{
         text-align: justify;
     }
     #link_external{
-        font-size: .7rem;
+        font-size: .8rem;
     }
     .lim{
         height: 50vw;
@@ -1397,3 +1391,215 @@ text-decoration: none;
     margin-right: 50px;
     text-decoration: none;
 }
+
+@media only screen and (max-width:900px){
+    .para_containi ul ul li a{
+        font-size: .8rem;
+    }
+}
+
+
+/* <------------------------footer.html--------------------------> */
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #0C2695;
+  }
+  
+  .footer .left{
+    width: 300px;
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .footerCollegeinfo{
+    margin: 10px;
+    font-size: 16px;
+  }
+  .infolist{
+    margin: 10px;
+  }
+  .infolist span{
+    margin: 10px;
+  }
+  .footer .right{
+    width: 70%;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .footer .right div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .footer .right a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+  }
+  
+  .footer hr{
+    width: 4px;
+    background-image: linear-gradient(#eeeeee00, #fff, #eeeeee00);
+    border: 0;
+  }
+  .g20_image{
+    margin: 20px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 150px;
+    width: 262px;
+    margin-top: 20px;
+    
+  }
+  
+  hr{
+    margin: 2px;
+  }
+  .gps_image{
+    box-sizing: border-box;
+    margin: auto 20px;
+    margin-top: 40px\;;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 150px;
+    width: 262px;
+  }
+  
+  
+  /* Footer */
+  .footer1{
+    background-color: #3C5ADA;
+    padding: 60px 10%;
+    display: flex;
+    color: #fff;
+    /* justify-content: space-between; */
+    gap: 4.5%;
+    flex-wrap: wrap;
+  }
+  .footadd1{
+    display: flex;
+    
+  }
+  .footadd1 img{
+    height:50px;
+     /* width:50px; */
+  }
+  .imgcont{
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 170px;
+    margin-left: 0.5rem;
+  }
+  .foothead{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+  }
+  #foothead1{
+    margin-top: 25px;
+  }
+  .foothead2{
+    font-size: 14px;
+  }
+  .footcontact{
+    display: flex;
+    margin-top: 10px;
+    gap: 0.5rem;
+  }
+  
+  .footlist{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 1rem;
+    opacity: 0.7;
+  }
+  .footlist a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .footsocialimg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footsocialimg a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .copyright{
+    background-color: #0C2695;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+  }
+  
+  .fa-brands{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* Footer End */
+  
+  @media only screen and (max-width: 800px) {
+    .footer{
+      flex-direction: column;
+      gap:100px;
+    }
+    .footer .left{
+      width: 100%;
+    }
+    .footer .right{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+    .footer hr{
+      height: 5px;
+      width: 100%;
+      background-image: linear-gradient(90deg,#eeeeee00, #fff, #eeeeee00);
+    }
+  .links{
+    display: flex;
+    flex-direction: column;
+  }
+  .importantLinks .row{
+    width: 100px;
+    margin: 10px auto;
+  }
+  .footer_image{
+    margin:auto;
+  }
+  
+  .footer1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .footcontact{
+    /* flex-direction: column; */
+    justify-content: center;
+  
+  }
+  .foothead{
+    margin-top: 1.4rem;
+    text-decoration-line: underline;
+  }
+  .footlist{
+    margin-top: 10px; 
+  }
+  .foothead2{
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.7;
+  }

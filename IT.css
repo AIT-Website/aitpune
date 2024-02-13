@@ -218,13 +218,13 @@ body{
       visibility: hidden;
     }
     #overflow_name{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
   }
   
   /*-----------------------------------------------------------------------------------------------------------*/
   .header3{
-    background: url("https://firebasestorage.googleapis.com/v0/b/ait-website-81159.appspot.com/o/DRONE%20-PICS%2FDJI_0171%20copy.jpg?alt=media&token=497c1d01-8a5c-4120-85ae-733184a571b0") no-repeat;
+    background: url("./assets/home/aitmain.jpg") no-repeat;
     background-size:cover;
     background-position: center;
     height: 30vw;
@@ -1512,7 +1512,6 @@ margin-bottom: 20px;
 .indp{
     margin-bottom: 25px;
    
-    height: 18.875rem;
     border: 1px solid rgba(234,234,234,1);
     flex-shrink: 0;
     border-radius: 1rem;
@@ -2489,9 +2488,8 @@ padding: 10px;
     height: 18rem;
     width: 22rem;
     border-radius: 8px;
-   
-    
-}
+}  
+
 /* ------------------------------------------------------------------------------------------------------ */
 .result_img img{
     height: 24rem;
@@ -2675,6 +2673,13 @@ padding: 10px;
     .para2 p {
         font-size: 20px;
     }
+    #timetable h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #comp_actvity {
+        margin-left: 0px;
+    }
     .para3{
         width: 380px;
         height: 70px;
@@ -2709,7 +2714,8 @@ padding: 10px;
     }
     
     .about_list li, .about_content{
-        font-size: 14px;
+        font-size: 0.8rem;
+        font-weight: 500;
     }
     #hod_content{
         text-align: center;
@@ -2719,6 +2725,7 @@ padding: 10px;
     .head_ok{
         font-size: 24px;
         margin-left: 0px;
+        text-align: center;
     }
     .hod_content2{
         margin:0px auto;
@@ -2923,7 +2930,7 @@ padding: 10px;
         padding: 10px; 
     }
     #RandD h1{
-        font-size: 24px;
+        font-size: 1.5rem;
         text-align: center;
         margin-left: 0px;
         width: 100%;
@@ -3024,7 +3031,7 @@ padding: 10px;
         font-size: 1.2rem;
     }
     .dep_contain{
-        font-size: 14px;
+        font-size: 0.8rem;
     }
     .dep_contain ul{
         font-size: 14px;
@@ -3036,7 +3043,7 @@ padding: 10px;
         font-size: 1.2rem;
     }
     .parra1{
-        font-size: 14px;
+        font-size: 0.8rem;
     }
     .project_more {
         font-size: 14px;
@@ -3291,8 +3298,7 @@ font-weight: 500;
 line-height: 1.25rem; /* 125% */
 }
 .contact_con2{
-    width: 54rem;
-    height: 9.25rem;
+    width: 54.4rem;
 flex-shrink: 0;
 border-radius: 10px;
 /* border: solid 0.1px rgba(0, 0, 0, 0.1); */
@@ -3328,6 +3334,9 @@ padding: 1.5rem;
     #E-button{
         display: flex;
         justify-content: center;
+    }
+    .contact_con2{
+        width: 100%;
     }
 }
 /* ---------------------------------------------Admistration---------------------------------------------------------- */
@@ -3398,6 +3407,7 @@ padding: 1.5rem;
     border: 1px solid #FFF;
     padding-left: 0.2rem;
     padding-right: 0.2rem;
+    border-radius:0.3rem;
 }
 /* ///////////////////////////////////////////////////////////////////////////////////// */
 /*-------------------------------------------------------------- Placements--------------------------------------- */
@@ -3534,6 +3544,9 @@ line-height: 1.25rem; /* 125% */
         font-size: 1rem;
         text-align: left;
         justify-content: center;
+    }
+    .generalinfo2{
+        font-size: 1.2rem;
     }
 }
 /*---------------------------------------------------- NIRF -----------------------------------*/
@@ -3970,9 +3983,35 @@ margin-bottom: 30px;
     .laboratory_button{
         margin-top: 0px;
     }
+    .dvv_contain{
+        width: 100%;
+    }
+    .dvv_contain2 {
+        width: 100%;
+    }
+    .dvv_contain2 #myTable{
+        width: 100%;
+    }
+    .table_naac{
+        width: 100%;
+    }
+    .entrance_exam_contain p{
+        font-size: 0.8rem;
+    }
+    #light_exam{
+        font-size: 0.8rem;
+    }
+    .industrial_visit_links a {
+        font-size: 1rem;
+    }
+    
 }
 
-
+.admid{
+    margin-top: 30px; 
+    margin-bottom: 20px; 
+    font-size: 1rem;
+}
 #nba_info{
     margin-top: 0px;
 }
@@ -3992,3 +4031,435 @@ margin-bottom: 30px;
     display: flex;
     justify-content: center;
 }
+
+.club_content{
+    margin-top: 7rem;
+}
+.dvv_contain2{
+    padding: 0 11.45%;
+    margin-top: 7%;
+}
+
+
+
+
+
+
+/* ---------------------------------------------ADMISSION -----------------------------------*/
+
+.generalinfo2{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #6D6D6D;
+    leading-trim: both;
+    text-edge: cap;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Plus Jakarta Sans;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#ad_mig{
+    margin-top: 0px;
+}
+
+#ad_mig ul{
+    margin-left: 1rem;
+    font-weight: 500;
+}
+#link-industry{
+    margin-left: 2rem;
+    font-weight: 500;
+}
+.generalinfo1{
+    text-align: justify;
+    font-weight: 500;
+}
+
+.contain_placement h4{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+}
+.contain_placement{
+    margin-top: 30px;
+}
+.contain_placement p{
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+    
+}
+#ME-admission{
+    font-size: 1.5rem;
+    color: #4C6BF1;
+}
+
+.entrance_exam_contain{
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: justify;
+}
+#light_exam{
+    font-weight: 700;
+}
+.entrance_card{
+    font-weight: 500;
+}
+#Note_project{
+    color: #4C6BF1;
+    font-size: 1.2rem;
+}
+#notiii{
+    margin-left: 1rem;
+    font-weight: 500;
+}
+#notii2{
+    margin-top: 0px;
+}
+
+
+
+/* -----------------------------------------------FAQ --------------------------------------------------*/
+
+.accordian {
+    background-color: white;
+    padding: 4px 16px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    width: 54rem;
+    box-shadow: 1px 1px 5px #8DC1FF;
+    cursor: pointer;
+    /* font-weight: 100; */
+    color: #000;
+leading-trim: both;
+text-edge: cap;
+font-feature-settings: 'clig' off, 'liga' off;
+font-family: 'Plus Jakarta Sans'        ;
+font-size: 1rem;
+font-style: normal;
+font-weight: 500;
+line-height: 1.25rem; /* 125% */
+}
+
+.question {
+    display: flex;
+    height: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon {
+    margin-right: 16px;
+    transition: transform 0.2s;
+    
+}
+
+.icon.active {
+    transform: rotate(-180deg);
+}
+
+.answer {
+    color: #666;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s;
+}
+
+div.c{
+  position: relative;
+  /* width: 54.4rem; */
+  margin-bottom: 1.25rem;
+  
+}
+input{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity:0;
+  visibility: 0;
+}
+#faq7{
+  /* background:steelblue; */
+  box-shadow: 1px 1px 5px #8DC1FF;
+  color:black;
+  padding:1em;
+  position: relative;
+  
+}
+label::before{
+  content:"";
+  display: inline-block;
+  border: 0.50rem solid transparent;
+  border-left:0.75rem solid black;
+  font-size: 1rem;
+  font-weight: 500;
+}
+label{
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+}
+div.p{
+  max-height:0px;
+  overflow: hidden;
+  transition:max-height 0.5s;
+  background-color: white;
+  box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+  height: 10rem;
+}
+div.p p {
+  padding:2em;
+}
+input:checked ~ #faq7 label::before{
+  border-left:0.50rem solid transparent;
+  border-top:0.75rem solid black;
+  margin-top:12px;
+  margin-right:10px;
+}
+input:checked ~ #faq7 ~ div.p{
+  max-height:250px;
+}
+@media screen and (max-width:700px){
+    #entrance_exam_contain{
+        font-size: 0.8rem;
+    }
+    #ME-admission{
+        font-size: 1.2rem;
+    }
+    .g_ad{
+        font-size: 0.8rem;
+    }
+    #contact_karo p{
+        font-size: 1rem;
+    }
+    .contain_placement h4{
+        font-size: 1rem;
+    }
+}
+
+#myTable a{
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    background-color: #0C2695;
+  }
+  
+  .footer .left{
+    width: 300px;
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 14px;
+  }
+  .footerCollegeinfo{
+    margin: 10px;
+    font-size: 16px;
+  }
+  .infolist{
+    margin: 10px;
+  }
+  .infolist span{
+    margin: 10px;
+  }
+  .footer .right{
+    width: 70%;
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .footer .right div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .footer .right a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+  }
+  
+  .footer hr{
+    width: 4px;
+    background-image: linear-gradient(#eeeeee00, #fff, #eeeeee00);
+    border: 0;
+  }
+  .g20_image{
+    margin: 20px 20px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 150px;
+    width: 262px;
+    margin-top: 20px;
+    
+  }
+  
+  hr{
+    margin: 2px;
+  }
+  .gps_image{
+    box-sizing: border-box;
+    margin: auto 20px;
+    margin-top: 40px\;;
+    overflow: hidden;
+    border-radius: 4px;
+    height: 150px;
+    width: 262px;
+  }
+  
+  
+  /* Footer */
+  .footer1{
+    background-color: #3C5ADA;
+    padding: 60px 10%;
+    display: flex;
+    color: #fff;
+    /* justify-content: space-between; */
+    gap: 4.5%;
+    flex-wrap: wrap;
+  }
+  .footadd1{
+    display: flex;
+    
+  }
+  .footadd1 img{
+    height:50px;
+     /* width:50px; */
+  }
+  .imgcont{
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 170px;
+    margin-left: 0.5rem;
+  }
+  .foothead{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration-line: underline;
+  }
+  #foothead1{
+    margin-top: 25px;
+  }
+  .foothead2{
+    font-size: 14px;
+  }
+  .footcontact{
+    display: flex;
+    margin-top: 10px;
+    gap: 0.5rem;
+  }
+  
+  .footlist{
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 1rem;
+    opacity: 0.7;
+  }
+  .footlist a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .footsocialimg{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .footsocialimg a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .copyright{
+    background-color: #0C2695;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+    padding: 10px;
+  }
+  
+  .fa-brands{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  /* Footer End */
+  
+  @media only screen and (max-width: 800px) {
+    .footer{
+      flex-direction: column;
+      gap:100px;
+    }
+    .footer .left{
+      width: 100%;
+    }
+    .footer .right{
+      flex-direction: column;
+      text-align: center;
+      width: 100%;
+    }
+    .footer hr{
+      height: 5px;
+      width: 100%;
+      background-image: linear-gradient(90deg,#eeeeee00, #fff, #eeeeee00);
+    }
+  .links{
+    display: flex;
+    flex-direction: column;
+  }
+  .importantLinks .row{
+    width: 100px;
+    margin: 10px auto;
+  }
+  .footer_image{
+    margin:auto;
+  }
+  
+  .footer1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .footcontact{
+    /* flex-direction: column; */
+    justify-content: center;
+  
+  }
+  .foothead{
+    margin-top: 1.4rem;
+    text-decoration-line: underline;
+  }
+  .footlist{
+    margin-top: 10px; 
+  }
+  .foothead2{
+    font-size: 14px;
+    font-weight: 300;
+    opacity: 0.7;
+  }
