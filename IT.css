@@ -218,7 +218,7 @@ body{
       visibility: hidden;
     }
     #overflow_name{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }
   }
   
@@ -1512,7 +1512,6 @@ margin-bottom: 20px;
 .indp{
     margin-bottom: 25px;
    
-    height: 18.875rem;
     border: 1px solid rgba(234,234,234,1);
     flex-shrink: 0;
     border-radius: 1rem;
@@ -2674,6 +2673,13 @@ padding: 10px;
     .para2 p {
         font-size: 20px;
     }
+    #timetable h2{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    #comp_actvity {
+        margin-left: 0px;
+    }
     .para3{
         width: 380px;
         height: 70px;
@@ -2708,7 +2714,8 @@ padding: 10px;
     }
     
     .about_list li, .about_content{
-        font-size: 14px;
+        font-size: 0.8rem;
+        font-weight: 500;
     }
     #hod_content{
         text-align: center;
@@ -2923,7 +2930,7 @@ padding: 10px;
         padding: 10px; 
     }
     #RandD h1{
-        font-size: 24px;
+        font-size: 1.5rem;
         text-align: center;
         margin-left: 0px;
         width: 100%;
@@ -3024,7 +3031,7 @@ padding: 10px;
         font-size: 1.2rem;
     }
     .dep_contain{
-        font-size: 14px;
+        font-size: 0.8rem;
     }
     .dep_contain ul{
         font-size: 14px;
@@ -3036,7 +3043,7 @@ padding: 10px;
         font-size: 1.2rem;
     }
     .parra1{
-        font-size: 14px;
+        font-size: 0.8rem;
     }
     .project_more {
         font-size: 14px;
@@ -3987,12 +3994,24 @@ margin-bottom: 30px;
     }
     .table_naac{
         width: 100%;
-      overflow-x: auto;
+    }
+    .entrance_exam_contain p{
+        font-size: 0.8rem;
+    }
+    #light_exam{
+        font-size: 0.8rem;
+    }
+    .industrial_visit_links a {
+        font-size: 1rem;
     }
     
 }
 
-
+.admid{
+    margin-top: 30px; 
+    margin-bottom: 20px; 
+    font-size: 1rem;
+}
 #nba_info{
     margin-top: 0px;
 }
@@ -4222,4 +4241,8 @@ input:checked ~ #faq7 ~ div.p{
     .contain_placement h4{
         font-size: 1rem;
     }
+}
+
+#myTable a{
+    color: #000;
 }

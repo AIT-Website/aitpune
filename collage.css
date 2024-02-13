@@ -5,6 +5,7 @@ body {
   font-feature-settings: 'clig' off, 'liga' off;
   font-family: 'Plus Jakarta Sans';
   padding: 0;
+  
 }
 :root{
   -color--a :#0C2695;
@@ -925,7 +926,8 @@ hr{
   padding: 60px 10%;
   display: flex;
   color: #fff;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 4.5%;
   flex-wrap: wrap;
 }
 .footadd1{
