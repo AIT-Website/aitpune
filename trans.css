@@ -7,3 +7,17 @@
     opacity: 0;
     transition: opacity 0.86s ease-in-out;
 }
+
+
+.footaddress{
+    margin-right: 2rem;
+}
+.footvideo{
+    width: 100%;
+    height:8rem;
+}
+  
+.footerCon2{
+    /* margin-left: 2rem; */
+    margin-right: 2rem;
+}
