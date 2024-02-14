@@ -4557,3 +4557,50 @@ input:checked ~ #faq7 ~ div.p{
     }
     
   }
+
+
+
+/* 
+ -------------------------------------------------- IIC --------------------------------------- */
+
+ .iic_contain{
+    margin-top: 1.2rem;
+    text-align: justify;
+    font-size: 1rem;
+    font-weight: 500;
+ }
+ #iic_list{
+    margin-left: 1.2rem;
+ }
+ #iic_contact{
+    margin-bottom: 30px;
+ }
+ .iic_img{
+    display: flex;
+    gap: 1rem;
+ }
+ .iic_img img{
+    height: 12rem;
+    width: 13rem;
+ }
+
+ @media only screen and (max-width: 800px){
+    .iic_img{
+        flex-wrap: wrap;
+     }
+     .iic_img img{
+        width: 100%;
+        height: auto;
+     }
+     #mytable{
+        overflow-x: auto;
+     }
+     .resp{
+        width: 100%;
+        overflow-x: auto;
+     }
+ }
+.icon_iic{
+    display: flex;
+    gap: 1rem;
+}
