@@ -112,3 +112,9 @@ function resetHeaderWidth() {
 }
 
 window.addEventListener('resize', resetHeaderWidth);
+
+
+const scrip = document.createElement('script');
+scrip.crossOrigin = 'anonymous';
+scrip.src = 'https://kit.fontawesome.com/a936defa0a.js'; // Specify the path to your external CSS file here
+document.body.appendChild(scrip);

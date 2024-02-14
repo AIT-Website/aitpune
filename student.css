@@ -4,7 +4,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Plus Jakarta Sans;
-  
 }
 body{
     overflow-x: hidden;
@@ -518,6 +517,9 @@ font-weight: 400;
     display: flex;
     text-align: justify;
 }
+.director_content2{
+  text-align: left;
+}
 .director_pic{
     border-radius: 50%;
     margin-left: 30px;
@@ -534,7 +536,7 @@ font-weight: 400;
     display: flex;
 }
 .director_content, .laa ,.agb{
-    margin-left: 1.88rem;
+    margin-left: 1.88rem; 
     width: calc(100vw - 15.5vw - 21.88rem);
 }
 
@@ -1190,6 +1192,9 @@ text-decoration: none;
     }
     .header3 div p{
         left: 2%;
+    }
+    .director_content2{
+      text-align: center;
     }
   }
 
