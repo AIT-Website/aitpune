@@ -2732,6 +2732,8 @@ padding: 10px;
     .hod_content2{
         margin:0px auto;
         padding: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .hod_contain{
         text-align: left;
@@ -3371,8 +3373,8 @@ padding: 1.5rem;
 #jd_pic img{
     
     width: 100px;
-    top: 32px;
-    transform: scale(1.5);
+    top: 20px;
+    transform: scale(3);
     position: absolute;
 }
 @media screen and (max-width:700px){
@@ -3394,8 +3396,10 @@ padding: 1.5rem;
     font-size: 1rem;
 }
 #jd_pic img{
-    right: -14px;
+    right: -3px;
+    
 }
+
 }
 /* ////////////////////////////////////////////////////////////////////////////////////// */
 #highlight{
