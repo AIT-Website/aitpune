@@ -3368,8 +3368,8 @@ padding: 1.5rem;
 }
 #jd_pic{
     margin-top: 37px;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
@@ -3378,7 +3378,8 @@ padding: 1.5rem;
     
     width: 100px;
     top: 20px;
-    transform: scale(3);
+    right: 4px;
+    transform: scale(3.8);
     position: absolute;
 }
 @media screen and (max-width:700px){
@@ -3400,7 +3401,7 @@ padding: 1.5rem;
     font-size: 1rem;
 }
 #jd_pic img{
-    right: -3px;
+    
     
 }
 
@@ -4479,4 +4480,38 @@ input:checked ~ #faq7 ~ div.p{
 .bluebarb{
   display: flex;
 }
+  }
+
+
+
+  /* ------------------------------------------Academics--------------------------------------------- */
+
+
+  #message_by{
+    color: #4C6BF1;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  #thought_by{
+    color: #4c6af1b3;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: justify;
+  }
+
+  .acad_exam{
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  #acad_link{
+    color: #4c6af1b3;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 800px){
+    #message_by{
+        text-align: center;
+        font-size: 1.2rem;
+    }
   }
