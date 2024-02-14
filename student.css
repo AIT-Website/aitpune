@@ -1483,9 +1483,9 @@ text-decoration: none;
     padding: 60px 10%;
     display: flex;
     color: #fff;
-    justify-content: space-between;
-    /* gap: 4.5%; */
-    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    gap: 4.5%;
+    flex-wrap: wrap;
   }
   .footadd1{
     display: flex;
@@ -1617,25 +1617,13 @@ text-decoration: none;
     padding: 60px 10%;
     display: flex;
     color: #fff;
-    justify-content: space-between;
-    /* gap: 4.5%; */
-    /* flex-wrap: wrap; */
+    /* justify-content: space-between; */
+    gap: 4.5%;
+    flex-wrap: wrap;
   }
-
-  .footvideo{
-    width: 100%;
-    height:8rem;
-  }
-  .footerCon2{
-    /* margin-left: 2rem; */
-    margin-right: 2rem;
-  }
-  .footaddress{
-    margin-right: 2rem;
-  }
-  
   .footadd1{
     display: flex;
+    
   }
   .footadd1 img{
     height:50px;
@@ -1700,7 +1688,6 @@ text-decoration: none;
   }
   /* Footer End */
   
-
   @media only screen and (max-width: 800px) {
     .footer{
       flex-direction: column;
@@ -1761,34 +1748,24 @@ text-decoration: none;
 .bluebarb{
   display: flex;
 }
+.para_containi ul ul li {
+  list-style: none;
+}
+.header3 div .c{
+  margin-top: 30px;
+}
+.director_ok{
+  font-size: 1.5rem;
+}
+.ab{
+  font-size: 1.5rem;
+  margin-top: 20px;
+}
+.about_vision{
+  margin-top: 20px;
 }
 
-  }
 
-  @media only screen and (max-width: 950px) {
-    .footer1{
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-      justify-content: center;
-      align-items: center;
-    }
-    .footcontact{
-      /* flex-direction: column; */
-      justify-content: center;
-    
-    }
-    .foothead{
-      margin-top: 1.4rem;
-      text-decoration-line: underline;
-    }
-    .footlist{
-      margin-top: 10px; 
-    }
-    .foothead2{
-      font-size: 14px;
-      font-weight: 300;
-      opacity: 0.7;
-    }
-    
-  }
+
+
+}
