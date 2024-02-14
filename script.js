@@ -74,7 +74,7 @@ function menuView(){
   const ham = document.querySelector('#hamburger');
   if(navel.style.visibility == 'hidden'){
     navel.style.visibility = 'visible';
-    head.style.height = '350px';
+    head.style.height = '380px';
     ham.style.transform = 'translateY(0px)';
   }
   else{
