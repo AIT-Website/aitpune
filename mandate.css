@@ -18,9 +18,6 @@ body{
     display: flex;
     justify-content: end;
     padding-right: 198px;
-
-
-    
 }
 .header {
     /* position:fixed; */

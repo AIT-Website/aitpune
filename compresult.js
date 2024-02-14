@@ -12,10 +12,6 @@ let defaultStyle = {
 };
 
 let prevClicked = null;
-
-
-
-
 function changeStyle(element) {
     applyStyles(element);
     localStorage.setItem('activeLink', element.classList[0]); 
