@@ -663,7 +663,8 @@ p{
   letter-spacing: 0;
 }
 .Departments .notices .card p{
-  margin : 20px 10px; 
+  /* margin : 20px 10px;  */
+  text-align: left;
 }
 .Departments .card h4{
   color: #0C2695;
@@ -705,6 +706,7 @@ p{
   font-size: 16px;
   letter-spacing: 0;
   overflow: hidden;
+ 
 }
 
 .Departments .events .card img{
@@ -718,6 +720,7 @@ p{
 
 .Departments .events .card h4,.Departments .events .card p{
   margin: 7px;
+  text-align: left;
 }
 
 
