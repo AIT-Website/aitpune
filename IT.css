@@ -3005,6 +3005,9 @@ padding: 10px;
     .drow1{
         font-size: 0.6rem;
     }
+    #check{
+        margin-right: 30px;
+    }
     .ResearchAchivement .month{
         font-size: 0.7rem;
         margin: auto 6%;
