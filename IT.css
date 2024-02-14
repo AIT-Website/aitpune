@@ -2733,6 +2733,8 @@ padding: 10px;
     .hod_content2{
         margin:0px auto;
         padding: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
     .hod_contain{
         text-align: left;
@@ -3002,6 +3004,9 @@ padding: 10px;
     }
     .drow1{
         font-size: 0.6rem;
+    }
+    #check{
+        margin-right: 30px;
     }
     .ResearchAchivement .month{
         font-size: 0.7rem;
@@ -3363,8 +3368,8 @@ padding: 1.5rem;
 }
 #jd_pic{
     margin-top: 37px;
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     position: relative;
     overflow: hidden;
@@ -3372,8 +3377,9 @@ padding: 1.5rem;
 #jd_pic img{
     
     width: 100px;
-    top: 32px;
-    transform: scale(1.5);
+    top: 20px;
+    right: 4px;
+    transform: scale(3.8);
     position: absolute;
 }
 @media screen and (max-width:700px){
@@ -3395,8 +3401,10 @@ padding: 1.5rem;
     font-size: 1rem;
 }
 #jd_pic img{
-    right: -14px;
+    
+    
 }
+
 }
 /* ////////////////////////////////////////////////////////////////////////////////////// */
 #highlight{
@@ -4472,4 +4480,38 @@ input:checked ~ #faq7 ~ div.p{
 .bluebarb{
   display: flex;
 }
+  }
+
+
+
+  /* ------------------------------------------Academics--------------------------------------------- */
+
+
+  #message_by{
+    color: #4C6BF1;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  #thought_by{
+    color: #4c6af1b3;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: justify;
+  }
+
+  .acad_exam{
+    margin-top: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  #acad_link{
+    color: #4c6af1b3;
+    text-decoration: none;
+  }
+
+  @media only screen and (max-width: 800px){
+    #message_by{
+        text-align: center;
+        font-size: 1.2rem;
+    }
   }
