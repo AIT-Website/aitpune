@@ -1484,7 +1484,7 @@ text-decoration: none;
     display: flex;
     color: #fff;
     /* justify-content: space-between; */
-    gap: 4.5%;
+    gap: 3.5%;
     flex-wrap: wrap;
   }
   .footadd1{
